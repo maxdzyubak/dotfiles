@@ -36,7 +36,7 @@ set splitright
 
 set linebreak " wrap on word
 set smartindent " for tabulation
-" set nocompatible  not vi compatible
+" set nocompatible	not vi compatible
 set ruler
 set incsearch
 set showcmd " show enter command
@@ -59,7 +59,7 @@ call plug#begin('~/.vim/plugged')
 
 " A Vim colorscheme with almost no highlighting, except where it matters!
 " Docs: https://github.com/igemnace/highlight.vim
-Plug 'igemnace/highlight.vim'
+" Plug 'igemnace/highlight.vim'
 
 " An arctic, north-bluish clean and elegant Vim theme
 " Doc: https://github.com/arcticicestudio/nord-vim
@@ -67,14 +67,10 @@ Plug 'igemnace/highlight.vim'
 
 " A dark Vim/Neovim color scheme inspired by Atom's One Dark syntax theme
 " Doc: https://github.com/joshdick/onedark.vim
-Plug 'joshdick/onedark.vim'
+" Plug 'joshdick/onedark.vim'
 
 " Retro groove color scheme for Vim. Doc: https://github.com/morhetz/gruvbox
 " Plug 'morhetz/gruvbox'
-
-" Optimized Solarized colorschemes. Best served with true-color terminals!
-" Doc: https://github.com/lifepillar/vim-solarized8uuu
-" Plug 'lifepillar/vim-solarized8'
 
 " One colorscheme pach to rule them all.
 " Doc: https://github.com/flazz/vim-colorschemes
@@ -114,14 +110,14 @@ Plug 'tpope/vim-commentary'
 
 " A light and configurable statusline/tabline plugin for Vim
 " Doc: https://github.com/itchyny/lightline.vim
-Plug 'itchyny/lightline.vim'
+" Plug 'itchyny/lightline.vim'
 
 " Underlines the word under the cursor
 " Doc: https://github.com/itchyny/vim-cursorword
 Plug 'itchyny/vim-cursorword'
 
 " Provides the branch name of the current git repository
-" Doc:  https://github.com/itchyny/vim-gitbranch
+" Doc:	https://github.com/itchyny/vim-gitbranch
 Plug 'itchyny/vim-gitbranch'
 
 " Check syntax in Vim asynchronously and fix files,
@@ -140,26 +136,25 @@ call plug#end()
 " Colors schemas settings:
 " let g:gruvbox_contrast_dark = 'soft'
 
-set background=dark   " Setting dark mode
-" set background=light   Setting light mode
+" set background=dark	 Setting dark mode
+" set background=light	 Setting light mode
 
-set termguicolors
+" set termguicolors
 
-let g:airline#extensions#tabline#formatter = 'default'
+" let g:airline#extensions#tabline#formatter = 'default'
 
+" colorscheme onedark 
 
-colorscheme onedark 
-
-let g:lightline = {
-      \ 'colorscheme': 'onedark',
-      \ 'active': {
-      \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
-      \ },
-      \ 'component_function': {
-      \   'gitbranch': 'FugitiveHead'
-      \ },
-      \ }
+" let g:lightline = {
+"		\ 'colorscheme': 'onedark',
+"		\ 'active': {
+"		\	'left': [ [ 'mode', 'paste' ],
+"		\			  [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+"		\ },
+"		\ 'component_function': {
+"		\	'gitbranch': 'FugitiveHead'
+"		\ },
+"		\ }
 
 " j + k = esc
 inoremap jk <esc>
@@ -170,7 +165,7 @@ imap jj <C-y>,
 imap <C-"> <c-s-t>"
 imap <C-'> <d-s>"
 
-let g:user_emmet_mode='a'    "enable all function in all mode.
+let g:user_emmet_mode='a'	 "enable all function in all mode.
 
 " set mapleader is space
 map <space> <leader>
