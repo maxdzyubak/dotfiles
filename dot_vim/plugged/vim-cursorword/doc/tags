@@ -1,9 +1,0 @@
-b:cursorword	cursorword.txt	/*b:cursorword*
-cursorword	cursorword.txt	/*cursorword*
-cursorword-contents	cursorword.txt	/*cursorword-contents*
-cursorword-introduction	cursorword.txt	/*cursorword-introduction*
-cursorword-options	cursorword.txt	/*cursorword-options*
-cursorword.txt	cursorword.txt	/*cursorword.txt*
-g:cursorword	cursorword.txt	/*g:cursorword*
-g:cursorword_delay	cursorword.txt	/*g:cursorword_delay*
-g:cursorword_highlight	cursorword.txt	/*g:cursorword_highlight*
