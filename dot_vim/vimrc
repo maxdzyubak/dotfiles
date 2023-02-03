@@ -1,0 +1,193 @@
+set showmatch " show matching braces when text indicator is over them
+
+set number " line number
+set relativenumber " relative number
+set novisualbell " no blink
+set noerrorbells " sound bells
+set t_vb=
+set visualbell t_vb=
+set mouse=a " enable mouse
+set mousehide " mousehide when insert text
+set encoding=utf-8
+
+" Set the commands to save in history default number is 20
+set history=6000
+
+" Highlight cursor line underneath the cursor horizontally
+" set cursorline
+" Highlight cursor line underneath the cursor vertically
+" set cursorcolumn
+
+set wrap " wrap or nowrap
+set colorcolumn=80 " set highlight column
+set linebreak
+set scrolloff=7
+set iminsert=0 " ignoring registr in search
+set hlsearch " highling search
+set incsearch " highling search
+" use 4 spaces instead of tabs during formatting
+set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+" open new split panes to right and bottom, which feels more natural
+set splitbelow
+set splitright
+
+set linebreak " wrap on word
+set smartindent " for tabulation
+set nocompatible " not vi compatible
+set ruler
+set incsearch
+set showcmd " show enter command
+set nobackup " no .swap and backup files
+set noswapfile
+set encoding=utf-8
+set fileencodings=utf8,cp1251
+set backspace=indent,eol,start whichwrap+=<,>,[,] " cool using backspace
+set showtabline=1 " no show hr tab
+set clipboard=unnamed
+
+set laststatus=2
+set noshowmode
+
+syntax on " highlight syntax on
+filetype plugin indent on
+
+call plug#begin('~/.vim/plugged')
+
+" Colors schemas
+
+" A Vim colorscheme with almost no highlighting, except where it matters!
+" Docs: https://github.com/igemnace/highlight.vim
+Plug 'igemnace/highlight.vim'
+
+" An arctic, north-bluish clean and elegant Vim theme
+" Doc: https://github.com/arcticicestudio/nord-vim
+" Plug 'arcticicestudio/nord-vim'
+
+" A dark Vim/Neovim color scheme inspired by Atom's One Dark syntax theme
+" Doc: https://github.com/joshdick/onedark.vim
+" Plug 'joshdick/onedark.vim'
+
+" Retro groove color scheme for Vim. Doc: https://github.com/morhetz/gruvbox
+" Plug 'morhetz/gruvbox'
+
+" Optimized Solarized colorschemes. Best served with true-color terminals!
+" Doc: https://github.com/lifepillar/vim-solarized8uuu
+" Plug 'lifepillar/vim-solarized8'
+
+" One colorscheme pach to rule them all.
+" Doc: https://github.com/flazz/vim-colorschemes
+" Plug 'flazz/vim-colorschemes'
+
+" Makes it easy to quickly switch between color schemes in Vim.
+" Doc: https://github.com/xolox/vim-colorscheme-switcher
+" Hotkey next colorscheme: F8
+" Hotkey previous colorscheme: Shift + F8
+" Plug 'xolox/vim-colorscheme-switcher'
+
+" Miscellaneous auto-load Vim scripts. Doc: https://github.com/xolox/vim-misc
+" Plug 'xolox/vim-misc'
+
+" A command-line fuzzy finder. Doc: https://github.com/junegunn/fzf
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
+" A tree explorer plugin for Vim. Doc: https://github.com/preservim/nerdtree
+Plug 'preservim/nerdtree'
+
+" Emmet for vim. Doc:
+" https://github.com/mattn/emmet-vim
+" https://emmet.io
+Plug 'mattn/emmet-vim'
+
+" fugitive.vim: A Git wrapper so awesome, it should be illegal
+" Doc: https://github.com/tpope/vim-fugitive
+Plug 'tpope/vim-fugitive'
+
+" Delete/change/add parentheses/quotes/XML-tags/much more with ease
+" Doc: https://github.com/tpope/vim-surround
+" Plug 'tpope/vim-surround'
+
+" Commentary in Vim. Doc: https://github.com/tpope/vim-surround
+Plug 'tpope/vim-commentary'
+
+" Lean & mean status/tabline for vim that's light as air
+" Doc: https://github.com/vim-airline/vim-airline
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
+
+" A light and configurable statusline/tabline plugin for Vim
+" Doc: https://github.com/itchyny/lightline.vim
+" Plug 'itchyny/lightline.vim'
+
+" Underlines the word under the cursor
+" Doc: https://github.com/itchyny/vim-cursorword
+Plug 'itchyny/vim-cursorword'
+
+" Provides the branch name of the current git repository
+" Doc:  https://github.com/itchyny/vim-gitbranch
+Plug 'itchyny/vim-gitbranch'
+
+" Check syntax in Vim asynchronously and fix files,
+" with language server protocol (lsp) support
+" Doc: https://github.com/dense-analysis/ale
+Plug 'w0rp/ale'
+
+" Perform all vim insert mode completions with Tab.
+" Doc: https://github.com/ervandew/supertab
+" Plug 'ervandew/supertab'
+
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
+
+" Initialize plugin systemо
+" - Automatically executes `filetype plugin indent on` and `syntax enable`.
+call plug#end()
+
+" Colors schemas settings:
+" let g:gruvbox_contrast_dark = 'soft'
+
+set background=dark   " Setting dark mode
+" set background=light   Setting light mode
+
+set termguicolors
+
+" let g:airline#extensions#tabline#formatter = 'default'
+
+
+colorscheme highlight 
+
+" let g:lightline = {
+"       \ 'colorscheme': 'highlight',
+"       \ 'active': {
+"       \   'left': [ [ 'mode', 'paste' ],
+"       \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+"       \ },
+"       \ 'component_function': {
+"       \   'gitbranch': 'FugitiveHead'
+"       \ },
+"       \ }
+
+" inoremap jk <esc>
+
+" set emmet-vim plugin key trigger
+imap jj <C-y>,
+
+imap <C-"> <c-s-t>"
+imap <C-'> <d-s>"
+
+let g:user_emmet_mode='a'    "enable all function in all mode.
+
+" set mapleader is space
+map <space> <leader>
+" open and close NERDTree
+map <Leader><space> :NERDTreeToggle<CR>
+map <C-n> :NERDTreeFind<CR>
+
+" Use ctrl-[hjkl] to select the active split!
+nmap <silent> <c-k> :wincmd k<CR>
+nmap <silent> <c-j> :wincmd j<CR>
+nmap <silent> <c-h> :wincmd h<CR>
+nmap <silent> <c-l> :wincmd l<CR>
