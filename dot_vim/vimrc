@@ -1,5 +1,4 @@
 set showmatch " show matching braces when text indicator is over them
-
 set number " line number
 set relativenumber " relative number
 set novisualbell " no blink
