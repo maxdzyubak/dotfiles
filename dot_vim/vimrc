@@ -152,9 +152,12 @@ call plug#end()
 		" \	'gitbranch': 'FugitiveHead'
 		" \ },
 		" \ }
- 
+
+ " j  + j  = esc
+inoremap jj <esc>
+
 " set emmet-vim plugin key trigger
-imap jj <C-y>,
+" imap jj <C-y>,
 
 imap <C-"> <c-s-t>"
 imap <C-'> <d-s>"
@@ -163,9 +166,6 @@ let g:user_emmet_mode='a'	 "enable all function in all mode.
 
 " set mapleader is space
 map <space> <leader>
-
-" ctrl + space = esc
-" inoremap <C><space><esc>
 
 " open and close NERDTree
 map <Leader><space> :NERDTreeToggle<CR>
