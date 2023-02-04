@@ -1,0 +1,138 @@
+{
+  "editor.fontWeight": 400,
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "JetBrainsMono NerdFont, JetBrains Mono, SF Mono, Fira Code, Source Code Pro, Menlo, Monaco, monospace",
+  "editor.rulers": [78],
+  "editor.guides.indentation": false,
+  "editor.lineNumbers": "relative",
+  "editor.guides.bracketPairs": true,
+  "editor.renderLineHighlight": "line",
+  "editor.wordWrap": "off",
+  "editor.autoClosingQuotes": "never",
+  "editor.semanticHighlighting.enabled": false,
+  "editor.cursorStyle": "line",
+  "editor.links": true,
+  "editor.hover.enabled": false,
+  "editor.autoClosingBrackets": "never",
+  "liveServer.settings.port": 0,
+  "editor.lineHeight": 25,
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": true,
+  "editor.renderControlCharacters": true,
+  "files.defaultLanguage": "html",
+  "git.ignoreMissingGitWarning": true,
+  "editor.detectIndentation": false,
+  "editor.folding": true,
+  "editor.lightbulb.enabled": false,
+  "editor.glyphMargin": false,
+  "editor.parameterHints.enabled": false,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": 400,
+  "terminal.integrated.lineHeight": 1.2,
+  "editor.renderWhitespace": "none",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "security.workspace.trust.enabled": false,
+  "editor.insertSpaces": true,
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.inlayHints.enabled": "off",
+  "editor.language.brackets": [],
+  "editor.suggest.showClasses": true,
+  "editor.lineDecorationsWidth" : 0,
+
+  "vim.easymotion": true,
+  "vim.leader": "<space>",
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["ctrl", "["],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "editor.codeActionsOnSave": {},
+  "editor.cursorBlinking": "solid",
+  "workbench.iconTheme": "vscode-great-icons",
+  "editor.quickSuggestions": {
+    "other": "off"
+  },
+  "editor.suggest.showEnumMembers": false,
+  "editor.suggest.showKeywords": false,
+  "editor.suggest.showReferences": false,
+  "editor.suggest.showTypeParameters": false,
+  "workbench.editor.languageDetectionHints": {
+    "untitledEditors": false,
+    "notebookEditors": false
+  },
+  "html.suggest.html5": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "npm.keybindingsChangedWarningShown": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 0,
+  "editor.tabSize": 2,
+  "emmet.triggerExpansionOnTab": true,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "open-in-browser.default": "Chrome",
+  "workbench.colorTheme": "GitHub Dark",
+  "window.menuBarVisibility": "toogle",
+  "window.openFilesInNewWindow": "off",
+  "window.openFoldersInNewWindow": "off",
+  "window.newWindowDimensions": "maximized",
+  "window.commandCenter": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.autoReveal": false,
+  "explorer.openEditors.visible": 0,
+  "explorer.excludeGitIgnore": true,
+  "git.confirmSync": false,
+  "extensions.ignoreRecommendations": false,
+  "breadcrums.enabled": true,
+  "html.autoClosingTags": false,
+  "gitlens.telemetry.enabled": false,
+  "debug.node.autoAttach": "disabled",
+  "scm.diffDecorations": "none",
+  "vsicons.presets.foldersAllDefaultIcon": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "keyboard.dispatch": "keyCode",
+  "security.workspace.trusc.untrustedFiles": "open",
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.untitled.hint": "hidden",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "window.zoomLevel": 1,
+  "workbench.activityBar.visible": false,
+}
