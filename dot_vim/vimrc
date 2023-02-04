@@ -1,6 +1,6 @@
 set showmatch  " show matching braces when text indicator is over them
-set number " line number
-set relativenumber " relative number
+" set number  line number
+" set relativenumber  relative number
 set novisualbell " no blink
 set noerrorbells " sound bells
 set t_vb=
@@ -18,18 +18,18 @@ set history=6000
 " Highlight cursor line underneath the cursor vertically
 " set cursorcolumn
 
-set wrap " wrap or nowrap
-set colorcolumn=80 " set highlight column
-set linebreak
+set nowrap " wrap or nowrap
+set colorcolumn=78 " set highlight column
+hi ColorColumn ctermbg=Gray
 set scrolloff=7
 set iminsert=0 " ignoring registr in search
 set hlsearch " highling search
 set incsearch " highling search
-" use 4 spaces instead of tabs during formatting
+" use 2 spaces instead of tabs during formatting
 set expandtab
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 " open new split panes to right and bottom, which feels more natural
 set splitbelow
 set splitright
@@ -110,7 +110,7 @@ Plug 'tpope/vim-commentary'
 
 " A light and configurable statusline/tabline plugin for Vim
 " Doc: https://github.com/itchyny/lightline.vim
-" Plug 'itchyny/lightline.vim'
+Plug 'itchyny/lightline.vim'
 
 " Underlines the word under the cursor
 " Doc: https://github.com/itchyny/vim-cursorword
@@ -133,9 +133,6 @@ Plug 'w0rp/ale'
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
 call plug#end()
 
-" Colors schemas settings:
-" let g:gruvbox_contrast_dark = 'soft'
-
 " set background=dark	 Setting dark mode
 " set background=light	 Setting light mode
 
@@ -145,20 +142,17 @@ call plug#end()
 
 " colorscheme onedark 
 
-" let g:lightline = {
-"		\ 'colorscheme': 'onedark',
-"		\ 'active': {
-"		\	'left': [ [ 'mode', 'paste' ],
-"		\			  [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
-"		\ },
-"		\ 'component_function': {
-"		\	'gitbranch': 'FugitiveHead'
-"		\ },
-"		\ }
-
-" j + k = esc
-inoremap jk <esc>
-
+ " let g:lightline = {
+		" \ 'colorscheme': 'onedark',
+		" \ 'active': {
+		" \	'left': [ [ 'mode', 'paste' ],
+		" \			  [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+		" \ },
+		" \ 'component_function': {
+		" \	'gitbranch': 'FugitiveHead'
+		" \ },
+		" \ }
+ 
 " set emmet-vim plugin key trigger
 imap jj <C-y>,
 
@@ -169,6 +163,10 @@ let g:user_emmet_mode='a'	 "enable all function in all mode.
 
 " set mapleader is space
 map <space> <leader>
+
+" ctrl + space = esc
+" inoremap <C><space><esc>
+
 " open and close NERDTree
 map <Leader><space> :NERDTreeToggle<CR>
 map <C-n> :NERDTreeFind<CR>
