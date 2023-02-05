@@ -38,11 +38,13 @@
   "editor.insertSpaces": true,
   "editor.linkedEditing": true,
   "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairsHorizontal": true,
   "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
   "editor.inlayHints.enabled": "off",
   "editor.language.brackets": [],
   "editor.suggest.showClasses": true,
   "editor.lineDecorationsWidth" : 0,
+  "editor.codeLens": false,
 
   "vim.easymotion": true,
   "vim.leader": "<space>",
@@ -133,6 +135,5 @@
   "[python]": {
     "editor.formatOnType": true
   },
-  "window.zoomLevel": 1,
   "workbench.activityBar.visible": false,
 }

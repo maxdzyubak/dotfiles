@@ -719,15 +719,25 @@
       "command": "-workbench.action.lastEditorInGroup"
     },
     {
-      "key": "[",
+      "key": "0",
       "command": "cursorLineStart"
     },
     {
-      "key": "]",
+      "key": "$",
       "command": "cursorLineEnd"
     },
     {
       "key": "shift+cmd+e",
       "command": "workbench.view.extensions"
+    },
+    {
+      "key": "ctrl+cmd+r",
+      "command": "editor.action.startFindReplaceAction",
+      "when": "editorFocus || editorIsOpen"
+    },
+    {
+      "key": "alt+cmd+f",
+      "command": "-editor.action.startFindReplaceAction",
+      "when": "editorFocus || editorIsOpen"
     }
 ]
