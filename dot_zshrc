@@ -10,6 +10,7 @@ export MYVIMRC="~/.local/share/chezmoi/dot_vim/"
 curl -fLo ~/.local/share/chezmoi/dot_vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
+source /Users/maxdzyubak/.ghcup/env
 
 
 # Set name of the theme to load --- if set to "random", it will
@@ -88,7 +89,7 @@ fi
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git frontend-search fzf aliases react-native ruby iterm2 node npm rails redis-cli thefuck zsh-navigation-tools zsh-interactive-cd wd z web-search gulp git-prompt gitignore gitfast)
+plugins=(git frontend-search fzf aliases react-native ruby iterm2 node npm rails redis-cli thefuck zsh-navigation-tools zsh-interactive-cd wd z web-search gulp git-prompt gitignore gitfast asdf)
 
 source $ZSH/oh-my-zsh.sh
 
