@@ -234,11 +234,7 @@
 			"command": "-filesExplorer.findInFolder",
 			"when": "explorerResourceIsFolder && explorerViewletVisible && filesExplorerFocus && !inputFocus"
 		},
-		{
-			"key": "ctrl+a",
-			"command": "explorer.newFolder"
-		},
-		{
+    {
 			"key": "ctrl+n",
 			"command": "explorer.newFile"
 		},
@@ -577,7 +573,7 @@
       "command": "workbench.action.closePanel"
     },
     {
-      "key": "ctrl+space",
+      "key": "ctrl+[",
       "command": "extension.vim_escape",
       "when": "editorTextFocus && vim.active && !inDebugRepl"
     },
@@ -634,10 +630,6 @@
     {
       "key": "ctrl+d",
       "command": "extension.vim_ctrl+d"
-    },
-    {
-      "key": "ctrl+f",
-      "command": "extension.vim_ctrl+f"
     },
     {
       "key": "ctrl+v",
@@ -719,7 +711,7 @@
       "command": "-workbench.action.lastEditorInGroup"
     },
     {
-      "key": "0",
+      "key": "shift+0",
       "command": "cursorLineStart"
     },
     {
@@ -739,5 +731,36 @@
       "key": "alt+cmd+f",
       "command": "-editor.action.startFindReplaceAction",
       "when": "editorFocus || editorIsOpen"
+    },
+    {
+      "key": "ctrl+cmd+j",
+      "command": "git.stage"
+    },
+    {
+      "key": "ctrl+cmd+h",
+      "command": "git.stageAll"
+    },
+    {
+      "key": "cmd+f2",
+      "command": "-editor.action.changeAll",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "cmd+0",
+      "command": "-workbench.action.focusSideBar"
+    },
+    {
+      "key": "right",
+      "command": "-cursorRight",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "ctrl+f",
+      "command": "extension.vim_ctrl+f"
+    },
+    {
+      "key": "ctrl+b",
+      "command": "-cursorLeft",
+      "when": "textInputFocus"
     }
 ]

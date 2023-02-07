@@ -39,7 +39,7 @@
   "editor.linkedEditing": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairsHorizontal": true,
-  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?-",
   "editor.inlayHints.enabled": "off",
   "editor.language.brackets": [],
   "editor.suggest.showClasses": true,
@@ -54,7 +54,7 @@
   "vim.hlsearch": true,
   "vim.insertModeKeyBindings": [
     {
-      "before": ["ctrl", "["],
+      "before": ["j", "j"],
       "after": ["<Esc>"]
     }
   ],
@@ -105,7 +105,7 @@
     "editor.defaultFormatter": "vscode.css-language-features"
   },
   "open-in-browser.default": "Chrome",
-  "workbench.colorTheme": "GitHub Dark",
+  "workbench.colorTheme": "Dracula",
   "window.menuBarVisibility": "toogle",
   "window.openFilesInNewWindow": "off",
   "window.openFoldersInNewWindow": "off",
@@ -135,5 +135,5 @@
   "[python]": {
     "editor.formatOnType": true
   },
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
 }
