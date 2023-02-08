@@ -711,7 +711,7 @@
       "command": "-workbench.action.lastEditorInGroup"
     },
     {
-      "key": "shift+0",
+      "key": "ctrl+0",
       "command": "cursorLineStart"
     },
     {
@@ -731,10 +731,6 @@
       "key": "alt+cmd+f",
       "command": "-editor.action.startFindReplaceAction",
       "when": "editorFocus || editorIsOpen"
-    },
-    {
-      "key": "ctrl+cmd+j",
-      "command": "git.stage"
     },
     {
       "key": "ctrl+cmd+h",
@@ -762,5 +758,29 @@
       "key": "ctrl+b",
       "command": "-cursorLeft",
       "when": "textInputFocus"
+    },
+    {
+      "key": "ctrl+cmd+j",
+      "command": "workbench.action.toggleCenteredLayout"
+    },
+    {
+      "key": "alt+k",
+      "command": "editor.action.moveLinesUpAction",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "alt+up",
+      "command": "-editor.action.moveLinesUpAction",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "alt+j",
+      "command": "editor.action.moveLinesDownAction",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "alt+down",
+      "command": "-editor.action.moveLinesDownAction",
+      "when": "editorTextFocus && !editorReadonly"
     }
 ]
