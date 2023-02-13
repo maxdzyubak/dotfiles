@@ -21,10 +21,8 @@
 }, {
   "key": "shift+f3",
   "command": "workbench.action.terminal.focus"
-}, {
-  "key": "f4",
-  "command": "workbench.action.toggleAuxiliaryBar"
-}, {
+},
+{
   "key": "shift+f4",
   "command": "workbench.action.focusAuxiliaryBar"
 },
@@ -679,7 +677,7 @@
       "when": "textInputFocus && !editorReadonly"
     },
     {
-      "key": "cmd+j",
+      "key": "ctrl+cmd+;",
       "command": "workbench.action.toggleZenMode"
     },
     {
@@ -687,7 +685,7 @@
       "command": "-workbench.action.toggleZenMode"
     },
     {
-      "key": "cmd+j",
+      "key": "ctrl+cmd+;",
       "command": "workbench.action.exitZenMode",
       "when": "inZenMode"
     },
@@ -764,23 +762,139 @@
       "command": "workbench.action.toggleCenteredLayout"
     },
     {
-      "key": "alt+k",
-      "command": "editor.action.moveLinesUpAction",
-      "when": "editorTextFocus && !editorReadonly"
-    },
-    {
       "key": "alt+up",
       "command": "-editor.action.moveLinesUpAction",
-      "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-      "key": "alt+j",
-      "command": "editor.action.moveLinesDownAction",
       "when": "editorTextFocus && !editorReadonly"
     },
     {
       "key": "alt+down",
       "command": "-editor.action.moveLinesDownAction",
       "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "cmd+r",
+      "command": "-python.refreshTensorBoard",
+      "when": "python.hasActiveTensorBoardSession"
+    },
+    {
+      "key": "cmd+r",
+      "command": "-workbench.action.reloadWindow",
+      "when": "isDevelopment"
+    },
+    {
+      "key": "cmd+r",
+      "command": "workbench.action.terminal.clear",
+      "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+      "key": "cmd+k",
+      "command": "-workbench.action.terminal.clear",
+      "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+      "key": "ctrl+cmd+k",
+      "command": "workbench.action.terminal.scrollUp",
+      "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+      "key": "alt+cmd+pageup",
+      "command": "-workbench.action.terminal.scrollUp",
+      "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+      "key": "ctrl+cmd+u",
+      "command": "workbench.action.terminal.scrollUpPage",
+      "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+      "key": "pageup",
+      "command": "-workbench.action.terminal.scrollUpPage",
+      "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+      "key": "cmd+end",
+      "command": "-workbench.action.terminal.scrollToBottom",
+      "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+      "key": "shift+cmd+j",
+      "command": "-workbench.action.search.toggleQueryDetails",
+      "when": "inSearchEditor || searchViewletFocus"
+    },
+    {
+      "key": "shift+cmd+j",
+      "command": "workbench.action.terminal.scrollDown",
+      "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+      "key": "alt+cmd+pagedown",
+      "command": "-workbench.action.terminal.scrollDown",
+      "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+      "key": "shift+cmd+d",
+      "command": "workbench.action.terminal.scrollDownPage",
+      "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+      "key": "pagedown",
+      "command": "-workbench.action.terminal.scrollDownPage",
+      "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+      "key": "ctrl+cmd+s",
+      "command": "git.stage"
+    },
+    {
+      "key": "f4",
+      "command": "-goToNextReference",
+      "when": "inReferenceSearchEditor || referenceSearchVisible"
+    },
+    {
+      "key": "f4",
+      "command": "-search.action.focusNextSearchResult",
+      "when": "hasSearchResult || inSearchEditor"
+    },
+    {
+      "key": "f4",
+      "command": "-references-view.next",
+      "when": "reference-list.hasResult && references-view.canNavigate"
+    },
+    {
+      "key": "alt+z",
+      "command": "-editor.action.toggleWordWrap"
+    },
+    {
+      "key": "alt+z",
+      "command": "-workbench.action.terminal.sizeToContentWidth",
+      "when": "terminalFocus && terminalHasBeenCreated && terminalIsOpen || terminalFocus && terminalIsOpen && terminalProcessSupported"
+    },
+    {
+      "key": "alt+down",
+      "command": "-showNextParameterHint",
+      "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+    },
+    {
+      "key": "alt+down",
+      "command": "-scm.forceViewNextCommit",
+      "when": "scmRepository"
+    },
+    {
+      "key": "alt+down",
+      "command": "-history.showNext",
+      "when": "historyNavigationForwardsEnabled && historyNavigationWidgetFocus && !suggestWidgetVisible"
+    },
+    {
+      "key": "alt+down",
+      "command": "-notebook.cell.moveDown",
+      "when": "notebookEditorFocused && !inputFocus"
+    },
+    {
+      "key": "alt+j",
+      "command": "editor.action.moveLinesDownAction"
+    },
+    {
+      "key": "alt+k",
+      "command": "editor.action.moveLinesUpAction"
     }
 ]

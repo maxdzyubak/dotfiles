@@ -2,10 +2,10 @@
   "editor.fontWeight": 400,
   "editor.fontSize": 16,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "JetBrainsMono NerdFont, JetBrains Mono, SF Mono, Fira Code, Source Code Pro, Menlo, Monaco, monospace",
+  "editor.fontFamily": "JetBrainsMono NerdFont, JetBrains Mono, Fira Code,  SF Mono, Source Code Pro, Menlo, Monaco, monospace",
   "editor.rulers": [78],
   "editor.guides.indentation": false,
-  "editor.lineNumbers": "on",
+  "editor.lineNumbers": "off",
   "editor.guides.bracketPairs": true,
   "editor.renderLineHighlight": "line",
   "editor.wordWrapColumn": 78,
@@ -17,7 +17,7 @@
   "editor.hover.enabled": false,
   "editor.autoClosingBrackets": "never",
   "liveServer.settings.port": 0,
-  "editor.lineHeight": 25,
+  "editor.lineHeight": 27,
   "editor.smoothScrolling": true,
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": true,
@@ -31,7 +31,6 @@
   "editor.parameterHints.enabled": false,
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.fontWeight": 400,
-  "terminal.integrated.lineHeight": 1.2,
   "editor.renderWhitespace": "none",
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
@@ -106,7 +105,6 @@
     "editor.defaultFormatter": "vscode.css-language-features"
   },
   "open-in-browser.default": "Chrome",
-  "workbench.colorTheme": "Dracula",
   "window.menuBarVisibility": "toogle",
   "window.openFilesInNewWindow": "off",
   "window.openFoldersInNewWindow": "off",
@@ -138,5 +136,28 @@
   "[python]": {
     "editor.formatOnType": true
   },
-  "workbench.activityBar.visible": true,
+  "workbench.colorTheme": "GitHub Light Default",
+  // "editor.renderWhitespace": "all",
+  "htmlhint.enable": true,
+  "htmlhint.documentSelector": [
+    "html",
+    "htm"
+  ],
+  "htmlhint.options": {
+    "tagname-lowercase": true,
+    "attr-lowercase": true,
+    "attr-value-double-quotes": true,
+    "doctype-first": true,
+    "tag-pair": true,
+    "spec-char-escape": true,
+    "id-unique": true,
+    "src-not-empty": true,
+    "attr-no-duplication": true,
+    "title-require": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "terminal.integrated.lineHeight": 1.3,
+  "workbench.colorCustomizations": {},
 }
