@@ -1,6 +1,6 @@
 set showmatch  " show matching braces when text indicator is over them
-set number " line number
-set relativenumber " relative number
+" set number  line number
+" set relativenumber relative number
 set novisualbell " no blink
 set noerrorbells " sound bells
 set t_vb=
@@ -123,7 +123,7 @@ Plug 'itchyny/vim-gitbranch'
 " Check syntax in Vim asynchronously and fix files,
 " with language server protocol (lsp) support
 " Doc: https://github.com/dense-analysis/ale
-Plug 'w0rp/ale'
+" Plug 'w0rp/ale'
 
 " Perform all vim insert mode completions with Tab.
 " Doc: https://github.com/ervandew/supertab
@@ -144,7 +144,7 @@ call plug#end()
 inoremap jj <esc>
 
 " set emmet-vim plugin key trigger
-" imap jj <C-y>,
+imap kk <C-y>,
 
 imap <C-"> <c-s-t>"
 imap <C-'> <d-s>"
