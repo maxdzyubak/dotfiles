@@ -896,5 +896,13 @@
     {
       "key": "alt+k",
       "command": "editor.action.moveLinesUpAction"
+    },
+    {
+      "key": "ctrl+cmd+n",
+      "command": "code-runner.run"
+    },
+    {
+      "key": "ctrl+alt+n",
+      "command": "-code-runner.run"
     }
 ]
