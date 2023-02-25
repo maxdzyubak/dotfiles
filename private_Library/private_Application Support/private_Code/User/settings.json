@@ -1,7 +1,7 @@
 {
   "editor.fontWeight": 400,
   "editor.fontSize": 16,
-  "editor.fontLigatures": true,
+  "editor.fontLigatures": false,
   "editor.fontFamily": "JetBrainsMono NerdFont, JetBrains Mono, Fira Code,  SF Mono, Source Code Pro, Menlo, Monaco, monospace",
   "editor.rulers": [78],
   // "editor.guides.indentation": false,
@@ -11,11 +11,12 @@
   "editor.wordWrapColumn": 78,
   "editor.wordWrap": "wordWrapColumn",
   "editor.autoClosingQuotes": "never",
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingOvertype": "never",
   // "editor.semanticHighlighting.enabled": false,
   "editor.cursorStyle": "line",
   "editor.links": true,
   "editor.hover.enabled": false,
-  "editor.autoClosingBrackets": "never",
   "liveServer.settings.port": 0,
   "editor.lineHeight": 27,
   "editor.smoothScrolling": true,
@@ -101,7 +102,7 @@
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
-  "open-in-browser.default": "Chrome",
+  "open-in-browser.default": "Firefox",
   "window.menuBarVisibility": "toogle",
   "window.openFilesInNewWindow": "off",
   "window.openFoldersInNewWindow": "off",
@@ -131,9 +132,9 @@
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.untitled.hint": "hidden",
   "[python]": {
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
+    "editor.tabSize": 4
   },
-  "workbench.colorTheme": "GitHub Dark Dimmed",
   // "editor.renderWhitespace": "all",
   "htmlhint.enable": true,
   "htmlhint.documentSelector": [
@@ -183,5 +184,6 @@
     "editor.wordBasedSuggestions": true,
     // Enable parameter hints
     "editor.parameterHints.enabled": true,
-
+    "workbench.colorTheme": "grigoryvp memory theme",
+    "window.zoomLevel": 1,
 }
