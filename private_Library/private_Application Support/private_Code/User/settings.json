@@ -1,6 +1,6 @@
 {
   "editor.fontWeight": 400,
-  "editor.fontSize": 16,
+  "editor.fontSize": 17,
   "editor.fontLigatures": false,
   "editor.fontFamily": "JetBrainsMono NerdFont, JetBrains Mono, Fira Code,  SF Mono, Source Code Pro, Menlo, Monaco, monospace",
   "editor.rulers": [78],
@@ -184,6 +184,5 @@
     "editor.wordBasedSuggestions": true,
     // Enable parameter hints
     "editor.parameterHints.enabled": true,
-    "workbench.colorTheme": "grigoryvp memory theme",
-    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Cobalt2",
 }
