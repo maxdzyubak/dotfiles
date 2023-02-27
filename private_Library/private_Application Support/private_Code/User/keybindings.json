@@ -84,10 +84,6 @@
 			"key": "ctrl+shift+c",
 			"command": "autoprefixer.execute"
 		},
-		{
-			"key": "cmd+l",
-			"command": "workbench.action.splitEditorToNextGroup"
-		},
     {
 			"key": "cmd+k e",
 			"command": "-workbench.files.action.focusOpenEditorsView",
