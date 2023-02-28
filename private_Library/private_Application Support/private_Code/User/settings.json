@@ -1,6 +1,6 @@
 {
   "editor.fontWeight": 400,
-  "editor.fontSize": 17,
+  "editor.fontSize": 16,
   "editor.fontLigatures": false,
   "editor.fontFamily": "JetBrainsMono NerdFont, JetBrains Mono, Fira Code,  SF Mono, Source Code Pro, Menlo, Monaco, monospace",
   "editor.rulers": [78],
@@ -46,6 +46,7 @@
   "editor.suggest.showClasses": true,
   "editor.lineDecorationsWidth" : 0,
   "editor.codeLens": false,
+  "editor.multiCursorModifier":"ctrlCmd",
 
   "vim.easymotion": true,
   "vim.leader": "<space>",
@@ -107,7 +108,7 @@
   "window.openFilesInNewWindow": "off",
   "window.openFoldersInNewWindow": "off",
   "window.newWindowDimensions": "maximized",
-  "window.commandCenter": false,
+  "window.commandCenter": true,
   "explorer.enableDragAndDrop": true,
 
   "explorer.confirmDelete": false,
@@ -184,5 +185,16 @@
     "editor.wordBasedSuggestions": true,
     // Enable parameter hints
     "editor.parameterHints.enabled": true,
-    "workbench.colorTheme": "Cobalt2",
+    "workbench.colorTheme": "grigoryvp memory theme",
+    "auto-close-tag.activationOnLanguage": [
+      "xml",
+      "php",
+      "javascriptreact",
+      "typescriptreact",
+      "vue",
+      "erb",
+      "html",
+      "css"
+    ],
+    "xi.lookupPath": "~/hub/"
 }
