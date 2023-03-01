@@ -44,7 +44,7 @@
   "when": "inDebugMode"
 },
 {
-  "key": "ctrl+]",
+  "key": "cmd+j",
   "command": "editor.action.openLink"
 },
 {
@@ -139,22 +139,12 @@
 			"command": "-workbench.view.extensions",
 			"when": "viewContainer.workbench.view.extensions.enabled"
 		},
-		{
-			"key": "cmd+m",
-			"command": "deleteFile",
-			"when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
-		},
-		{
+    {
 			"key": "alt+cmd+backspace",
 			"command": "-deleteFile",
 			"when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
 		},
-		{
-			"key": "cmd+m",
-			"command": "deleteFile",
-			"when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceMoveableToTrash && !explorerResourceReadonly && !inputFocus"
-		},
-		{
+    {
 			"key": "cmd+backspace",
 			"command": "-deleteFile",
 			"when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceMoveableToTrash && !explorerResourceReadonly && !inputFocus"
@@ -630,7 +620,7 @@
       "command": "extension.vim_ctrl+x"
     },
     {
-      "key": "ctrl+cmd+o",
+      "key": "cmd+k f",
       "command": "workbench.action.closeFolder"
     },
     {
@@ -957,5 +947,14 @@
       "key": "shift+alt+cmd+right",
       "command": "-cursorColumnSelectRight",
       "when": "textInputFocus"
+    },
+    {
+      "key": "ctrl+-",
+      "command": "-workbench.action.navigateBack",
+      "when": "canNavigateBack"
+    },
+    {
+      "key": "cmd+m",
+      "command": "workbench.action.navigateBack"
     }
 ]
