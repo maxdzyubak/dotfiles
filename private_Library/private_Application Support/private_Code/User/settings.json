@@ -46,6 +46,7 @@
   "editor.suggest.showClasses": true,
   "editor.lineDecorationsWidth" : 0,
   "editor.codeLens": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
   "editor.multiCursorModifier":"ctrlCmd",
 
   "vim.easymotion": true,
