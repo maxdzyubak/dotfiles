@@ -10,9 +10,9 @@
   "editor.renderLineHighlight": "line",
   "editor.wordWrapColumn": 78,
   "editor.wordWrap": "wordWrapColumn",
-  "editor.autoClosingQuotes": "never",
-  "editor.autoClosingBrackets": "never",
-  "editor.autoClosingOvertype": "never",
+  "editor.autoClosingQuotes": "always",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingOvertype": "always",
   // "editor.semanticHighlighting.enabled": false,
   "editor.cursorStyle": "line",
   "editor.links": true,
@@ -197,5 +197,6 @@
       "html",
       "css"
     ],
-    "xi.lookupPath": "~/hub/"
+    "xi.lookupPath": "~/hub/",
+    "git.openRepositoryInParentFolders": "always"
 }
