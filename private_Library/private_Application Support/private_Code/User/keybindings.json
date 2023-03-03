@@ -956,5 +956,215 @@
     {
       "key": "cmd+m",
       "command": "workbench.action.navigateBack"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "workbench.statusBar.focusNext",
+      "when": "statusBarFocused"
+    },
+    {
+      "key": "down",
+      "command": "-workbench.statusBar.focusNext",
+      "when": "statusBarFocused"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "workbench.banner.focusNextAction",
+      "when": "bannerFocused"
+    },
+    {
+      "key": "down",
+      "command": "-workbench.banner.focusNextAction",
+      "when": "bannerFocused"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "workbench.action.terminal.selectNextSuggestion",
+      "when": "terminalFocus && terminalHasBeenCreated && terminalIsOpen && terminalSuggestWidgetVisible || terminalFocus && terminalIsOpen && terminalProcessSupported && terminalSuggestWidgetVisible"
+    },
+    {
+      "key": "down",
+      "command": "-workbench.action.terminal.selectNextSuggestion",
+      "when": "terminalFocus && terminalHasBeenCreated && terminalIsOpen && terminalSuggestWidgetVisible || terminalFocus && terminalIsOpen && terminalProcessSupported && terminalSuggestWidgetVisible"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "workbench.action.interactivePlayground.arrowDown",
+      "when": "interactivePlaygroundFocus && !editorTextFocus"
+    },
+    {
+      "key": "down",
+      "command": "-workbench.action.interactivePlayground.arrowDown",
+      "when": "interactivePlaygroundFocus && !editorTextFocus"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "showNextParameterHint",
+      "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+    },
+    {
+      "key": "down",
+      "command": "-showNextParameterHint",
+      "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "settings.action.focusSettingsFromSearch",
+      "when": "inSettingsSearch && !suggestWidgetVisible"
+    },
+    {
+      "key": "down",
+      "command": "-settings.action.focusSettingsFromSearch",
+      "when": "inSettingsSearch && !suggestWidgetVisible"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "settings.action.focusSettingsFile",
+      "when": "inSettingsSearch && !suggestWidgetVisible"
+    },
+    {
+      "key": "down",
+      "command": "-settings.action.focusSettingsFile",
+      "when": "inSettingsSearch && !suggestWidgetVisible"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "selectNextSuggestion",
+      "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+      "key": "down",
+      "command": "-selectNextSuggestion",
+      "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "selectNextCodeAction",
+      "when": "codeActionMenuVisible"
+    },
+    {
+      "key": "down",
+      "command": "-selectNextCodeAction",
+      "when": "codeActionMenuVisible"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "scm.viewNextCommit",
+      "when": "scmInputIsInLastPosition && scmRepository && !suggestWidgetVisible"
+    },
+    {
+      "key": "down",
+      "command": "-scm.viewNextCommit",
+      "when": "scmInputIsInLastPosition && scmRepository && !suggestWidgetVisible"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "notifications.focusNextToast",
+      "when": "notificationFocus && notificationToastsVisible"
+    },
+    {
+      "key": "down",
+      "command": "-notifications.focusNextToast",
+      "when": "notificationFocus && notificationToastsVisible"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "list.focusDown",
+      "when": "listFocus && !inputFocus"
+    },
+    {
+      "key": "down",
+      "command": "-list.focusDown",
+      "when": "listFocus && !inputFocus"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "interactive.history.next",
+      "when": "!suggestWidgetVisible && resourceScheme == 'vscode-interactive' && interactiveInputCursorAtBoundary != 'none' && interactiveInputCursorAtBoundary != 'top'"
+    },
+    {
+      "key": "down",
+      "command": "-interactive.history.next",
+      "when": "!suggestWidgetVisible && resourceScheme == 'vscode-interactive' && interactiveInputCursorAtBoundary != 'none' && interactiveInputCursorAtBoundary != 'top'"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "history.showNext",
+      "when": "historyNavigationForwardsEnabled && historyNavigationWidgetFocus && !suggestWidgetVisible"
+    },
+    {
+      "key": "down",
+      "command": "-history.showNext",
+      "when": "historyNavigationForwardsEnabled && historyNavigationWidgetFocus && !suggestWidgetVisible"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "cursorDown",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "down",
+      "command": "-cursorDown",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "breadcrumbs.selectFocused",
+      "when": "breadcrumbsActive && breadcrumbsVisible"
+    },
+    {
+      "key": "down",
+      "command": "-breadcrumbs.selectFocused",
+      "when": "breadcrumbsActive && breadcrumbsVisible"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "notebook.focusNextEditor",
+      "when": "config.notebook.navigation.allowNavigateToSurroundingCells && editorTextFocus && inputFocus && notebookEditorFocused && notebookEditorCursorAtBoundary != 'none' && notebookEditorCursorAtBoundary != 'top'"
+    },
+    {
+      "key": "down",
+      "command": "-notebook.focusNextEditor",
+      "when": "config.notebook.navigation.allowNavigateToSurroundingCells && editorTextFocus && inputFocus && notebookEditorFocused && notebookEditorCursorAtBoundary != 'none' && notebookEditorCursorAtBoundary != 'top'"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "notebook.focusNextEditor",
+      "when": "config.notebook.navigation.allowNavigateToSurroundingCells && notebookCursorNavigationMode && notebookEditorFocused && !notebookCellMarkdownEditMode && notebookCellType == 'markup'"
+    },
+    {
+      "key": "down",
+      "command": "-notebook.focusNextEditor",
+      "when": "config.notebook.navigation.allowNavigateToSurroundingCells && notebookCursorNavigationMode && notebookEditorFocused && !notebookCellMarkdownEditMode && notebookCellType == 'markup'"
+    },
+    {
+      "key": "shift+pagedown",
+      "command": "-cursorColumnSelectPageDown",
+      "when": "editorColumnSelection && textInputFocus"
+    },
+    {
+      "key": "shift+pageup",
+      "command": "-cursorColumnSelectPageUp",
+      "when": "editorColumnSelection && textInputFocus"
+    },
+    {
+      "key": "shift+cmd+u",
+      "command": "cursorColumnSelectPageUp",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+alt+cmd+pageup",
+      "command": "-cursorColumnSelectPageUp",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+cmd+f",
+      "command": "cursorColumnSelectPageDown",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+alt+cmd+pagedown",
+      "command": "-cursorColumnSelectPageDown",
+      "when": "textInputFocus"
     }
 ]
