@@ -1,5 +1,5 @@
 [{
-  "key": "shift+f1",
+  "key": "cmd+d",
   "command": "workbench.action.focusActiveEditorGroup"
 },
  {
@@ -19,7 +19,7 @@
   "command": "workbench.action.tasks.runTask",
   "args": "task-close-terminal"
 }, {
-  "key": "shift+f3",
+  "key": "cmd+r",
   "command": "workbench.action.terminal.focus"
 },
 {
@@ -69,7 +69,7 @@
         "when": "textInputFocus && !editorReadonly"
     },
     {
-      "key": "cmd+1",
+      "key": "cmd+4",
       "command": "workbench.action.focusFirstEditorGroup"
     },
     {
@@ -124,12 +124,7 @@
 			"command": "-workbench.view.scm",
 			"when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
 		},
-		{
-			"key": "cmd+d",
-			"command": "workbench.view.debug",
-			"when": "viewContainer.workbench.view.debug.enabled"
-		},
-		{
+    {
 			"key": "shift+cmd+d",
 			"command": "-workbench.view.debug",
 			"when": "viewContainer.workbench.view.debug.enabled"
@@ -541,7 +536,7 @@
       "command": "-welcome.showNewFileEntries"
     },
     {
-      "key": "cmd+t",
+      "key": "ctrl+cmd+t",
       "command": "workbench.action.files.newUntitledFile"
     },
     {
@@ -759,7 +754,7 @@
       "when": "isDevelopment"
     },
     {
-      "key": "cmd+r",
+      "key": "ctrl+cmd+r",
       "command": "workbench.action.terminal.clear",
       "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
     },
@@ -873,10 +868,6 @@
     {
       "key": "alt+k",
       "command": "editor.action.moveLinesUpAction"
-    },
-    {
-      "key": "ctrl+cmd+n",
-      "command": "code-runner.run"
     },
     {
       "key": "ctrl+alt+n",
@@ -1166,5 +1157,25 @@
       "key": "shift+alt+cmd+pagedown",
       "command": "-cursorColumnSelectPageDown",
       "when": "textInputFocus"
+    },
+    {
+      "key": "cmd+4",
+      "command": "workbench.action.focusThirdEditorGroup"
+    },
+    {
+      "key": "cmd+3",
+      "command": "-workbench.action.focusThirdEditorGroup"
+    },
+    {
+      "key": "shift+cmd+n",
+      "command": "-workbench.action.newWindow"
+    },
+    {
+      "key": "shift+f6",
+      "command": "workbench.action.focusNextPart"
+    },
+    {
+      "key": "f6",
+      "command": "-workbench.action.focusNextPart"
     }
 ]
