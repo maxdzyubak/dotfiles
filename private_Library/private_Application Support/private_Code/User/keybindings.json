@@ -69,7 +69,7 @@
         "when": "textInputFocus && !editorReadonly"
     },
     {
-      "key": "cmd+4",
+      "key": "cmd+1",
       "command": "workbench.action.focusFirstEditorGroup"
     },
     {
