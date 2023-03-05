@@ -1,5 +1,5 @@
 [{
-  "key": "cmd+d",
+  "key": "cmd+r",
   "command": "workbench.action.focusActiveEditorGroup"
 },
  {
@@ -19,7 +19,7 @@
   "command": "workbench.action.tasks.runTask",
   "args": "task-close-terminal"
 }, {
-  "key": "cmd+r",
+  "key": "cmd+d",
   "command": "workbench.action.terminal.focus"
 },
 {
@@ -1177,5 +1177,9 @@
     {
       "key": "f6",
       "command": "-workbench.action.focusNextPart"
+    },
+    {
+      "key": "ctrl+cmd+l",
+      "command": "workbench.action.splitEditorRight"
     }
 ]
