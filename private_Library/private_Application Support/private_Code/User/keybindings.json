@@ -639,11 +639,6 @@
       "when": "workbench.panel.output.active"
     },
     {
-      "key": "shift+cmd+u",
-      "command": "editor.action.blockComment",
-      "when": "editorTextFocus && !editorReadonly"
-    },
-    {
       "key": "shift+alt+a",
       "command": "-editor.action.blockComment",
       "when": "editorTextFocus && !editorReadonly"
@@ -764,7 +759,7 @@
       "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
     },
     {
-      "key": "ctrl+cmd+k",
+      "key": "shift+cmd+k",
       "command": "workbench.action.terminal.scrollUp",
       "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
     },
@@ -774,7 +769,7 @@
       "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
     },
     {
-      "key": "ctrl+cmd+u",
+      "key": "shift+cmd+u",
       "command": "workbench.action.terminal.scrollUpPage",
       "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
     },
@@ -1181,5 +1176,30 @@
     {
       "key": "ctrl+cmd+l",
       "command": "workbench.action.splitEditorRight"
+    },
+    {
+      "key": "alt+cmd+r",
+      "command": "-toggleSearchEditorRegex",
+      "when": "inSearchEditor && searchInputBoxFocus"
+    },
+    {
+      "key": "alt+r",
+      "command": "toggleSearchRegex",
+      "when": "searchViewletFocus"
+    },
+    {
+      "key": "alt+cmd+r",
+      "command": "-toggleSearchRegex",
+      "when": "searchViewletFocus"
+    },
+    {
+      "key": "alt+r",
+      "command": "toggleFindRegex",
+      "when": "editorFocus"
+    },
+    {
+      "key": "alt+cmd+r",
+      "command": "-toggleFindRegex",
+      "when": "editorFocus"
     }
 ]
