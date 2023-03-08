@@ -593,7 +593,7 @@
       "when": "editorTextFocus && vim.active && vim.use<C-space> && !inDebugRepl && vim.mode != 'Insert'"
     },
     {
-      "key": "ctrl+d",
+      "key": "shift+cmd+d",
       "command": "list.focusPageDown",
       "when": "listFocus && !inputFocus"
     },
@@ -1201,5 +1201,25 @@
       "key": "alt+cmd+r",
       "command": "-toggleFindRegex",
       "when": "editorFocus"
+    },
+    {
+      "key": "cmd+down",
+      "command": "list.scrollDown",
+      "when": "listFocus && !inputFocus"
+    },
+    {
+      "key": "cmd+down",
+      "command": "-list.scrollDown",
+      "when": "listFocus && !inputFocus"
+    },
+    {
+      "key": "shift+cmd+u",
+      "command": "list.focusPageUp",
+      "when": "listFocus && !inputFocus"
+    },
+    {
+      "key": "ctrl+u",
+      "command": "-list.focusPageUp",
+      "when": "listFocus && !inputFocus"
     }
 ]
