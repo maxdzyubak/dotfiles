@@ -38,6 +38,7 @@
   "security.workspace.trust.enabled": false,
   "editor.insertSpaces": true,
   "editor.linkedEditing": true,
+  "editor.stickyScroll.enabled": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairsHorizontal": true,
   "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?-",
@@ -200,5 +201,6 @@
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.openRepositoryInParentFolders": "always",
+  "editor.accessibilitySupport": "off",
   "window.zoomLevel": 1,
 }
