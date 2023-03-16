@@ -4,7 +4,6 @@
 	"editor.fontLigatures": true,
 	"editor.fontFamily": "JetBrainsMono NerdFont, JetBrains Mono, Fira Code,  SF Mono, Source Code Pro, Menlo, Monaco, monospace",
 	"editor.rulers": [78],
-	// "editor.guides.indentation": false,
 	"editor.lineNumbers": "off",
 	"editor.guides.bracketPairs": "active",
 	"editor.guides.bracketPairsHorizontal": true,
@@ -13,10 +12,10 @@
 	"editor.foldingHighlight": false,
 	"editor.wordWrapColumn": 78,
 	"editor.wordWrap": "wordWrapColumn",
+	"editor.scrollbar.horizontal": "hidden",
 	"editor.autoClosingQuotes": "beforeWhitespace",
 	"editor.autoClosingBrackets": "beforeWhitespace",
 	"editor.autoClosingOvertype": "auto",
-	// "editor.semanticHighlighting.enabled": false,
 	"editor.cursorStyle": "line",
 	"editor.links": true,
 	"editor.hover.enabled": false,
@@ -96,7 +95,6 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"npm.keybindingsChangedWarningShown": true,
-	// "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
 	"files.autoSave": "afterDelay",
 	"files.autoSaveDelay": 0,
 	"editor.tabSize": 2,
@@ -135,7 +133,6 @@
 		"editor.formatOnType": true,
 		"editor.tabSize": 4
 	},
-	// "editor.renderWhitespace": "all",
 	"htmlhint.enable": true,
 	"htmlhint.documentSelector": [
 		"html",
@@ -169,22 +166,21 @@
 	},
 	"tabnine.experimentalAutoImports": true,
 	
-	// Controls if quick suggestions should show up while typing
 	"editor.quickSuggestions": {
 		"other": true,
 		"comments": false,
 		"strings": false
 	},
-	"editor.acceptSuggestionOnCommitCharacter": true,
+	"editor.acceptSuggestionOnCommitCharacter": false,
 	"editor.acceptSuggestionOnEnter": "off",
 	"editor.quickSuggestionsDelay": 10,
-	"editor.suggestOnTriggerCharacters": true,
+	"editor.suggestOnTriggerCharacters": false,
 	"editor.tabCompletion": "on",
-	"editor.suggest.localityBonus": true,
+	"editor.suggest.localityBonus": false,
 	"editor.suggestSelection": "first",
-	"editor.wordBasedSuggestions": true,
-	"editor.parameterHints.enabled": true,
-	"editor.parameterHints.cycle": true,
+	"editor.wordBasedSuggestions": false,
+	"editor.parameterHints.enabled": false,
+	"editor.parameterHints.cycle": false,
 	"auto-close-tag.activationOnLanguage": [
 		"xml",
 		"php",
@@ -200,10 +196,10 @@
 	"git.enableSmartCommit": true,
 	"git.openRepositoryInParentFolders": "always",
 	"editor.accessibilitySupport": "off",
-	"window.zoomLevel": 1,
 	"workbench.activityBar.visible": false,
 	"ecsstractor_port.add_comment": false,
 	"ecsstractor_port.empty_line_before_nested_selector": false,
 	"editor.bracketPairColorization.enabled": true,
 	"workbench.colorTheme": "grigoryvp memory theme",
+	"window.zoomLevel": 1,
 }
