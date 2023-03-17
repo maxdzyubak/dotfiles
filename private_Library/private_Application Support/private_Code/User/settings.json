@@ -81,16 +81,12 @@
 	"editor.codeActionsOnSave": {},
 	"editor.cursorBlinking": "solid",
 	"workbench.iconTheme": "vscode-great-icons",
-	"editor.suggest.showEnumMembers": false,
 	"editor.suggest.showKeywords": false,
-	"editor.suggest.showReferences": false,
-	"editor.suggest.showTypeParameters": false,
 	"editor.inlayHints.enabled": "on",
 	"workbench.editor.languageDetectionHints": {
 		"untitledEditors": false,
 		"notebookEditors": false
 	},
-	"html.suggest.html5": false,
 	"[javascript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
@@ -167,20 +163,22 @@
 	"tabnine.experimentalAutoImports": true,
 	
 	"editor.quickSuggestions": {
-		"other": true,
+		"other": "inline",
 		"comments": false,
 		"strings": false
 	},
-	"editor.acceptSuggestionOnCommitCharacter": false,
-	"editor.acceptSuggestionOnEnter": "off",
+	"editor.acceptSuggestionOnCommitCharacter": true,
+	"editor.acceptSuggestionOnEnter": "smart",
 	"editor.quickSuggestionsDelay": 10,
-	"editor.suggestOnTriggerCharacters": false,
+	"editor.suggestOnTriggerCharacters": true,
 	"editor.tabCompletion": "on",
-	"editor.suggest.localityBonus": false,
+	"editor.suggest.localityBonus": true,
 	"editor.suggestSelection": "first",
-	"editor.wordBasedSuggestions": false,
-	"editor.parameterHints.enabled": false,
-	"editor.parameterHints.cycle": false,
+	"editor.suggest.preview": true,
+	"editor.suggest.showVariables": true,
+	"editor.wordBasedSuggestions": true,
+	"editor.parameterHints.enabled": true,
+	"editor.parameterHints.cycle": true,
 	"auto-close-tag.activationOnLanguage": [
 		"xml",
 		"php",
@@ -202,4 +200,5 @@
 	"editor.bracketPairColorization.enabled": true,
 	"workbench.colorTheme": "grigoryvp memory theme",
 	"window.zoomLevel": 1,
+	"editor.suggest.snippetsPreventQuickSuggestions": false,
 }
