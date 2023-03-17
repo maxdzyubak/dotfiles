@@ -1014,7 +1014,7 @@
       "when": "inSettingsSearch && !suggestWidgetVisible"
     },
     {
-      "key": "ctrl+j",
+      "key": "cmd+j",
       "command": "selectNextSuggestion",
       "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
     },
@@ -1229,5 +1229,58 @@
 		{
 			"key": "alt+cmd+n",
 			"command": "-extension.advancedNewFile"
+		},
+		{
+			"key": "ctrl+cmd+f",
+			"command": "cursorRight"
+		},
+		{
+			"key": "alt+q",
+			"command": "editor.action.inlineSuggest.toggleAlwaysShowToolbar"
+		},
+		{
+			"key": "alt+f",
+			"command": "editor.action.inlineSuggest.showNext",
+			"when": "inlineSuggestionVisible && !editorReadonly"
+		},
+		{
+			"key": "alt+]",
+			"command": "-editor.action.inlineSuggest.showNext",
+			"when": "inlineSuggestionVisible && !editorReadonly"
+		},
+		{
+			"key": "alt+a",
+			"command": "editor.action.inlineSuggest.showPrevious",
+			"when": "inlineSuggestionVisible && !editorReadonly"
+		},
+		{
+			"key": "alt+[",
+			"command": "-editor.action.inlineSuggest.showPrevious",
+			"when": "inlineSuggestionVisible && !editorReadonly"
+		},
+		{
+			"key": "cmd+k",
+			"command": "selectPrevSuggestion",
+			"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+		},
+		{
+			"key": "ctrl+p",
+			"command": "-selectPrevSuggestion",
+			"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+		},
+		{
+			"key": "cmd+down",
+			"command": "-selectNextSuggestion",
+			"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+		},
+		{
+			"key": "pagedown",
+			"command": "-selectNextPageSuggestion",
+			"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+		},
+		{
+			"key": "cmd+pagedown",
+			"command": "-selectNextPageSuggestion",
+			"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
 		}
 ]
