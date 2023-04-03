@@ -1,6 +1,7 @@
 {
+  "editor.detectIdentation": false,
   "editor.fontWeight": 400,
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   "editor.fontLigatures": true,
   "editor.fontFamily": "JetBrainsMono NerdFont, JetBrains Mono, Fira Code,  SF Mono, Source Code Pro, Menlo, Monaco, monospace",
   "editor.rulers": [78],
@@ -19,11 +20,11 @@
   "editor.cursorStyle": "line",
   "editor.links": true,
   "editor.hover.enabled": false,
+  "editor.semanticHighlighting.enabled": true,
   "liveServer.settings.port": 0,
-  "editor.lineHeight": 25,
   "editor.smoothScrolling": true,
   "editor.minimap.enabled": false,
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": true, // => navigation on top
   "editor.renderControlCharacters": true,
   "files.defaultLanguage": "javascript",
   "git.ignoreMissingGitWarning": true,
@@ -38,7 +39,7 @@
   "liveServer.settings.donotVerifyTags": true,
   "security.workspace.trust.enabled": false,
   "editor.linkedEditing": true,
-  "editor.stickyScroll.enabled": false,
+  "editor.stickyScroll.enabled": true, // => visible details by scroll
   "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?-",
   "editor.suggest.showClasses": true,
   "editor.lineDecorationsWidth": 0,
@@ -206,6 +207,6 @@
   "gitlens.advanced.blame.customArguments": [],
   "gitlens.currentLine.enabled": false,
   "gitlens.currentLine.pullRequests.enabled": false,
-  "workbench.activityBar.visible": false,
-  "window.zoomLevel": 2
+  "window.zoomLevel": 1,
+  "diffEditor.wordWrap": "off"
 }
