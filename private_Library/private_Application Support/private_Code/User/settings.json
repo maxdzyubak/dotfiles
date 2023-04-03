@@ -1,6 +1,6 @@
 {
   "editor.fontWeight": 400,
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "editor.fontFamily": "JetBrainsMono NerdFont, JetBrains Mono, Fira Code,  SF Mono, Source Code Pro, Menlo, Monaco, monospace",
   "editor.rulers": [78],
@@ -165,22 +165,23 @@
     "strings": false
   },
   "editor.suggest.showFolders": true,
-  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnCommitCharacter": true,
   "editor.acceptSuggestionOnEnter": "smart",
   "editor.quickSuggestionsDelay": 10,
   "editor.suggestOnTriggerCharacters": true,
   "editor.suggest.localityBonus": true,
   "editor.suggestSelection": "recentlyUsed",
-  "editor.suggest.preview": true,
+  "editor.suggest.preview": false,
   "editor.suggest.showVariables": true,
   "editor.wordBasedSuggestions": true,
   "editor.parameterHints.enabled": false,
   "editor.parameterHints.cycle": false,
-  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
   "editor.snippetSuggestions": "none",
   "html.suggest.html5": false,
   "javascript.suggest.enabled": false,
-  "editor.suggest.showProperties": false,
+  "javascript.inlayHints.enumMemberValues.enabled": false,
+  "editor.suggest.showProperties": true,
   "auto-close-tag.activationOnLanguage": [
     "xml",
     "php",
@@ -205,6 +206,6 @@
   "gitlens.advanced.blame.customArguments": [],
   "gitlens.currentLine.enabled": false,
   "gitlens.currentLine.pullRequests.enabled": false,
-  "window.zoomLevel": 1,
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "window.zoomLevel": 2
 }
