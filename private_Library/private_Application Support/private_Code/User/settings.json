@@ -32,7 +32,7 @@
   "editor.folding": true,
   "editor.lightbulb.enabled": false,
   "editor.glyphMargin": false,
-  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontSize": 16,
   "terminal.integrated.fontWeight": 400,
   "editor.renderWhitespace": "none",
   "liveServer.settings.donotShowInfoMsg": true,
@@ -207,6 +207,6 @@
   "gitlens.advanced.blame.customArguments": [],
   "gitlens.currentLine.enabled": false,
   "gitlens.currentLine.pullRequests.enabled": false,
-  "window.zoomLevel": 1,
-  "diffEditor.wordWrap": "off"
+  "diffEditor.wordWrap": "off",
+  "workbench.activityBar.visible": false
 }
