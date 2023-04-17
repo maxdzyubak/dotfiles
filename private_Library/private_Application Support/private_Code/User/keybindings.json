@@ -4,7 +4,7 @@
     "command": "workbench.action.focusActiveEditorGroup"
   },
   {
-    "key": "f2",
+    "key": "cmd+o",
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
@@ -488,7 +488,7 @@
     "command": "-workbench.action.files.newUntitledFile"
   },
   {
-    "key": "cmd+n",
+    "key": "ctrl+tab",
     "command": "workbench.action.nextEditor"
   },
   {
@@ -1293,5 +1293,39 @@
   {
     "key": "cmd+h",
     "command": "code-runner.run"
+  },
+  {
+    "key": "ctrl+cmd+o",
+    "command": "workbench.action.newWindow"
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "workbench.action.files.openFile",
+    "when": "false"
+  },
+  {
+    "key": "cmd+o",
+    "command": "-workbench.action.files.openFile",
+    "when": "false"
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "workbench.action.files.openFolderViaWorkspace",
+    "when": "!openFolderWorkspaceSupport && workbenchState == 'workspace'"
+  },
+  {
+    "key": "cmd+o",
+    "command": "-workbench.action.files.openFolderViaWorkspace",
+    "when": "!openFolderWorkspaceSupport && workbenchState == 'workspace'"
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "workbench.action.files.openFileFolder",
+    "when": "isMacNative && openFolderWorkspaceSupport"
+  },
+  {
+    "key": "cmd+o",
+    "command": "-workbench.action.files.openFileFolder",
+    "when": "isMacNative && openFolderWorkspaceSupport"
   }
 ]
