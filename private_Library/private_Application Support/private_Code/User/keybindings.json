@@ -58,7 +58,7 @@
     "command": "workbench.action.focusActiveEditorGroup"
   },
   {
-    "key": "ctrl+9",
+    "key": "f2",
     "command": "workbench.action.toggleMaximizedPanel"
   },
   {
@@ -488,7 +488,7 @@
     "command": "-workbench.action.files.newUntitledFile"
   },
   {
-    "key": "ctrl+tab",
+    "key": "cmd+n",
     "command": "workbench.action.nextEditor"
   },
   {
@@ -1327,5 +1327,29 @@
     "key": "cmd+o",
     "command": "-workbench.action.files.openFileFolder",
     "when": "isMacNative && openFolderWorkspaceSupport"
+  },
+  {
+    "key": "alt+f",
+    "command": "code-runner.stop"
+  },
+  {
+    "key": "ctrl+alt+m",
+    "command": "-code-runner.stop"
+  },
+  {
+    "key": "cmd+t",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "console.log(${TM_SELECTED_TEXT}$1);"
+    }
+  },
+  {
+    "key": "cmd+shift+a",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+    "snippet": "const $1 = (${TM_SELECTED_TEXT}$2) => {\n  $3\n};\n$4"
+    }
   }
 ]
