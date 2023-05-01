@@ -134,16 +134,16 @@
       "commands": ["bookmarks.toggle"]
     },
     {
+      "before": ["n"],
+      "commands": ["bookmarks.jumpToNext"]
+    },
+    {
       "before": ["<leader>", "l"],
       "commands": ["bookmarks.list"]
     },
     {
       "before": ["<leader>", "d"],
       "commands": ["bookmarks.clear"]
-    },
-    {
-      "before": ["n"],
-      "commands": ["bookmarks.jumpToNext"]
     },
     {
       "before": ["<leader>", "n"],
@@ -260,6 +260,8 @@
   "html.suggest.html5": false,
   "javascript.suggest.enabled": false,
   "javascript.inlayHints.enumMemberValues.enabled": false,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterNames.enabled": "all",
   "editor.suggest.showProperties": true,
   "auto-close-tag.activationOnLanguage": [
     "xml",
@@ -274,7 +276,7 @@
   "xi.lookupPath": "~/hub/",
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
-  "git.openRepositoryInParentFolders": "always",
+  "git.openRepositoryInParentFolders": "never",
   "editor.accessibilitySupport": "off",
   "ecsstractor_port.add_comment": false,
   "ecsstractor_port.empty_line_before_nested_selector": false,
@@ -299,8 +301,9 @@
   "bookmarks.label.suggestion": "useWhenSelected",
   "bookmarks.saveBookmarksInProject": true,
   "bookmarks.wrapNavigation": true,
-  "workbench.activityBar.visible": false,
+
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
-  }
+  },
+  "workbench.activityBar.visible": false
 }
