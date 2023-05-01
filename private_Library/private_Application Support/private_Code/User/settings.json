@@ -49,8 +49,10 @@
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "editor.multiCursorModifier": "ctrlCmd",
 
+  "vim.neovimPath": "/usr/local/bin/nvim",
+  "vim.enableNeovim": true,
   "vim.easymotion": true,
-  "vim.leader": "<space>",
+  "vim.leader": "<Space>",
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
@@ -61,19 +63,91 @@
       "after": ["<Esc>"]
     }
   ],
-  "vim.normalModeKeyBindingsNonRecursive": [
+  "vim.normalModeKeyBindings": [
     {
-      "before": ["<leader>", "d"],
-      "after": ["d", "d"]
+      "before": ["<Leader>", "/"],
+      "commands": [":noh"]
     },
     {
-      "before": ["<C-n>"],
-      "commands": [":nohl"]
+      "before": ["J"],
+      "after": ["5", "j"]
     },
     {
       "before": ["K"],
+      "after": ["5", "k"]
+    },
+    {
+      "before": ["<Leader>", "j"],
+      "after": ["<Leader>", "<Leader>", "w"]
+    },
+    {
+      "before": ["<Leader>", "k"],
+      "after": ["<Leader>", "<Leader>", "b"]
+    },
+    {
+      "before": ["<Leader>", "d"],
+      "after": ["<Leader>", "<Leader>", "j"]
+    },
+    {
+      "before": ["<Leader>", "u"],
+      "after": ["<Leader>", "<Leader>", "k"]
+    },
+    // {
+    //   "before": ["<leader>", "s"],
+    //   "after": ["<Leader>", "<Leader>", "f"]
+    // },
+    {
+      "before": ["<Leader>", "e"],
+      "after": ["<Leader>", "<Leader>", "e"]
+    },
+    {
+      "before": ["<Leader>", "g", "e"],
+      "after": ["<Leader>", "<Leader>", "g", "e"]
+    },
+    {
+      "before": ["<Leader>", "bdw"],
+      "after": ["<Leader>", "<Leader>", "bdw"]
+    },
+    {
+      "before": ["<Leader>", "F"],
+      "after": ["<Leader>", "<Leader>", "F"]
+    },
+    {
+      "before": ["<Leader>", "t"],
+      "after": ["<Leader>", "<Leader>", "t"]
+    },
+    {
+      "before": ["<Leader>", "s"],
+      "after": ["<Leader>", "<Leader>", "s"]
+    },
+    {
+      "before": ["<Leader>", "p"],
+      "commands": ["workbench.action.showCommands"]
+    },
+    {
+      "before": ["L"],
       "commands": ["lineBreakInsert"],
       "silent": true
+    },
+    {
+      "before": ["m"],
+      "commands": ["bookmarks.toggle"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["bookmarks.list"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "commands": ["bookmarks.clear"]
+    },
+    {
+      "before": ["n"],
+      "commands": ["bookmarks.jumpToNext"]
+    },
+    {
+      "before": ["<leader>", "n"],
+      "commands": ["bookmarks.jumpToPrevious"]
     }
   ],
   "vim.handleKeys": {
@@ -106,7 +180,7 @@
   "window.openFilesInNewWindow": "off",
   "window.openFoldersInNewWindow": "off",
   "window.newWindowDimensions": "maximized",
-  "window.commandCenter": true,
+  "window.commandCenter": false,
   "explorer.enableDragAndDrop": true,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
@@ -159,6 +233,9 @@
     "editorBracketHighlight.foreground5": "#366AFF",
     "editorBracketHighlight.foreground6": "#D32D72",
     "editorBracketHighlight.unexpectedBracket.foreground": "#b5b5b5"
+    // "bookmarks.lineBackground": "#157EFB22",
+    // "bookmarks.lineBorder": "#FF0000",
+    // "bookmarks.overviewRuler": "#157EFB88",
   },
 
   "editor.quickSuggestions": {
@@ -209,6 +286,21 @@
   "gitlens.currentLine.enabled": false,
   "gitlens.currentLine.pullRequests.enabled": false,
   "diffEditor.wordWrap": "off",
+  "files.associations": {
+    "*.xi": "xi"
+  },
   "window.zoomLevel": 1,
-  "workbench.activityBar.visible": false
+  "bookmarks.navigateThroughAllFiles": false,
+  "bookmarks.gutterIconFillColor": "#157EFB",
+  "bookmarks.gutterIconBorderColor": "#157EFB",
+  "bookmarks.showCommandsInContextMenu": true,
+  "bookmarks.sideBar.expanded": true,
+  "bookmarks.multicursor.toggleMode": "eachLineIndependently",
+  "bookmarks.label.suggestion": "useWhenSelected",
+  "bookmarks.saveBookmarksInProject": true,
+  "bookmarks.wrapNavigation": true,
+  "workbench.activityBar.visible": false,
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  }
 }
