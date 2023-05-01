@@ -1,9 +1,5 @@
 [
   {
-    "key": "shift+f2",
-    "command": "workbench.action.focusSideBar"
-  },
-  {
     "key": "shift+f4",
     "command": "workbench.action.focusAuxiliaryBar"
   },
@@ -433,7 +429,7 @@
     "when": "editorFocus"
   },
   {
-    "key": "cmd+f",
+    "key": "cmd+s",
     "command": "actions.find",
     "when": "editorFocus || editorIsOpen"
   },
@@ -753,10 +749,6 @@
     "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
   },
   {
-    "key": "ctrl+cmd+s",
-    "command": "git.stage"
-  },
-  {
     "key": "f4",
     "command": "-goToNextReference",
     "when": "inReferenceSearchEditor || referenceSearchVisible"
@@ -827,7 +819,7 @@
     "when": "editorTextFocus && vim.active && vim.use<C-]> && !inDebugRepl"
   },
   {
-    "key": "ctrl+k f",
+    "key": "ctrl+k r",
     "command": "explorer.newFolder"
   },
   {
@@ -1434,7 +1426,7 @@
     "when": "remoteFileDialogVisible"
   },
   {
-    "key": "ctrl+;",
+    "key": "ctrl+f",
     "command": "cursorRight"
   },
   {
@@ -1598,5 +1590,26 @@
     "key": "shift+f3",
     "command": "-editor.action.previousMatchFindAction",
     "when": "editorFocus"
+  },
+  {
+    "key": "cmd+s",
+    "command": "-issue.createIssueFromFile",
+    "when": "!issues.creatingFromFile && resourceScheme == 'newIssue' && config.files.autoSave != 'off'"
+  },
+  {
+    "key": "ctrl+cmd+s",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "key": "cmd+s",
+    "command": "-workbench.action.files.save"
+  },
+  {
+    "key": "cmd+j",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "-workbench.action.nextEditor"
   }
 ]
