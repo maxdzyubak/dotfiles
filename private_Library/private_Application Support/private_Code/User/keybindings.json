@@ -18,11 +18,7 @@
     "when": "inDebugMode"
   },
   {
-    "key": "ctrl+]",
-    "command": "editor.action.openLink"
-  },
-  {
-    "key": "ctrl+8",
+    "key": "cmd+r",
     "command": "workbench.action.focusActiveEditorGroup"
   },
   {
@@ -52,7 +48,7 @@
     "when": "workbench.explorer.openEditorsView.active"
   },
   {
-    "key": "ctrl+k e",
+    "key": "cmd+e",
     "command": "workbench.view.explorer",
     "when": "viewContainer.workbench.view.explorer.enabled"
   },
@@ -552,7 +548,7 @@
     "when": "listFocus && !inputFocus"
   },
   {
-    "key": "ctrl+d",
+    "key": "cmd+d",
     "command": "extension.vim_ctrl+d"
   },
   {
@@ -868,7 +864,7 @@
     "when": "canNavigateBack"
   },
   {
-    "key": "ctrl+[",
+    "key": "cmd+[",
     "command": "workbench.action.navigateBack"
   },
   {
@@ -1208,12 +1204,8 @@
     "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
   },
   {
-    "key": "ctrl+j",
+    "key": "cmd+h",
     "command": "code-runner.run"
-  },
-  {
-    "key": "ctrl+cmd+o",
-    "command": "workbench.action.newWindow"
   },
   {
     "key": "cmd+o",
@@ -1300,7 +1292,7 @@
     "when": "inKeybindings && inKeybindingsSearch"
   },
   {
-    "key": "f2",
+    "key": "cmd+o",
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
@@ -1358,7 +1350,7 @@
     "when": "!notebookEditorFocused"
   },
   {
-    "key": "cmd+b",
+    "key": "ctrl+cmd+b",
     "command": "bookmarksExplorer.focus"
   },
   {
@@ -1406,7 +1398,7 @@
     "when": "workbench.panel.markers.view.active"
   },
   {
-    "key": "cmd+o",
+    "key": "ctrl+j ctrl+j",
     "command": "editor.action.joinLines",
     "when": "editorTextFocus && !editorReadonly"
   },
@@ -1434,7 +1426,7 @@
     "command": "editor.action.commentLine"
   },
   {
-    "key": "ctrl+9",
+    "key": "ctrl+cmd+m",
     "command": "workbench.action.toggleMaximizedPanel"
   },
   {
@@ -1448,7 +1440,7 @@
     "when": "editorFocus"
   },
   {
-    "key": "cmd+o",
+    "key": "ctrl+cmd+o",
     "command": "workbench.action.addRootFolder"
   },
   {
@@ -1474,7 +1466,7 @@
     "command": "workbench.action.focusSideBar"
   },
   {
-    "key": "f3",
+    "key": "cmd+m",
     "when": "!terminalViewShowing",
     "command": "workbench.action.terminal.toggleTerminal"
   },
@@ -1485,7 +1477,7 @@
     "args": "task-close-terminal"
   },
   {
-    "key": "shift+f3",
+    "key": "cmd+m",
     "command": "workbench.action.terminal.focus"
   },
   {
@@ -1505,7 +1497,7 @@
     "command": "workbench.view.explorer"
   },
   {
-    "key": "ctrl+k g",
+    "key": "cmd+g",
     "command": "workbench.view.scm"
   },
   {
@@ -1555,11 +1547,11 @@
     "when": "editorTextFocus && vim.active"
   },
   {
-    "key": "ctrl+]",
-    "command": "editor.action.openLink"
+    "key": "cmd-j",
+    "command": "extension.goto-link-provider.open"
   },
   {
-    "key": "ctrl+[",
+    "key": "cmd+[",
     "command": "extension.goto-link-provider.back"
   },
   {
@@ -1605,11 +1597,44 @@
     "command": "-workbench.action.files.save"
   },
   {
-    "key": "cmd+j",
+    "key": "cmd+n",
     "command": "workbench.action.nextEditor"
   },
   {
     "key": "shift+cmd+]",
     "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "cmd+q",
+    "command": "workbench.action.closePanel"
+  },
+  {
+    "key": "cmd+j",
+    "command": "editor.action.openLink"
+  },
+  {
+    "key": "cmd+m",
+    "command": "-markdown.extension.editing.toggleMath",
+    "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+  },
+  {
+    "key": "cmd+u",
+    "command": "extension.vim_ctrl+u",
+    "when": "editorTextFocus && vim.active && vim.use<C-u> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "-extension.vim_ctrl+u",
+    "when": "editorTextFocus && vim.active && vim.use<C-u> && !inDebugRepl"
+  },
+  {
+    "key": "cmd+b",
+    "command": "extension.vim_ctrl+b",
+    "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-extension.vim_ctrl+b",
+    "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
   }
 ]
