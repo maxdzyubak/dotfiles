@@ -288,7 +288,7 @@
                         ],
                         "description": "Open -a 'Telegram.app'",
                         "from": {
-                          "key_code": "g",
+                          "key_code": "s",
                           "modifiers": {
                             "mandatory": ["any"]
                           }
@@ -354,7 +354,7 @@
                         ],
                         "description": "Open System Settings",
                         "from": {
-                          "key_code": "s",
+                          "key_code": "p",
                           "modifiers": {
                             "mandatory": ["any"]
                           }
