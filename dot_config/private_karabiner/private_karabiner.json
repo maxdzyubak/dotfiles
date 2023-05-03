@@ -76,7 +76,7 @@
                                 ],
                                 "description": "Toggle Hyper sublayer o",
                                 "from": {
-                                    "key_code": "o",
+                                    "key_code": "j",
                                     "modifiers": {
                                         "mandatory": [
                                             "right_command",
@@ -114,7 +114,7 @@
                                 ],
                                 "description": "Open -a 'Google Chrome.app'",
                                 "from": {
-                                    "key_code": "g",
+                                    "key_code": "d",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -138,7 +138,7 @@
                                 ],
                                 "description": "Open -a 'DeepL.app'",
                                 "from": {
-                                    "key_code": "d",
+                                    "key_code": "r",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -306,7 +306,7 @@
                                 ],
                                 "description": "Open -a 'Telegram.app'",
                                 "from": {
-                                    "key_code": "r",
+                                    "key_code": "g",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -402,7 +402,7 @@
                                 ],
                                 "description": "Open Apple Mail",
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "i",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -474,7 +474,7 @@
                                 ],
                                 "description": "Open ClipGrab",
                                 "from": {
-                                    "key_code": "i",
+                                    "key_code": "m",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -1115,7 +1115,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "i",
+                                    "key_code": "m",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
