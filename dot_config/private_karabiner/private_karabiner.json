@@ -630,29 +630,6 @@
                         ]
                       },
                       {
-                        "description": "Window: Last Third",
-                        "to": [
-                          {
-                            "key_code": "g",
-                            "modifiers": ["right_option", "right_control"]
-                          }
-                        ],
-                        "type": "basic",
-                        "from": {
-                          "key_code": "o",
-                          "modifiers": {
-                            "mandatory": ["any"]
-                          }
-                        },
-                        "conditions": [
-                          {
-                            "type": "variable_if",
-                            "name": "hyper_sublayer_w",
-                            "value": 1
-                          }
-                        ]
-                      },
-                      {
                         "description": "Window: Left Half",
                         "to": [
                           {
@@ -941,14 +918,37 @@
                         ]
                       },
                       {
-                        "description": "Window: Center Half",
+                        "description": "Window: Center Two Thirds",
                         "to": [
                           {
-                            "key_code": "0",
+                            "key_code": "q",
                             "modifiers": [
                               "right_option",
                               "right_command"
                             ]
+                          }
+                        ],
+                        "type": "basic",
+                        "from": {
+                          "key_code": "o",
+                          "modifiers": {
+                            "mandatory": ["any"]
+                          }
+                        },
+                        "conditions": [
+                          {
+                            "type": "variable_if",
+                            "name": "hyper_sublayer_w",
+                            "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "description": "Window: Center Half",
+                        "to": [
+                          {
+                            "key_code": "0",
+                            "modifiers": ["right_option", "right_command"]
                           }
                         ],
                         "type": "basic",
