@@ -6,7 +6,6 @@ export ZSH="$HOME/.oh-my-zsh"
 
 export MYVIMRC="~/.local/share/chezmoi/dot_vim/"
 
-
 curl -fLo ~/.local/share/chezmoi/dot_vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
@@ -17,7 +16,7 @@ source /Users/maxdzyubak/.ghcup/env
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="passion"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -89,7 +88,7 @@ fi
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git frontend-search fzf aliases react-native ruby iterm2 node npm rails redis-cli thefuck zsh-navigation-tools zsh-interactive-cd wd z web-search gulp git-prompt gitignore gitfast asdf)
+plugins=(git frontend-search fzf aliases react-native ruby iterm2 node npm rails redis-cli thefuck zsh-navigation-tools zsh-interactive-cd wd z web-search gulp gitignore gitfast asdf)
 
 source $ZSH/oh-my-zsh.sh
 
