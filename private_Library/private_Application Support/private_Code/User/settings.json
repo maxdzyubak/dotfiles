@@ -4,7 +4,7 @@
   "editor.fontSize": 16,
   "editor.lineHeight": 1.8,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "JetBrainsMono NerdFont, JetBrains Mono, Fira Code,  SF Mono, Martian Mono, Source Code Pro, Menlo, Monaco, monospace",
+  "editor.fontFamily": "JetBrainsMono NerdFont, JetBrains Mono",
   "editor.rulers": [78],
   "editor.lineNumbers": "off",
   "editor.guides.bracketPairs": "active",
@@ -64,6 +64,10 @@
     }
   ],
   "vim.normalModeKeyBindings": [
+    {
+      "before": ["m"],
+      "commands": ["editor.action.commentLine"]
+    },
     {
       "before": ["<Leader>", "/"],
       "commands": [":noh"]
@@ -130,7 +134,7 @@
       "silent": true
     },
     {
-      "before": ["m"],
+      "before": ["cmd", "b"],
       "commands": ["bookmarks.toggle"]
     },
     {
@@ -148,6 +152,10 @@
     {
       "before": ["<leader>", "n"],
       "commands": ["bookmarks.jumpToPrevious"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "commands": ["code-runner.run"]
     }
   ],
   "vim.handleKeys": {
@@ -223,7 +231,7 @@
     "title-require": true
   },
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.colorCustomizations": {
     "editorBracketHighlight.foreground1": "#FFAC00",
@@ -291,7 +299,6 @@
   "files.associations": {
     "*.xi": "xi"
   },
-  "window.zoomLevel": 1,
   "bookmarks.navigateThroughAllFiles": false,
   "bookmarks.gutterIconFillColor": "#157EFB",
   "bookmarks.gutterIconBorderColor": "#157EFB",
@@ -305,5 +312,5 @@
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "workbench.activityBar.visible": false
+  "window.zoomLevel": 1
 }
