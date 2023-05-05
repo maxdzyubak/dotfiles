@@ -18,7 +18,7 @@
     "when": "inDebugMode"
   },
   {
-    "key": "cmd+r",
+    "key": "cmd+d",
     "command": "workbench.action.focusActiveEditorGroup"
   },
   {
@@ -67,19 +67,9 @@
     "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
   },
   {
-    "key": "cmd+g",
-    "command": "workbench.view.scm",
-    "when": "workbench.scm.active"
-  },
-  {
     "key": "ctrl+shift+g",
     "command": "-workbench.view.scm",
     "when": "workbench.scm.active"
-  },
-  {
-    "key": "cmd+g",
-    "command": "workbench.view.scm",
-    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
   },
   {
     "key": "ctrl+shift+g",
@@ -157,7 +147,7 @@
     "when": "explorerViewletCompressedFocus && explorerViewletVisible && filesExplorerFocus && !explorerViewletCompressedFirstFocus && !inputFocus"
   },
   {
-    "key": "d",
+    "key": "t",
     "command": "moveFileToTrash",
     "when": "explorerResourceMoveableToTrash && explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
   },
@@ -167,7 +157,7 @@
     "when": "explorerResourceMoveableToTrash && explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
   },
   {
-    "key": "shift+alt+f",
+    "key": "ctrl+cmd+f",
     "command": "-filesExplorer.findInFolder",
     "when": "explorerResourceIsFolder && explorerViewletVisible && filesExplorerFocus && !inputFocus"
   },
@@ -490,10 +480,6 @@
     "command": "-welcome.showNewFileEntries"
   },
   {
-    "key": "ctrl+cmd+t",
-    "command": "workbench.action.files.newUntitledFile"
-  },
-  {
     "key": "cmd+q",
     "command": "-workbench.action.quit"
   },
@@ -548,7 +534,7 @@
     "when": "listFocus && !inputFocus"
   },
   {
-    "key": "cmd+d",
+    "key": "ctrl+d",
     "command": "extension.vim_ctrl+d"
   },
   {
@@ -652,17 +638,13 @@
     "when": "textInputFocus"
   },
   {
-    "key": "ctrl+f",
+    "key": "cmd+f",
     "command": "extension.vim_ctrl+f"
   },
   {
     "key": "ctrl+b",
     "command": "-cursorLeft",
     "when": "textInputFocus"
-  },
-  {
-    "key": "ctrl+cmd+j",
-    "command": "workbench.action.toggleCenteredLayout"
   },
   {
     "key": "alt+up",
@@ -815,11 +797,22 @@
     "when": "editorTextFocus && vim.active && vim.use<C-]> && !inDebugRepl"
   },
   {
-    "key": "ctrl+k r",
-    "command": "explorer.newFolder"
+    "key": "f",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
   },
   {
-    "key": "shift+cmd+k",
+    "key": "a",
+    "command": "favorites.addToFavorites",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "d",
+    "command": "favorites.deleteFavorite",
+    "when": "workbench.view.extension.favorites-explorer.defaultViewContainerLocation"
+  },
+  {
+    "key": "ctrl+shift+k",
     "command": "cursorColumnSelectUp",
     "when": "textInputFocus"
   },
@@ -829,7 +822,7 @@
     "when": "textInputFocus"
   },
   {
-    "key": "shift+cmd+j",
+    "key": "ctrl+shift+j",
     "command": "cursorColumnSelectDown",
     "when": "textInputFocus"
   },
@@ -1058,7 +1051,7 @@
     "when": "editorColumnSelection && textInputFocus"
   },
   {
-    "key": "shift+cmd+u",
+    "key": "ctrl+shift+u",
     "command": "cursorColumnSelectPageUp",
     "when": "textInputFocus"
   },
@@ -1068,7 +1061,7 @@
     "when": "textInputFocus"
   },
   {
-    "key": "shift+cmd+f",
+    "key": "ctrl+shift+f",
     "command": "cursorColumnSelectPageDown",
     "when": "textInputFocus"
   },
@@ -1147,10 +1140,6 @@
     "when": "listFocus && !inputFocus"
   },
   {
-    "key": "ctrl+cmd+n",
-    "command": "extension.advancedNewFile"
-  },
-  {
     "key": "alt+cmd+n",
     "command": "-extension.advancedNewFile"
   },
@@ -1211,11 +1200,6 @@
     "key": "cmd+o",
     "command": "-workbench.action.files.openFile",
     "when": "false"
-  },
-  {
-    "key": "shift+cmd+o",
-    "command": "workbench.action.files.openFolderViaWorkspace",
-    "when": "!openFolderWorkspaceSupport && workbenchState == 'workspace'"
   },
   {
     "key": "cmd+o",
@@ -1290,10 +1274,6 @@
     "key": "alt+cmd+k",
     "command": "-keybindings.editor.recordSearchKeys",
     "when": "inKeybindings && inKeybindingsSearch"
-  },
-  {
-    "key": "cmd+o",
-    "command": "workbench.action.toggleSidebarVisibility"
   },
   {
     "key": "ctrl+k ctrl+k",
@@ -1418,12 +1398,8 @@
     "when": "remoteFileDialogVisible"
   },
   {
-    "key": "ctrl+f",
+    "key": "shift+f",
     "command": "cursorRight"
-  },
-  {
-    "key": "ctrl+i",
-    "command": "editor.action.commentLine"
   },
   {
     "key": "ctrl+cmd+m",
@@ -1440,7 +1416,7 @@
     "when": "editorFocus"
   },
   {
-    "key": "ctrl+cmd+o",
+    "key": "cmd+o",
     "command": "workbench.action.addRootFolder"
   },
   {
@@ -1458,26 +1434,22 @@
     "command": "workbench.action.focusActiveEditorGroup"
   },
   {
-    "key": "f2",
+    "key": "cmd+m",
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "shift+f2",
-    "command": "workbench.action.focusSideBar"
-  },
-  {
-    "key": "cmd+m",
+    "key": "ctrl+shift+alt+cmd+3",
     "when": "!terminalViewShowing",
     "command": "workbench.action.terminal.toggleTerminal"
   },
   {
-    "key": "f3",
+    "key": "ctrl+shift+alt+cmd+3",
     "when": "terminalViewShowing",
     "command": "workbench.action.tasks.runTask",
     "args": "task-close-terminal"
   },
   {
-    "key": "cmd+m",
+    "key": "cmd+t",
     "command": "workbench.action.terminal.focus"
   },
   {
@@ -1493,10 +1465,6 @@
     "command": "workbench.action.addRootFolder"
   },
   {
-    "key": "ctrl+k e",
-    "command": "workbench.view.explorer"
-  },
-  {
     "key": "cmd+g",
     "command": "workbench.view.scm"
   },
@@ -1509,7 +1477,7 @@
     "command": "workbench.action.closeActiveEditor"
   },
   {
-    "key": "ctrl+k b",
+    "key": "cmd+b",
     "command": "bookmarks.toggle",
     "when": "editorTextFocus"
   },
@@ -1542,7 +1510,7 @@
     "command": "extension.xi.lookup"
   },
   {
-    "key": "cmd-f",
+    "key": "cmd+f",
     "command": "extension.vim_ctrl+f",
     "when": "editorTextFocus && vim.active"
   },
@@ -1567,7 +1535,7 @@
     "command": "workbench.action.files.openFile"
   },
   {
-    "key": "ctrl+n",
+    "key": "n",
     "command": "explorer.newFile",
     "when": "explorerViewletFocus"
   },
@@ -1589,7 +1557,7 @@
     "when": "!issues.creatingFromFile && resourceScheme == 'newIssue' && config.files.autoSave != 'off'"
   },
   {
-    "key": "ctrl+cmd+s",
+    "key": "alt+s",
     "command": "workbench.action.files.save"
   },
   {
@@ -1618,7 +1586,7 @@
     "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
   },
   {
-    "key": "cmd+u",
+    "key": "ctrl+u",
     "command": "extension.vim_ctrl+u",
     "when": "editorTextFocus && vim.active && vim.use<C-u> && !inDebugRepl"
   },
@@ -1628,7 +1596,7 @@
     "when": "editorTextFocus && vim.active && vim.use<C-u> && !inDebugRepl"
   },
   {
-    "key": "cmd+b",
+    "key": "ctrl+b",
     "command": "extension.vim_ctrl+b",
     "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
   },
@@ -1636,5 +1604,65 @@
     "key": "ctrl+b",
     "command": "-extension.vim_ctrl+b",
     "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
+  },
+  {
+    "key": "cmd+/",
+    "command": "-toggleExplainMode",
+    "when": "suggestWidgetVisible"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "d",
+    "command": "deleteFile",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "alt+cmd+backspace",
+    "command": "-deleteFile",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "ctrl+cmd+f",
+    "command": "-workbench.action.toggleFullScreen",
+    "when": "!isIOS"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "filesExplorer.findInFolder",
+    "when": "explorerResourceIsFolder && filesExplorerFocus && foldersViewVisible && !inputFocus"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "-filesExplorer.findInFolder",
+    "when": "explorerResourceIsFolder && filesExplorerFocus && foldersViewVisible && !inputFocus"
+  },
+  {
+    "key": "alt+cmd+0",
+    "command": "-workbench.action.toggleEditorGroupLayout"
+  },
+  {
+    "key": "alt+cmd+j",
+    "command": "-editor.action.insertSnippet",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'powershell'"
+  },
+  {
+    "key": "ctrl+cmd+f",
+    "command": "workbench.action.toggleCenteredLayout"
+  },
+  {
+    "key": "cmd+k r",
+    "command": "workbench.action.removeRootFolder"
+  },
+  {
+    "key": "cmd+8",
+    "command": "-workbench.action.focusEighthEditorGroup"
+  },
+  {
+    "key": "cmd+r",
+    "command": "workbench.view.extension.favorites-explorer"
   }
 ]
