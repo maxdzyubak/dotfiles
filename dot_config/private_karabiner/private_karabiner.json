@@ -76,7 +76,7 @@
                                 ],
                                 "description": "Toggle Hyper sublayer o",
                                 "from": {
-                                    "key_code": "j",
+                                    "key_code": "k",
                                     "modifiers": {
                                         "mandatory": [
                                             "right_command",
@@ -498,7 +498,7 @@
                                 ],
                                 "description": "Open Karabiner",
                                 "from": {
-                                    "key_code": "k",
+                                    "key_code": "j",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -1627,7 +1627,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "i",
+                                    "key_code": "",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -1654,7 +1654,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "o",
+                                    "key_code": "i",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -1787,7 +1787,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_shift"
+                                        "key_code": "right_shift"
                                     }
                                 ],
                                 "to_if_alone": [
@@ -2378,7 +2378,7 @@
                     },
                     "to": [
                         {
-                            "apple_vendor_keyboard_key_code": "mission_control"
+                            "key_code": "f3"
                         }
                     ]
                 },
@@ -2388,7 +2388,7 @@
                     },
                     "to": [
                         {
-                            "apple_vendor_keyboard_key_code": "spotlight"
+                            "key_code": "f4"
                         }
                     ]
                 },
@@ -2398,7 +2398,7 @@
                     },
                     "to": [
                         {
-                            "consumer_key_code": "dictation"
+                            "key_code": "f5"
                         }
                     ]
                 },
@@ -2418,7 +2418,7 @@
                     },
                     "to": [
                         {
-                            "consumer_key_code": "rewind"
+                            "key_code": "f7"
                         }
                     ]
                 },
@@ -2438,7 +2438,7 @@
                     },
                     "to": [
                         {
-                            "consumer_key_code": "fast_forward"
+                            "key_code": "f9"
                         }
                     ]
                 },
@@ -2481,21 +2481,31 @@
             "simple_modifications": [
                 {
                     "from": {
-                        "key_code": "semicolon"
-                    },
-                    "to": [
-                        {
-                            "key_code": "return_or_enter"
-                        }
-                    ]
-                },
-                {
-                    "from": {
                         "key_code": "quote"
                     },
                     "to": [
                         {
                             "key_code": "semicolon"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "key_code": "return_or_enter"
+                    },
+                    "to": [
+                        {
+                            "key_code": "quote"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "key_code": "semicolon"
+                    },
+                    "to": [
+                        {
+                            "key_code": "return_or_enter"
                         }
                     ]
                 },
@@ -2511,11 +2521,11 @@
                 },
                 {
                     "from": {
-                        "key_code": "return_or_enter"
+                        "key_code": "left_shift"
                     },
                     "to": [
                         {
-                            "key_code": "quote"
+                            "key_code": "f13"
                         }
                     ]
                 }
