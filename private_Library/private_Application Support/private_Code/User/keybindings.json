@@ -809,7 +809,7 @@
   {
     "key": "d",
     "command": "favorites.deleteFavorite",
-    "when": "workbench.view.extension.favorites-explorer.defaultViewContainerLocation"
+    "when": "workbench.view.extension.favorites-explorer.defaultViewContainerLocation && !inputFocus"
   },
   {
     "key": "ctrl+shift+k",
@@ -1537,7 +1537,7 @@
   {
     "key": "n",
     "command": "explorer.newFile",
-    "when": "explorerViewletFocus"
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
   },
 
   // end grigoryvp
