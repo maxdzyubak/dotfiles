@@ -1800,27 +1800,6 @@
                         ]
                     },
                     {
-                        "description": "Use left shift to Change to/from English input. （Need to enable MacOS built in Option: Use the Caps Lock Key to switch to and from ABC.）",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "left_shift"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_shift"
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "caps_lock"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "Mouse keys (full) (rev 4)",
                         "manipulators": [
                             {
@@ -2481,6 +2460,16 @@
             "simple_modifications": [
                 {
                     "from": {
+                        "key_code": "left_shift"
+                    },
+                    "to": [
+                        {
+                            "key_code": "f13"
+                        }
+                    ]
+                },
+                {
+                    "from": {
                         "key_code": "quote"
                     },
                     "to": [
@@ -2501,6 +2490,16 @@
                 },
                 {
                     "from": {
+                        "key_code": "right_option"
+                    },
+                    "to": [
+                        {
+                            "key_code": "f14"
+                        }
+                    ]
+                },
+                {
+                    "from": {
                         "key_code": "semicolon"
                     },
                     "to": [
@@ -2516,16 +2515,6 @@
                     "to": [
                         {
                             "key_code": "left_control"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "left_shift"
-                    },
-                    "to": [
-                        {
-                            "key_code": "f13"
                         }
                     ]
                 }
