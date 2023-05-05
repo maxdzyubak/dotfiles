@@ -1627,7 +1627,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "",
+                                    "key_code": "i",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -1654,7 +1654,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "i",
+                                    "key_code": "o",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -1767,32 +1767,6 @@
                                 "to_if_alone": [
                                     {
                                         "key_code": "tab"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Change spacebar to left_shift. (Post spacebar if pressed alone)",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "spacebar",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "right_shift"
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "spacebar"
                                     }
                                 ],
                                 "type": "basic"
@@ -2460,16 +2434,6 @@
             "simple_modifications": [
                 {
                     "from": {
-                        "key_code": "left_shift"
-                    },
-                    "to": [
-                        {
-                            "key_code": "f13"
-                        }
-                    ]
-                },
-                {
-                    "from": {
                         "key_code": "quote"
                     },
                     "to": [
@@ -2490,16 +2454,6 @@
                 },
                 {
                     "from": {
-                        "key_code": "right_option"
-                    },
-                    "to": [
-                        {
-                            "key_code": "grave_accent_and_tilde"
-                        }
-                    ]
-                },
-                {
-                    "from": {
                         "key_code": "semicolon"
                     },
                     "to": [
@@ -2515,16 +2469,6 @@
                     "to": [
                         {
                             "key_code": "left_control"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "grave_accent_and_tilde"
-                    },
-                    "to": [
-                        {
-                            "key_code": "f14"
                         }
                     ]
                 }
