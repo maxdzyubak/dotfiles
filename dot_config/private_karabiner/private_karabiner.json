@@ -49,7 +49,7 @@
                         ]
                     },
                     {
-                        "description": "Hyper Key sublayer \"o\"",
+                        "description": "Hyper Key sublayer Open \"o\"",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -515,7 +515,7 @@
                         ]
                     },
                     {
-                        "description": "Hyper Key sublayer \"w\"",
+                        "description": "Hyper Key sublayer Window \"w\"",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -776,7 +776,7 @@
                                 ],
                                 "description": "Window: Previous Tab",
                                 "from": {
-                                    "key_code": "u",
+                                    "key_code": "i",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -804,7 +804,7 @@
                                 ],
                                 "description": "Window: Next Tab",
                                 "from": {
-                                    "key_code": "i",
+                                    "key_code": "o",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -1024,7 +1024,7 @@
                                 ],
                                 "description": "Window: Center Two Thirds",
                                 "from": {
-                                    "key_code": "o",
+                                    "key_code": "u",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -1129,7 +1129,7 @@
                         ]
                     },
                     {
-                        "description": "Hyper Key sublayer \"s\"",
+                        "description": "Hyper Key sublayer Settings \"s\"",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1471,7 +1471,7 @@
                         ]
                     },
                     {
-                        "description": "Hyper Key sublayer \"v\"",
+                        "description": "Hyper Key sublayer Move \"v\"",
                         "manipulators": [
                             {
                                 "conditions": [
