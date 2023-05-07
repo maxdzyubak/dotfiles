@@ -511,6 +511,28 @@
                                     }
                                 ],
                                 "type": "basic"
+                            },
+                            {
+                              "conditions": [
+                                {
+                                  "name": "hyper_sublayer_o",
+                                  "type": "variable_if",
+                                  "value": 1
+                                }
+                              ],
+                              "description": "Open Karabiner",
+                              "from": {
+                                "key_code": "v",
+                                "modifiers": {
+                                  "mandatory": ["any"]
+                                }
+                              },
+                              "to": [
+                                {
+                                  "shell_command": "open -a 'Todoist.app'"
+                                }
+                              ],
+                              "type": "basic"
                             }
                         ]
                     },
