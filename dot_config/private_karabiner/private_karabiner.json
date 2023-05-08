@@ -328,7 +328,7 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open https://web.whatsapp.com",
+                                "description": "Open WhatsApp app",
                                 "from": {
                                     "key_code": "w",
                                     "modifiers": {
@@ -339,7 +339,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open https://web.whatsapp.com"
+                                        "shell_command": "open -a 'Whatsapp.app'"
                                     }
                                 ],
                                 "type": "basic"
