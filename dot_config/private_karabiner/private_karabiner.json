@@ -800,7 +800,7 @@
                                 ],
                                 "description": "Window: Full Screen",
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "f",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -809,7 +809,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "0",
+                                        "key_code": "f",
                                         "modifiers": [
                                             "left_option",
                                             "left_control"
