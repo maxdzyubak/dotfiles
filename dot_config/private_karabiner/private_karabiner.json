@@ -513,26 +513,28 @@
                                 "type": "basic"
                             },
                             {
-                              "conditions": [
-                                {
-                                  "name": "hyper_sublayer_o",
-                                  "type": "variable_if",
-                                  "value": 1
-                                }
-                              ],
-                              "description": "Open Karabiner",
-                              "from": {
-                                "key_code": "v",
-                                "modifiers": {
-                                  "mandatory": ["any"]
-                                }
-                              },
-                              "to": [
-                                {
-                                  "shell_command": "open -a 'Todoist.app'"
-                                }
-                              ],
-                              "type": "basic"
+                                "conditions": [
+                                    {
+                                        "name": "hyper_sublayer_o",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "description": "Open Karabiner",
+                                "from": {
+                                    "key_code": "v",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Todoist.app'"
+                                    }
+                                ],
+                                "type": "basic"
                             }
                         ]
                     },
@@ -768,7 +770,7 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Window: Full Screen",
+                                "description": "Window: Maximize Screen",
                                 "from": {
                                     "key_code": "f",
                                     "modifiers": {
@@ -783,6 +785,34 @@
                                         "modifiers": [
                                             "right_option",
                                             "right_command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_sublayer_w",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "description": "Window: Full Screen",
+                                "from": {
+                                    "key_code": "m",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "0",
+                                        "modifiers": [
+                                            "left_option",
+                                            "left_control"
                                         ]
                                     }
                                 ],
