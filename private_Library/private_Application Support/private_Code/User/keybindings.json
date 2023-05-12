@@ -812,7 +812,7 @@
     "when": "workbench.view.extension.favorites-explorer.defaultViewContainerLocation && !inputFocus"
   },
   {
-    "key": "ctrl+shift+k",
+    "key": "shift+cmd+k",
     "command": "cursorColumnSelectUp",
     "when": "textInputFocus"
   },
@@ -822,7 +822,7 @@
     "when": "textInputFocus"
   },
   {
-    "key": "ctrl+shift+j",
+    "key": "shift+cmd+j",
     "command": "cursorColumnSelectDown",
     "when": "textInputFocus"
   },
@@ -1051,7 +1051,7 @@
     "when": "editorColumnSelection && textInputFocus"
   },
   {
-    "key": "ctrl+shift+u",
+    "key": "shift+cmd+u",
     "command": "cursorColumnSelectPageUp",
     "when": "textInputFocus"
   },
@@ -1061,7 +1061,7 @@
     "when": "textInputFocus"
   },
   {
-    "key": "ctrl+shift+f",
+    "key": "shift+cmd+f",
     "command": "cursorColumnSelectPageDown",
     "when": "textInputFocus"
   },
@@ -1368,7 +1368,7 @@
     "command": "-workbench.action.replaceInFiles"
   },
   {
-    "key": "shift+cmd+h",
+    "key": "ctrl+cmd+h",
     "command": "workbench.actions.view.problems",
     "when": "workbench.panel.markers.view.active"
   },
@@ -1398,7 +1398,7 @@
     "when": "remoteFileDialogVisible"
   },
   {
-    "key": "shift+f",
+    "key": "ctrl+f",
     "command": "cursorRight"
   },
   {
@@ -1475,11 +1475,6 @@
   {
     "key": "ctrl+w",
     "command": "workbench.action.closeActiveEditor"
-  },
-  {
-    "key": "cmd+b",
-    "command": "bookmarks.toggle",
-    "when": "editorTextFocus"
   },
   {
     "key": "ctrl+;",
@@ -1664,5 +1659,14 @@
   {
     "key": "cmd+r",
     "command": "workbench.view.extension.favorites-explorer"
+  },
+  {
+    "key": "cmd+b",
+    "command": "bookmarks.toggle"
+  },
+  {
+    "key": "d",
+    "command": "removeRootFolder",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
   }
 ]
