@@ -474,7 +474,7 @@
                                 ],
                                 "description": "Open ClipGrab",
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "3",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -498,7 +498,7 @@
                                 ],
                                 "description": "Open Karabiner",
                                 "from": {
-                                    "key_code": "j",
+                                    "key_code": "m",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -535,6 +535,28 @@
                                     }
                                 ],
                                 "type": "basic"
+                            },
+                            {
+                              "conditions": [
+                                {
+                                  "name": "hyper_sublayer_o",
+                                  "type": "variable_if",
+                                  "value": 1
+                                }
+                              ],
+                              "description": "Open Clock",
+                              "from": {
+                                "key_code": "j",
+                                "modifiers": {
+                                  "mandatory": ["any"]
+                                }
+                              },
+                              "to": [
+                                {
+                                  "shell_command": "open -a 'Clock.app'"
+                                }
+                              ],
+                              "type": "basic"
                             }
                         ]
                     },
