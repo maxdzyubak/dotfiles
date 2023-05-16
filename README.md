@@ -1,17 +1,25 @@
-# ![chezmoi logo](logo.svg) chezmoi
-
-[![GitHub Release](https://img.shields.io/github/release/twpayne/chezmoi.svg)](https://github.com/twpayne/chezmoi/releases)
-
+## About
 Manage your dotfiles across multiple diverse machines, securely.
 
-chezmoi's documentation is at [chezmoi.io](https://chezmoi.io/).
+## Documentation
+[chezmoi.io](https://chezmoi.io/)
 
-## Contributors
+## Install
+```
+sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply maxdzyubak
+```
+## Update
+```
+chezmoi update
+```
 
-<a href="https://github.com/twpayne/chezmoi/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=twpayne/chezmoi" />
-</a>
-
+### My list of tools
+#### Vim
+* [official site](https://www.vim.org/)
+* [my config](https://github.com/maxdzyubak/dotfiles/tree/main/dot_vim)
+#### Ohmyzsh
+* [official site](https://ohmyz.sh/)
+* [official github](https://github.com/ohmyzsh/ohmyzsh)
+* [my config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_zshrc)
 ## License
-
 MIT
