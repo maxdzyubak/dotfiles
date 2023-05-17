@@ -14,10 +14,11 @@ or go to
 ```
 chezmoi update
 ```
-## List of tools
-### Vim
-* [vim.org](https://www.vim.org/)
-* [my config](https://github.com/maxdzyubak/dotfiles/tree/main/dot_vim)
+## Using tools
+|  | Name | Site | GitHub | My config |
+|----| ---- | ---- | ------ | --------- |
+|![](assets/img/vim.png)| Vim |[vim.org](https://www.vim.org/)| | [my config](https://github.com/maxdzyubak/dotfiles/tree/main/dot_vim) |
+
 ### Ohmyzsh
 * [ohmyz.sh](https://ohmyz.sh/)
 * [github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
