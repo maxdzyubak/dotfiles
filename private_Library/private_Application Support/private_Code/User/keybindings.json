@@ -1514,10 +1514,6 @@
     "command": "extension.goto-link-provider.open"
   },
   {
-    "key": "cmd+[",
-    "command": "extension.goto-link-provider.back"
-  },
-  {
     "key": "ctrl+8",
     "command": "workbench.action.focusActiveEditorGroup"
   },
@@ -1668,5 +1664,15 @@
     "key": "d",
     "command": "removeRootFolder",
     "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "cmd+[",
+    "command": "workbench.action.quickInputBack",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "-workbench.action.quickInputBack",
+    "when": "inQuickOpen"
   }
 ]
