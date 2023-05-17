@@ -17,7 +17,7 @@ chezmoi update
 ## Using tools
 |  | Name | Site | GitHub | My config |
 |----| ---- | ---- | ------ | --------- |
-|![](assets/img/vim.png)| Vim |[vim.org](https://www.vim.org/)| | [my config](https://github.com/maxdzyubak/dotfiles/tree/main/dot_vim) |
+|![](assets/img/vim.svg)| Vim |[vim.org](https://www.vim.org/)| | [my config](https://github.com/maxdzyubak/dotfiles/tree/main/dot_vim) |
 
 ### Ohmyzsh
 * [ohmyz.sh](https://ohmyz.sh/)
