@@ -10,7 +10,7 @@ sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply maxdzyubak
 ```
 or go to
 [chezmoi.io/install](https://www.chezmoi.io/install/)
-## Update
+## Updating your dotfiles on any machine is a single command:
 ```
 chezmoi update
 ```
