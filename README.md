@@ -19,7 +19,7 @@ chezmoi update
 | --- | :--- | ---- | ------ | :---- |
 |![](assets/img/vim.svg)| Vim |[vim.org](https://www.vim.org/)| | [config](https://github.com/maxdzyubak/dotfiles/tree/main/dot_vim) |
 |![](assets/img/ohmyzsh.svg)| Ohmyzsh | [ohmyz.sh](https://ohmyz.sh/) | [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_zshrc) |
-|![](assets/img/vim.svg)| VSCode | [code.visualstudio.com](https://code.visualstudio.com/) | [vscode](https://github.com/Microsoft/vscode/) | [config](https://github.com/maxdzyubak/dotfiles/tree/main/private_Library/private_Application%20Support/private_Code/User) |
+|![](assets/img/vscode.svg)| VSCode | [code.visualstudio.com](https://code.visualstudio.com/) | [vscode](https://github.com/Microsoft/vscode/) | [config](https://github.com/maxdzyubak/dotfiles/tree/main/private_Library/private_Application%20Support/private_Code/User) |
 |![](assets/img/vim.svg)| iTerm2 | [iterm2.com](https://iterm2.com/) | [iTerm2](https://github.com/gnachman/iTerm2) | [config](https://github.com/maxdzyubak/dotfiles/tree/main/iterm2) |
 |![](assets/img/vim.svg)| Karabiner | [karabiner-elements.pqrs.org](https://karabiner-elements.pqrs.org/) | [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_config/private_karabiner/private_karabiner.json) |
 |![](assets/img/vim.svg)| Raycast | [raycast.com](https://www.raycast.com/) | [raycast](https://github.com/raycast) | [config](https://github.com/maxdzyubak/dotfiles/tree/main/dot_config/raycast) |
