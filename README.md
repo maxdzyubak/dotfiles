@@ -8,6 +8,8 @@ Manage your dotfiles across multiple diverse machines, securely.
 ```
 sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply maxdzyubak
 ```
+or go to
+[chezmoi.io/install](https://www.chezmoi.io/install/)
 ## Update
 ```
 chezmoi update
