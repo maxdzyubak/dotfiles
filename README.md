@@ -24,6 +24,6 @@ chezmoi update
 |![](assets/img/karabiner.svg)| Karabiner | [karabiner-elements.pqrs.org](https://karabiner-elements.pqrs.org/) | [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_config/private_karabiner/private_karabiner.json) |
 |![](assets/img/raycast.svg)| Raycast | [raycast.com](https://www.raycast.com/) | [raycast](https://github.com/raycast) | [config](https://github.com/maxdzyubak/dotfiles/tree/main/dot_config/raycast) |
 |![](assets/img/homerow.svg)| Homerow.app | [homerow.app](https://www.homerow.app/) | [homerow](https://github.com/dexterleng/homerow) |
-|![](assets/img/vim.svg)| Rectangleapp/pro | [rectangleapp.com/pro](https://rectangleapp.com/pro) | [RectanglePro](https://github.com/rxhanson/RectanglePro-Community) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_config/RectangleProConfig.json) |
+|![](assets/img/rectanglepro.svg)| Rectangleapp/pro | [rectangleapp.com/pro](https://rectangleapp.com/pro) | [RectanglePro](https://github.com/rxhanson/RectanglePro-Community) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_config/RectangleProConfig.json) |
 ## License
 MIT
