@@ -179,7 +179,6 @@
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 0,
   "editor.tabSize": 2,
-  "emmet.triggerExpansionOnTab": true,
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
@@ -312,5 +311,7 @@
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showExpandedAbbreviation": "never",
 }
