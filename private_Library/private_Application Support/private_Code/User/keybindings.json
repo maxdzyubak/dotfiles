@@ -1661,11 +1661,6 @@
     "command": "bookmarks.toggle"
   },
   {
-    "key": "d",
-    "command": "removeRootFolder",
-    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
-  },
-  {
     "key": "cmd+[",
     "command": "workbench.action.quickInputBack",
     "when": "inQuickOpen"
@@ -1688,5 +1683,10 @@
     "key": "tab",
     "command": "-editor.emmet.action.expandAbbreviation",
     "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+  },
+  {
+    "key": "d",
+    "command": "removeRootFolder",
+    "when": "explorerResourceIsFolder && filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
   }
 ]
