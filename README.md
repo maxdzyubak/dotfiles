@@ -26,4 +26,4 @@ chezmoi update
 |![](assets/img/homerow.svg)| Homerow.app | [homerow.app](https://www.homerow.app/) | [homerow](https://github.com/dexterleng/homerow) |
 |![](assets/img/rectanglepro.svg)| Rectangleapp/pro | [rectangleapp.com/pro](https://rectangleapp.com/pro) | [RectanglePro](https://github.com/rxhanson/RectanglePro-Community) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_config/RectangleProConfig.json) |
 ## License
-MIT
+[MIT](https://opensource.org/license/mit/)
