@@ -33,7 +33,7 @@
                                     {
                                         "key_code": "right_shift",
                                         "modifiers": [
-                                            "right_command",
+                                            "left_command",
                                             "right_control",
                                             "right_option"
                                         ]
@@ -79,7 +79,7 @@
                                     "key_code": "k",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_command",
+                                            "left_command",
                                             "right_control",
                                             "right_shift",
                                             "right_option"
@@ -537,26 +537,28 @@
                                 "type": "basic"
                             },
                             {
-                              "conditions": [
-                                {
-                                  "name": "hyper_sublayer_o",
-                                  "type": "variable_if",
-                                  "value": 1
-                                }
-                              ],
-                              "description": "Open Clock",
-                              "from": {
-                                "key_code": "j",
-                                "modifiers": {
-                                  "mandatory": ["any"]
-                                }
-                              },
-                              "to": [
-                                {
-                                  "shell_command": "open -a 'Clock.app'"
-                                }
-                              ],
-                              "type": "basic"
+                                "conditions": [
+                                    {
+                                        "name": "hyper_sublayer_o",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "description": "Open Clock",
+                                "from": {
+                                    "key_code": "j",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Clock.app'"
+                                    }
+                                ],
+                                "type": "basic"
                             }
                         ]
                     },
@@ -591,7 +593,7 @@
                                     "key_code": "e",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_command",
+                                            "left_command",
                                             "right_control",
                                             "right_shift",
                                             "right_option"
@@ -1233,7 +1235,7 @@
                                     "key_code": "d",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_command",
+                                            "left_command",
                                             "right_control",
                                             "right_shift",
                                             "right_option"
@@ -1575,7 +1577,7 @@
                                     "key_code": "f",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_command",
+                                            "left_command",
                                             "right_control",
                                             "right_shift",
                                             "right_option"
@@ -1848,7 +1850,7 @@
                         ]
                     },
                     {
-                        "description": "Mouse keys (full) (rev 4)",
+                        "description": "Mouse full emulation with right command super fast",
                         "manipulators": [
                             {
                                 "from": {
