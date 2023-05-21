@@ -2547,6 +2547,16 @@
                             "key_code": "left_control"
                         }
                     ]
+                },
+                {
+                    "from": {
+                        "key_code": "right_option"
+                    },
+                    "to": [
+                        {
+                            "key_code": "delete_forward"
+                        }
+                    ]
                 }
             ],
             "virtual_hid_keyboard": {
