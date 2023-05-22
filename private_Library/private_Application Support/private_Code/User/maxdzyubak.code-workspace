@@ -1,0 +1,34 @@
+{
+  "folders": [
+	{
+		"path": "../hub"
+	},
+	{
+		"path": "../fork/git-cheatsheet"
+	},
+	{
+		"path": "../js/test-js"
+	}
+],
+  "settings": {
+    "favorites.resources": [
+      {
+        "filePath": "/Users/maxdzyubak/js/test-js/arrayReverse.js",
+        "group": "Default"
+      },
+      {
+        "filePath": "/Users/maxdzyubak/js/test-js/getMirrorMatrix.js",
+        "group": "Default"
+      },
+      {
+        "filePath": "/Users/maxdzyubak/.config/karabiner/karabiner.json",
+        "group": "Default"
+      },
+      {
+        "filePath": "/Users/maxdzyubak/.zshrc",
+        "group": "Default"
+      }
+    ],
+    "liveServer.settings.multiRootWorkspaceName": null
+  }
+}
