@@ -51,6 +51,7 @@ export GIT_RADAR_COLOR_CHANGES_UNTRACKED="$fg[red]"
 
 # Aliases
 alias cpwd="pwd|pbcopy"
+alias a="code --add"
 alias ls="lsd"
 alias l='ls -la'
 alias la="ls -a"
