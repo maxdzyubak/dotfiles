@@ -27,7 +27,6 @@ if [ -d "/usr/local/opt/ruby/bin" ]; then
   export PATH=`gem environment gemdir`/bin:$PATH
 fi
 
-
 plugins=(git frontend-search fzf aliases react-native ruby iterm2 node npm rails redis-cli thefuck zsh-navigation-tools zsh-interactive-cd wd z web-search gulp gitignore gitfast asdf)
 
 source $ZSH/oh-my-zsh.sh
@@ -38,17 +37,17 @@ fi
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# bat
+export BAT_THEME="Dracula"
+
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
 
 # git-radar settings
 export PROMPT="$PROMPT\$(git-radar --zsh --fetch) "
 export GIT_RADAR_FORMAT="%{stash}%{remote}%{local}%{changes}"
-export GIT_RADAR_FETCH_TIME=30
+export GIT_RADAR_FETCH_TIME=20
 export GIT_RADAR_COLOR_CHANGES_UNTRACKED="$fg[red]"
-
-# bat
-export BAT_THEME="Dracula"
 
 # Aliases
 alias cpwd="pwd|pbcopy"
@@ -56,11 +55,15 @@ alias ls="lsd"
 alias l='ls -la'
 alias la="ls -a"
 alias lt="ls --tree"
-alias e="exa --oneline --all --icons"
-alias ed="exa --oneline --all --only-dirs --icons"
+alias e="exa --tree --level=1 --group-directories-first --all --icons"
+alias ee="exa --group-directories-first --all --icons"
+alias ed="exa --all --only-dirs --icons"
+alias edt="exa --tree --level=1 --all --only-dirs --icons"
 alias et="exa --tree --all --icons"
 alias e2="exa --tree --level=2 --all --icons"
 alias e3="exa --tree --level=3 --all --icons"
 alias e4="exa --tree --level=4 --all --icons"
-alias er="exa --oneline --reverse -all --icons"
-alias fc="fig run gc"
+alias er="exa --tree --level=1 --reverse --all --icons"
+alias ff="fig run gc"
+alias fc="fig run commit-m"
+alias fcc="fig run commit"
