@@ -17,7 +17,7 @@ chezmoi update
 ## Using tools
 | | Name | Site | GitHub Repo | My config |
 | --- | :--- | ---- | ------ | :---- |
-|![](assets/img/vim.svg)| Vim |[vim.org](https://www.vim.org/)| | [config](https://github.com/maxdzyubak/dotfiles/tree/main/dot_vim) |
+|![](assets/img/vim.svg)| Vim |[vim.org](https://www.vim.org/)| [vim/vim](https://github.com/vim/vim) | [config](https://github.com/maxdzyubak/dotfiles/tree/main/dot_vim) |
 |![](assets/img/brew.svg)| Homebrew | [brew.sh](https://brew.sh/]) | [brew](https://github.com/Homebrew/brew) |  |
 |![](assets/img/ohmyzsh.svg)| Ohmyzsh | [ohmyz.sh](https://ohmyz.sh/) | [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_zshrc) |
 |![](assets/img/vscode.svg)| VSCode | [code.visualstudio.com](https://code.visualstudio.com/) | [vscode](https://github.com/Microsoft/vscode/) | [config](https://github.com/maxdzyubak/dotfiles/tree/main/private_Library/private_Application%20Support/private_Code/User) |
