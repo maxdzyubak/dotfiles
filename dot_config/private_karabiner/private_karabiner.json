@@ -114,7 +114,7 @@
                                 ],
                                 "description": "Open -a 'Google Chrome.app'",
                                 "from": {
-                                    "key_code": "d",
+                                    "key_code": "g",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -234,7 +234,7 @@
                                 ],
                                 "description": "Open -a 'iTerm2.app'",
                                 "from": {
-                                    "key_code": "j",
+                                    "key_code": "d",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -282,7 +282,7 @@
                                 ],
                                 "description": "Open -a 'Figma.app'",
                                 "from": {
-                                    "key_code": "g",
+                                    "key_code": "j",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
