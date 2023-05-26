@@ -4,7 +4,7 @@
   "editor.fontSize": 16,
   "editor.lineHeight": 1.8,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "JetBrainsMono NerdFont, JetBrains Mono",
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono, JetBrains Mono",
   "editor.rulers": [78],
   "editor.lineNumbers": "off",
   "editor.guides.bracketPairs": "active",
@@ -246,9 +246,9 @@
   },
 
   "editor.quickSuggestions": {
-    "other": false,
-    "comments": false,
-    "strings": false
+    "other": true,
+    "comments": true,
+    "strings": true
   },
   "editor.suggest.showFolders": true,
   "editor.acceptSuggestionOnCommitCharacter": true,
@@ -260,13 +260,13 @@
   "editor.suggest.preview": false,
   "editor.suggest.showVariables": true,
   "editor.wordBasedSuggestions": true,
-  "editor.parameterHints.enabled": false,
-  "editor.parameterHints.cycle": false,
+  "editor.parameterHints.enabled": true,
+  "editor.parameterHints.cycle": true,
   "editor.suggest.snippetsPreventQuickSuggestions": true,
   "editor.snippetSuggestions": "none",
   "html.suggest.html5": false,
-  "javascript.suggest.enabled": false,
-  "javascript.inlayHints.enumMemberValues.enabled": false,
+  "javascript.suggest.enabled": true,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
   "javascript.inlayHints.parameterNames.enabled": "all",
   "typescript.inlayHints.parameterNames.enabled": "all",
   "editor.suggest.showProperties": true,
@@ -288,7 +288,6 @@
   "ecsstractor_port.add_comment": false,
   "ecsstractor_port.empty_line_before_nested_selector": false,
   "editor.bracketPairColorization.enabled": true,
-  "workbench.colorTheme": "grigoryvp memory theme",
   "editor.tabCompletion": "on",
   "vsintellicode.modify.editor.suggestSelection": "disabled",
   "gitlens.advanced.blame.customArguments": [],
@@ -314,4 +313,10 @@
   "window.zoomLevel": 1,
   "emmet.triggerExpansionOnTab": true,
   "emmet.showExpandedAbbreviation": "never",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "workbench.colorTheme": "grigoryvp memory theme",
+  "terminal.integrated.tabs.location": "left",
+  "terminal.integrated.tabs.enabled": false
 }
