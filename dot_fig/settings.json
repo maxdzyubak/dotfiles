@@ -1,0 +1,23 @@
+{
+  "app.hideMenubarIcon": true,
+  "app.preferredTerminal": "iTerm2",
+  "autocomplete.ai.enabled": true,
+  "autocomplete.disable": false,
+  "autocomplete.firstTokenCompletion": false,
+  "autocomplete.fontFamily": "JetBrains Mono",
+  "autocomplete.fontSize": 33,
+  "autocomplete.fuzzySearch": true,
+  "autocomplete.height": 500,
+  "autocomplete.hidePreviewWindow": true,
+  "autocomplete.immediatelyExecuteAfterSpace": true,
+  "autocomplete.immediatelyRunDangerousCommands": true,
+  "autocomplete.immediatelyRunGitAliases": false,
+  "autocomplete.keybindings.enter": "insertSelected",
+  "autocomplete.keybindings.tab": "insertCommonPrefixOrNavigateDown",
+  "autocomplete.onlyShowOnTab": false,
+  "autocomplete.personalShortcutsToken": "",
+  "autocomplete.preferVerboseSuggestions": true,
+  "autocomplete.scrollWrapAround": true,
+  "autocomplete.theme": "dracula",
+  "autocomplete.width": 700
+}
