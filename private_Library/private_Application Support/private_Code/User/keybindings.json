@@ -614,7 +614,7 @@
     "command": "workbench.view.extensions"
   },
   {
-    "key": "ctrl+cmd+r",
+    "key": "cmd+r",
     "command": "editor.action.startFindReplaceAction",
     "when": "editorFocus || editorIsOpen"
   },
@@ -1653,7 +1653,7 @@
     "command": "-workbench.action.focusEighthEditorGroup"
   },
   {
-    "key": "cmd+r",
+    "key": "cmd+y",
     "command": "workbench.view.extension.favorites-explorer"
   },
   {
@@ -1688,5 +1688,54 @@
     "key": "d",
     "command": "removeRootFolder",
     "when": "explorerResourceIsFolder && filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "ctrl+alt+o",
+    "command": "extension.gist.open"
+  },
+  {
+    "key": "ctrl+alt+o",
+    "command": "-extension.gist.open"
+  },
+  {
+    "key": "ctrl+alt+a ctrl+alt+a",
+    "command": "-extension.gist.add"
+  },
+  {
+    "key": "shift+alt+o",
+    "command": "extension.gist.openFavorite"
+  },
+  {
+    "key": "alt+o",
+    "command": "extension.gist.insert"
+  },
+  {
+    "key": "shift+alt+o",
+    "command": "-editor.action.organizeImports",
+    "when": "textInputFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+  },
+  {
+    "key": "alt+c",
+    "command": "-markdown.extension.checkTaskList",
+    "when": "editorTextFocus && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+  },
+  {
+    "key": "alt+c",
+    "command": "extension.gist.create"
+  },
+  {
+    "key": "tab",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "alt+t",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+  },
+  {
+    "key": "ctrl+shift+`",
+    "command": "-workbench.action.terminal.new",
+    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
   }
 ]
