@@ -402,7 +402,7 @@
                                 ],
                                 "description": "Open Apple Mail",
                                 "from": {
-                                    "key_code": "i",
+                                    "key_code": "m",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -498,7 +498,7 @@
                                 ],
                                 "description": "Open Karabiner",
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "o",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
