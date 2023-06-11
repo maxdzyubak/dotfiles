@@ -152,7 +152,7 @@
     {
       "before": ["<leader>", "n"],
       "commands": ["bookmarks.jumpToPrevious"]
-    },
+    }
   ],
   "vim.handleKeys": {
     "<C-a>": false,
@@ -285,13 +285,14 @@
   "ecsstractor_port.empty_line_before_nested_selector": false,
   "editor.bracketPairColorization.enabled": true,
   "editor.tabCompletion": "on",
-  "vsintellicode.modify.editor.suggestSelection": "disabled",
+  "vsintellicode.modify.editor.suggestSelection": "enabled",
   "gitlens.advanced.blame.customArguments": [],
   "gitlens.currentLine.enabled": false,
   "gitlens.currentLine.pullRequests.enabled": false,
   "diffEditor.wordWrap": "off",
   "files.associations": {
-    "*.xi": "xi"
+    "*.xi": "xi",
+    "*.html.erb": "erb"
   },
   "bookmarks.navigateThroughAllFiles": false,
   "bookmarks.gutterIconFillColor": "#157EFB",
@@ -308,6 +309,7 @@
   },
   "window.zoomLevel": 1,
   "emmet.triggerExpansionOnTab": true,
+  // "emmet.includeLanguages": { "ruby": "html", "erb": "html" },
   "emmet.showExpandedAbbreviation": "never",
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
@@ -316,9 +318,39 @@
   "terminal.integrated.tabs.location": "left",
   "terminal.integrated.tabs.enabled": false,
   "redhat.telemetry.enabled": true,
-  "rubyLsp.rubyVersionManager": "none",
+  "rubyLsp.rubyVersionManager": "rbenv",
+  "rubyLsp.formatter": "auto",
   "[ruby]": {
-    "editor.defaultFormatter": "Shopify.ruby-lsp"
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.semanticHighlighting.enabled": true
   },
-  "workbench.activityBar.visible": false
+  "rubyLsp.enabledFeatures": {
+    "codeActions": true,
+    "diagnostics": true,
+    "documentHighlights": true,
+    "documentLink": true,
+    "documentSymbols": true,
+    "foldingRanges": true,
+    "formatting": true,
+    "hover": true,
+    "inlayHint": true,
+    "onTypeFormatting": true,
+    "selectionRanges": true,
+    "semanticHighlighting": true,
+    "completion": true,
+    "codeLens": false
+  },
+  "[erb]": {
+    "editor.defaultFormatter": "aliariff.vscode-erb-beautify",
+    "editor.formatOnSave": true
+  },
+  "workbench.activityBar.visible": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "rubyLsp.yjit": true,
+  "tabnine.experimentalAutoImports": true
 }
