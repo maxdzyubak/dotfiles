@@ -153,10 +153,6 @@
       "before": ["<leader>", "n"],
       "commands": ["bookmarks.jumpToPrevious"]
     },
-    {
-      "before": ["<leader>", "h"],
-      "commands": ["code-runner.run"]
-    }
   ],
   "vim.handleKeys": {
     "<C-a>": false,
@@ -323,5 +319,6 @@
   "rubyLsp.rubyVersionManager": "none",
   "[ruby]": {
     "editor.defaultFormatter": "Shopify.ruby-lsp"
-  }
+  },
+  "workbench.activityBar.visible": false
 }
