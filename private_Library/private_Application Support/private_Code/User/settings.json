@@ -318,5 +318,10 @@
   },
   "workbench.colorTheme": "grigoryvp memory theme",
   "terminal.integrated.tabs.location": "left",
-  "terminal.integrated.tabs.enabled": false
+  "terminal.integrated.tabs.enabled": false,
+  "redhat.telemetry.enabled": true,
+  "rubyLsp.rubyVersionManager": "none",
+  "[ruby]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp"
+  }
 }
