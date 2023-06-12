@@ -225,11 +225,6 @@
     "when": "editorTextFocus && vim.active && vim.use<C-v> && !inDebugRepl"
   },
   {
-    "key": "ctrl+f",
-    "command": "-extension.vim_ctrl+f",
-    "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode != 'Insert'"
-  },
-  {
     "key": "ctrl+a",
     "command": "-extension.vim_ctrl+a",
     "when": "editorTextFocus && vim.active && vim.use<C-a> && !inDebugRepl"
@@ -380,11 +375,6 @@
     "when": "inSettingsEditor"
   },
   {
-    "key": "ctrl+f",
-    "command": "-cursorRight",
-    "when": "textInputFocus"
-  },
-  {
     "key": "shift+cmd+f",
     "command": "-workbench.action.terminal.searchWorkspace",
     "when": "terminalFocus && terminalProcessSupported && terminalTextSelected"
@@ -415,7 +405,7 @@
     "when": "editorFocus"
   },
   {
-    "key": "cmd+s",
+    "key": "cmd+f",
     "command": "actions.find",
     "when": "editorFocus || editorIsOpen"
   },
@@ -433,7 +423,7 @@
     "command": "-workbench.action.nextEditor"
   },
   {
-    "key": "cmd+k f",
+    "key": "cmd+s",
     "command": "workbench.action.findInFiles"
   },
   {
@@ -626,15 +616,6 @@
   {
     "key": "cmd+0",
     "command": "-workbench.action.focusSideBar"
-  },
-  {
-    "key": "right",
-    "command": "-cursorRight",
-    "when": "textInputFocus"
-  },
-  {
-    "key": "cmd+f",
-    "command": "extension.vim_ctrl+f"
   },
   {
     "key": "ctrl+b",
@@ -1393,10 +1374,6 @@
     "when": "remoteFileDialogVisible"
   },
   {
-    "key": "ctrl+f",
-    "command": "cursorRight"
-  },
-  {
     "key": "ctrl+cmd+m",
     "command": "workbench.action.toggleMaximizedPanel"
   },
@@ -1498,11 +1475,6 @@
   {
     "key": "ctrl+k ctrl+k",
     "command": "extension.xi.lookup"
-  },
-  {
-    "key": "cmd+f",
-    "command": "extension.vim_ctrl+f",
-    "when": "editorTextFocus && vim.active"
   },
   {
     "key": "cmd-j",
@@ -1742,5 +1714,20 @@
     "key": "tab",
     "command": "-tabnine.tab-override",
     "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && tabnine.tab-override && textInputFocus"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "-cursorRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "extension.vim_ctrl+f",
+    "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "-extension.vim_ctrl+f",
+    "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode != 'Insert'"
   }
 ]
