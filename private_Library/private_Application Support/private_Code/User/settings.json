@@ -4,7 +4,7 @@
   "editor.lineHeight": 1.8,
   "editor.fontLigatures": true,
   "editor.fontFamily": "JetBrainsMono Nerd Font Mono, JetBrains Mono",
-  "editor.rulers": [120],
+  "editor.rulers": [78],
   "editor.lineNumbers": "off",
   "editor.guides.bracketPairs": "active",
   "editor.guides.bracketPairsHorizontal": true,
@@ -318,7 +318,7 @@
   "terminal.integrated.tabs.enabled": false,
   "redhat.telemetry.enabled": true,
   "rubyLsp.rubyVersionManager": "rbenv",
-  "rubyLsp.formatter": "auto",
+  "rubyLsp.formatter": "none",
   "[ruby]": {
     "editor.defaultFormatter": "Shopify.ruby-lsp",
     "editor.formatOnSave": true,
