@@ -484,11 +484,6 @@
     "command": "-workbench.action.quit"
   },
   {
-    "key": "escape",
-    "command": "-extension.vim_escape",
-    "when": "editorTextFocus && vim.active && !inDebugRepl"
-  },
-  {
     "key": "ctrl+space",
     "command": "-workbench.action.terminal.sendSequence",
     "when": "config.terminal.integrated.shellIntegration.suggestEnabled && terminalFocus && terminalShellIntegrationEnabled && !accessibilityModeEnabled && terminalShellType == 'pwsh'"
@@ -1737,5 +1732,15 @@
     "key": "ctrl+shift+`",
     "command": "-workbench.action.terminal.new",
     "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+  },
+  {
+    "key": "tab",
+    "command": "tabnine.tab-override",
+    "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && tabnine.tab-override && textInputFocus"
+  },
+  {
+    "key": "tab",
+    "command": "-tabnine.tab-override",
+    "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && tabnine.tab-override && textInputFocus"
   }
 ]
