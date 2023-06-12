@@ -544,7 +544,7 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open Clock",
+                                "description": "Open RubyMine",
                                 "from": {
                                     "key_code": "r",
                                     "modifiers": {
@@ -555,7 +555,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Clock.app'"
+                                        "shell_command": "open -a 'RubyMine.app'"
                                     }
                                 ],
                                 "type": "basic"
