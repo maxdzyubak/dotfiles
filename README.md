@@ -22,6 +22,7 @@ chezmoi update
 |![](assets/img/ohmyzsh.svg)| Ohmyzsh | [ohmyz.sh](https://ohmyz.sh/) | [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_zshrc) |
 |![](assets/img/vscode.svg)| VSCode | [code.visualstudio.com](https://code.visualstudio.com/) | [vscode](https://github.com/Microsoft/vscode/) | [config](https://github.com/maxdzyubak/dotfiles/tree/main/private_Library/private_Application%20Support/private_Code/User) |
 |![](assets/img/iterm2.svg)| iTerm2 | [iterm2.com](https://iterm2.com/) | [iTerm2](https://github.com/gnachman/iTerm2) | [config](https://github.com/maxdzyubak/dotfiles/tree/main/iterm2) |
+|![](assets/img/alacritty-logo.svg)| Alacritty | [alacritty.org](https://alacritty.org/) | [alacritty](https://github.com/alacritty/alacritty) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_config/alacritty/alacritty.yml) |
 |![](assets/img/karabiner.svg)| Karabiner | [karabiner-elements.pqrs.org](https://karabiner-elements.pqrs.org/) | [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_config/private_karabiner/private_karabiner.json) |
 |![](assets/img/raycast.svg)| Raycast | [raycast.com](https://www.raycast.com/) | [raycast](https://github.com/raycast) | [config](https://github.com/maxdzyubak/dotfiles/tree/main/dot_config/raycast) |
 |![](assets/img/homerow.svg)| Homerow.app | [homerow.app](https://www.homerow.app/) | [homerow](https://github.com/dexterleng/homerow) |
