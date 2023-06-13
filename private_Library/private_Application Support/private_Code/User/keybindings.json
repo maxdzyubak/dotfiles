@@ -1716,12 +1716,12 @@
   },
   {
     "key": "tab",
-    "command": "acceptSelectedSuggestion",
+    "command": "selectNextSuggestion",
     "when": "acceptSuggestionOnEnter && suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && suggestionMakesTextEdit && textInputFocus"
   },
   {
     "key": "enter",
-    "command": "selectNextSuggestion",
+    "command": "acceptSelectedSuggestion",
     "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && suggestionMakesTextEdit && textInputFocus"
   }
 ]
