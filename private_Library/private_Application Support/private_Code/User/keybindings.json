@@ -210,11 +210,6 @@
     "when": "listFocus && !inputFocus"
   },
   {
-    "key": "ctrl+d",
-    "command": "-extension.vim_ctrl+d",
-    "when": "editorTextFocus && vim.active && vim.use<C-d> && !inDebugRepl"
-  },
-  {
     "key": "ctrl+x",
     "command": "-extension.vim_ctrl+x",
     "when": "editorTextFocus && vim.active && vim.use<C-x> && !inDebugRepl"
@@ -509,18 +504,14 @@
     "when": "editorTextFocus && vim.active && vim.use<C-space> && !inDebugRepl && vim.mode != 'Insert'"
   },
   {
-    "key": "shift+cmd+d",
+    "key": "ctrl+d",
     "command": "list.focusPageDown",
-    "when": "listFocus && !inputFocus"
+    "when": " listFocus && !inputFocus"
   },
   {
     "key": "pagedown",
     "command": "-list.focusPageDown",
     "when": "listFocus && !inputFocus"
-  },
-  {
-    "key": "ctrl+d",
-    "command": "extension.vim_ctrl+d"
   },
   {
     "key": "ctrl+v",
@@ -1101,7 +1092,7 @@
     "when": "listFocus && !inputFocus"
   },
   {
-    "key": "shift+cmd+u",
+    "key": "ctrl+u",
     "command": "list.focusPageUp",
     "when": "listFocus && !inputFocus"
   },
