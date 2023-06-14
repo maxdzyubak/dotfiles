@@ -1,10 +1,12 @@
 {
   "editor.detectIdentation": false,
-  "editor.fontSize": 16,
+  "editor.fontSize": 15,
   "editor.lineHeight": 1.8,
   "editor.fontLigatures": true,
   "editor.fontFamily": "JetBrainsMono Nerd Font Mono, JetBrains Mono",
-  "editor.rulers": [78],
+  "editor.rulers": [
+    78
+  ],
   "editor.lineNumbers": "off",
   "editor.guides.bracketPairs": "active",
   "editor.guides.bracketPairsHorizontal": true,
@@ -47,7 +49,6 @@
   "editor.codeLens": false,
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "editor.multiCursorModifier": "ctrlCmd",
-
   "vim.neovimPath": "/usr/local/bin/nvim",
   "vim.enableNeovim": true,
   "vim.easymotion": true,
@@ -58,99 +59,228 @@
   "vim.hlsearch": true,
   "vim.insertModeKeyBindings": [
     {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
     }
   ],
   "vim.normalModeKeyBindings": [
     {
-      "before": ["m"],
-      "commands": ["editor.action.commentLine"]
+      "before": [
+        "m"
+      ],
+      "commands": [
+        "editor.action.commentLine"
+      ]
     },
     {
-      "before": ["<Leader>", "/"],
-      "commands": [":noh"]
+      "before": [
+        "<Leader>",
+        "/"
+      ],
+      "commands": [
+        ":noh"
+      ]
     },
     {
-      "before": ["J"],
-      "after": ["5", "j"]
+      "before": [
+        "J"
+      ],
+      "after": [
+        "5",
+        "j"
+      ]
     },
     {
-      "before": ["K"],
-      "after": ["5", "k"]
+      "before": [
+        "K"
+      ],
+      "after": [
+        "5",
+        "k"
+      ]
     },
     {
-      "before": ["<Leader>", "j"],
-      "after": ["<Leader>", "<Leader>", "w"]
+      "before": [
+        "<Leader>",
+        "j"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "w"
+      ]
     },
     {
-      "before": ["<Leader>", "k"],
-      "after": ["<Leader>", "<Leader>", "b"]
+      "before": [
+        "<Leader>",
+        "k"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "b"
+      ]
     },
     {
-      "before": ["<Leader>", "d"],
-      "after": ["<Leader>", "<Leader>", "j"]
+      "before": [
+        "<Leader>",
+        "d"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "j"
+      ]
     },
     {
-      "before": ["<Leader>", "u"],
-      "after": ["<Leader>", "<Leader>", "k"]
+      "before": [
+        "<Leader>",
+        "u"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "k"
+      ]
     },
     // {
     //   "before": ["<leader>", "s"],
     //   "after": ["<Leader>", "<Leader>", "f"]
     // },
     {
-      "before": ["<Leader>", "e"],
-      "after": ["<Leader>", "<Leader>", "e"]
+      "before": [
+        "<Leader>",
+        "e"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "e"
+      ]
     },
     {
-      "before": ["<Leader>", "g", "e"],
-      "after": ["<Leader>", "<Leader>", "g", "e"]
+      "before": [
+        "<Leader>",
+        "g",
+        "e"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "g",
+        "e"
+      ]
     },
     {
-      "before": ["<Leader>", "bdw"],
-      "after": ["<Leader>", "<Leader>", "bdw"]
+      "before": [
+        "<Leader>",
+        "bdw"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "bdw"
+      ]
     },
     {
-      "before": ["<Leader>", "F"],
-      "after": ["<Leader>", "<Leader>", "F"]
+      "before": [
+        "<Leader>",
+        "F"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "F"
+      ]
     },
     {
-      "before": ["<Leader>", "t"],
-      "after": ["<Leader>", "<Leader>", "t"]
+      "before": [
+        "<Leader>",
+        "t"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "t"
+      ]
     },
     {
-      "before": ["<Leader>", "s"],
-      "after": ["<Leader>", "<Leader>", "s"]
+      "before": [
+        "<Leader>",
+        "s"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "s"
+      ]
     },
     {
-      "before": ["<Leader>", "p"],
-      "commands": ["workbench.action.showCommands"]
+      "before": [
+        "<Leader>",
+        "p"
+      ],
+      "commands": [
+        "workbench.action.showCommands"
+      ]
     },
     {
-      "before": ["L"],
-      "commands": ["lineBreakInsert"],
+      "before": [
+        "L"
+      ],
+      "commands": [
+        "lineBreakInsert"
+      ],
       "silent": true
     },
     {
-      "before": ["cmd", "b"],
-      "commands": ["bookmarks.toggle"]
+      "before": [
+        "cmd",
+        "b"
+      ],
+      "commands": [
+        "bookmarks.toggle"
+      ]
     },
     {
-      "before": ["n"],
-      "commands": ["bookmarks.jumpToNext"]
+      "before": [
+        "n"
+      ],
+      "commands": [
+        "bookmarks.jumpToNext"
+      ]
     },
     {
-      "before": ["<leader>", "l"],
-      "commands": ["bookmarks.list"]
+      "before": [
+        "<leader>",
+        "l"
+      ],
+      "commands": [
+        "bookmarks.list"
+      ]
     },
     {
-      "before": ["<leader>", "d"],
-      "commands": ["bookmarks.clear"]
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "commands": [
+        "bookmarks.clear"
+      ]
     },
     {
-      "before": ["<leader>", "n"],
-      "commands": ["bookmarks.jumpToPrevious"]
+      "before": [
+        "<leader>",
+        "n"
+      ],
+      "commands": [
+        "bookmarks.jumpToPrevious"
+      ]
     }
   ],
   "vim.handleKeys": {
@@ -197,8 +327,6 @@
   "gitlens.telemetry.enabled": false,
   "debug.node.autoAttach": "disabled",
   "scm.diffDecorations": "none",
-  "vsicons.presets.foldersAllDefaultIcon": true,
-  "vsicons.dontShowNewVersionMessage": true,
   "keyboard.dispatch": "keyCode",
   "security.workspace.trusc.untrustedFiles": "open",
   "workbench.startupEditor": "none",
@@ -211,7 +339,10 @@
     "editor.tabSize": 4
   },
   "htmlhint.enable": false,
-  "htmlhint.documentSelector": ["html", "htm"],
+  "htmlhint.documentSelector": [
+    "html",
+    "htm"
+  ],
   "htmlhint.options": {
     "tagname-lowercase": true,
     "attr-lowercase": true,
@@ -239,7 +370,6 @@
     // "bookmarks.lineBorder": "#FF0000",
     // "bookmarks.overviewRuler": "#157EFB88",
   },
-
   "editor.quickSuggestions": {
     "other": true,
     "comments": true,
@@ -302,11 +432,9 @@
   "bookmarks.label.suggestion": "useWhenSelected",
   "bookmarks.saveBookmarksInProject": true,
   "bookmarks.wrapNavigation": true,
-
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "window.zoomLevel": 1,
   "emmet.triggerExpansionOnTab": true,
   // "emmet.includeLanguages": { "ruby": "html", "erb": "html" },
   "emmet.showExpandedAbbreviation": "never",
@@ -331,9 +459,16 @@
     "editor.defaultFormatter": "aliariff.vscode-erb-beautify",
     "editor.formatOnSave": true
   },
-  "workbench.activityBar.visible": false,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "rubyLsp.yjit": true,
-  "tabnine.experimentalAutoImports": true
+  "tabnine.experimentalAutoImports": true,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.productIconTheme": "macos-modern",
+  "workbench.activityBar.visible": false,
+  "window.zoomLevel": 2
 }
