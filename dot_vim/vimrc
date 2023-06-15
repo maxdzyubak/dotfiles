@@ -1,4 +1,5 @@
 set showmatch  " show matching braces when text indicator is over them
+
 " set number  line number
 " set relativenumber relative number
 set novisualbell " no blink
@@ -10,6 +11,9 @@ set mousehide " mousehide when insert text
 set encoding=utf-8
 scriptencoding utf-8
 
+" Set minimum window size to 79x5.
+set winwidth=79 winheight=5 winminheight=5
+
 " Set the commands to save in history default number is 20
 set history=6000
 
@@ -20,8 +24,8 @@ set history=6000
 
 set nowrap " wrap or nowrap
 set colorcolumn=78 " set highlight column
-hi ColorColumn ctermbg=Gray
-set scrolloff=7
+hi ColorColumn ctermbg=DarkGray
+set scrolloff=2
 set iminsert=0 " ignoring registr in search
 set hlsearch " highling search
 set incsearch " highling search
@@ -56,6 +60,7 @@ filetype plugin indent on
 call plug#begin('~/.vim/plugged')
 
 " Colors schemas
+" Plug 'dracula/vim', { 'as': 'dracula' }
 
 " A Vim colorscheme with almost no highlighting, except where it matters!
 " Docs: https://github.com/igemnace/highlight.vim
@@ -132,27 +137,46 @@ Plug 'itchyny/vim-gitbranch'
 " Initialize plugin systemо
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
 call plug#end()
+" colorscheme dracula
+Plug 'dracula/vim', { 'as': 'dracula' }
+
+" Show all hidden files in NERDTree
+let NERDTreeShowHidden=1
 
 " set background=dark	 Setting dark mode
 " set background=light	 Setting light mode
 
 " set termguicolors
 
-" colorscheme onedark 
+" colorscheme dracula 
+
+let g:user_emmet_mode='a'  "enable all function in all mode.
+
+" START SETTINGS MAPPINGS — — — — — — — — — — — — — — — — — — — — — — — — {{{
+
+" set mapleader is space
+let mapleader = " "
 
  " j  + j  = esc
 inoremap jj <esc>
+
+" Save file
+nmap <leader>s :w!<CR>
+
+" Quit vim with dont save
+nmap <leader>q :q!<CR> 
+
+" Quit vim with save
+nmap <leader>sq :wq<CR> 
+
+" Yank from cursor to the end of line.
+nnoremap Y y$
 
 " set emmet-vim plugin key trigger
 imap kk <C-y>,
 
 imap <C-"> <c-s-t>"
 imap <C-'> <d-s>"
-
-let g:user_emmet_mode='a'	 "enable all function in all mode.
-
-" set mapleader is space
-map <space> <leader>
 
 " open and close NERDTree
 map <Leader><space> :NERDTreeToggle<CR>
@@ -163,3 +187,5 @@ nmap <silent> <c-k> :wincmd k<CR>
 nmap <silent> <c-j> :wincmd j<CR>
 nmap <silent> <c-h> :wincmd h<CR>
 nmap <silent> <c-l> :wincmd l<CR>
+
+" END SETTINGS MAPPINGS — — — — — — — — — — — — — — — — — — — — — — — — — }}}
