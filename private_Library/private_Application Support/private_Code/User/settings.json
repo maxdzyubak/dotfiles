@@ -69,6 +69,15 @@
     }
   ],
   "vim.normalModeKeyBindings": [
+    // move to the paired bracket
+    {
+      "before": [
+        "-"
+      ],
+      "after": [
+        "%",
+      ]
+    },
     // yanking from cursor to end line
     {
       "before": [
@@ -419,7 +428,7 @@
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.openRepositoryInParentFolders": "never",
-  "editor.accessibilitySupport": "on",
+  "editor.accessibilitySupport": "off",
   "ecsstractor_port.add_comment": false,
   "ecsstractor_port.empty_line_before_nested_selector": false,
   "editor.bracketPairColorization.enabled": true,
