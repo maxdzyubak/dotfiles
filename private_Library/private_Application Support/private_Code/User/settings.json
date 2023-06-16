@@ -69,6 +69,17 @@
     }
   ],
   "vim.normalModeKeyBindings": [
+    // yanking from cursor to end line
+    {
+      "before": [
+        "Y"
+      ],
+      "after": [
+        "y",
+        "$"
+      ]
+    },
+    // toogle comment
     {
       "before": [
         "m"
@@ -79,8 +90,7 @@
     },
     {
       "before": [
-        "<Leader>",
-        "/"
+        "<Esc>"
       ],
       "commands": [
         ":noh"
@@ -381,7 +391,7 @@
   "editor.quickSuggestionsDelay": 10,
   "editor.suggestOnTriggerCharacters": true,
   "editor.suggest.localityBonus": true,
-  "editor.suggestSelection": "recentlyUsed",
+  "editor.suggestSelection": "first",
   "editor.suggest.preview": false,
   "editor.suggest.showVariables": true,
   "editor.wordBasedSuggestions": true,
@@ -409,12 +419,12 @@
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.openRepositoryInParentFolders": "never",
-  "editor.accessibilitySupport": "off",
+  "editor.accessibilitySupport": "on",
   "ecsstractor_port.add_comment": false,
   "ecsstractor_port.empty_line_before_nested_selector": false,
   "editor.bracketPairColorization.enabled": true,
   "editor.tabCompletion": "on",
-  "vsintellicode.modify.editor.suggestSelection": "enabled",
+  "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
   "gitlens.advanced.blame.customArguments": [],
   "gitlens.currentLine.enabled": false,
   "gitlens.currentLine.pullRequests.enabled": false,
