@@ -1,0 +1,125 @@
+{
+    "mainWindow": {
+        "width": 1264,
+        "height": 858,
+        "x_pos": 0,
+        "y_pos": 38
+    },
+    "http_server": {
+        "port": 9871
+    },
+    "ui": {
+        "mode": "mode-folders",
+        "zoom": {
+            "mode-folders": 12
+        },
+        "showFaces": false,
+        "selectedFolder": "188f801cad0",
+        "selectedAlbum": "188f1a14c15",
+        "map_zoom": 3,
+        "map_center": [
+            0,
+            -2.5444437451708134e-14
+        ],
+        "selectedEvent": "188f1bb9290",
+        "fileInfoOpen": true,
+        "selectedPerson": "188f1a7381e",
+        "mini_map_zoom": 13
+    },
+    "db": {
+        "max_ghost_age": 604800000
+    },
+    "ui_language": "en",
+    "analytics": {
+        "anonimous_id": "61ede648-634f-4ee4-8b73-32d83b54d8ff"
+    },
+    "remote_renew_date": 1687940225,
+    "remote": {
+        "feature_toggle": [
+            "NetPrint/1.0"
+        ],
+        "feature_conditions": {
+            "NetPrint/1.0": {
+                "lang": "ru",
+                "min_version": "1.5.0"
+            }
+        }
+    },
+    "accepted_EULA_version": 4,
+    "automatic_updates": true,
+    "anonymous_statistics": true,
+    "media_sources": {
+        "1687681043804": {
+            "name": "Pictures",
+            "type": "local",
+            "path": "/Users/maxdzyubak/Pictures",
+            "statistics": {
+                "images": 535,
+                "videos": 55,
+                "folders": 12,
+                "size": 6526753583
+            },
+            "first_scan_duration": 1845826,
+            "last_scan_duration": 1116,
+            "last_scan_finished": 1687786971052
+        },
+        "1687681043805": {
+            "name": "Desktop",
+            "type": "local",
+            "path": "/Users/maxdzyubak/Desktop",
+            "statistics": {
+                "images": 0,
+                "videos": 0,
+                "folders": 29,
+                "size": 0
+            },
+            "first_scan_duration": 87,
+            "last_scan_duration": 84,
+            "last_scan_finished": 1687787005303
+        },
+        "1687681043806": {
+            "name": "Downloads",
+            "type": "local",
+            "path": "/Users/maxdzyubak/Downloads",
+            "statistics": {
+                "images": 47,
+                "videos": 3,
+                "folders": 5,
+                "size": 4818686362
+            },
+            "first_scan_duration": 26474,
+            "last_scan_duration": 133,
+            "last_scan_finished": 1687787011467
+        },
+        "1687787060952": {
+            "name": "Telegram",
+            "path": "/Users/maxdzyubak/Pictures/Tonfotos Telegram Connector",
+            "type": "telegram",
+            "user": {
+                "phone": "79884026056",
+                "username": "maxdzyubak",
+                "first_name": "Maxim",
+                "last_name": "Dzyubak"
+            },
+            "scan_started": 1687787061704
+        }
+    },
+    "ui_theme": "system",
+    "albums": {
+        "favourites_id": 1687681059857,
+        "recents_id": 1687681059861
+    },
+    "connectors": {
+        "telegram": {
+            "dc2_auth_key": "9cc6616ca3b5913df60ea51ca4e31772b4972434eee03151ad65f9859be64d4334fefac5fed47c1e91f2539b96845c50aaddb318db043588e74bb81d7952584adcb0c2a14187aff316322fa47be992f58099780fc6832730b12441f5417972cc2dc8661e2e123522eadcb6ab33a7ccafb5fe7a99bf2f2d54454c98b9ae356784665cfcf9d6c5251a70bce16a64d07d23517c0cd66d5053b71308530531312418c586210c53a8a73d887381d51172c9ebf69194b0411f27940374a8ebcdf262a9f5b3fd394657f25ff66df18ab3e5d78dc51e7ecc096814c4e92a425643137a123ab395c89aef1183ee18ccd3c3cd06da5a4537140d298b6e27370fa7a1dd30d1",
+            "dc2_server_salt": "ec634eb05a80e308",
+            "dc": 2,
+            "__path__": "/Users/maxdzyubak/Pictures/Tonfotos Telegram Connector",
+            "_last_checked": 1685200211,
+            "dc4_auth_key": "ada87f3a821a805fb8649eae528ecefcacdb11737499554c5e0358a16300de456d6175eb19ab1b6745b28e73571213b74e8a92e5ad2fa9ff38527285383a30e024050aab7bd2d2f562bd50fe8f100a9ad70557d8d04bf7b7402ac127fb93280c34123fe76d44c34a0b953c00c49dab312b56cbbadcd403d22a76a800351b337ec524c7e4ee5b8cdb54668b72b69ff643601cee867bfa5a16654746b95336b6dd287d43cad2aa782cee4b25b0ef6594eaeea3c436afa6b5ab27702c76f5ea383760529204dcfbe32abf722b311fdcf7cf09ede65dd85bcd57d21d8f0efd385f47b0eee3eb3b59895322b061a4aa75eb417201afb3c982e74411e8dfb23360f6eb",
+            "dc4_server_salt": "faccd34c6f5fa05a",
+            "dc5_auth_key": "78e05df8835224eb42195aed51368e8c94ca77c233d131235ee604b51acd7594a4dfe9ae52ed69c228f61099ba5eb39ecf9fd3691a8b36857118eb1c1e8469f0642df3f6e6d4799dde73066189c02bc8342ce847e972961ea60c3605154b6937527af8a9477969d012eb21aa6103909e530c545a158ce5a9dbe25fb9a763f4cbf16c33c38fa30114f7316d73d96e8c0e30fa744b3b194e6b534722f7dd08bb3de6108a8ba346bbf278ab2c5b091ce2ce412b55a6a69b1fc9e0677dde1d98880887081beb14bbd76281fc277a0dc2225113658f697aedbad5c37c8e0396899e32a1ef83dd07c602ec1558b34fe4ed7e8a98517c7a113cc2822c7106f7ce885c0b",
+            "dc5_server_salt": "a5b66fc721681560"
+        }
+    }
+}
