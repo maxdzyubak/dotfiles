@@ -488,6 +488,8 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "workbench.productIconTheme": "macos-modern",
+  "window.zoomLevel": 2,
+  "workbench.editor.showTabs": false,
   "workbench.activityBar.visible": false,
-  "window.zoomLevel": 2
+  "workbench.statusBar.visible": false
 }
