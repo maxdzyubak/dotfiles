@@ -472,9 +472,9 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open ClipGrab",
+                                "description": "Open Preview",
                                 "from": {
-                                    "key_code": "3",
+                                    "key_code": "h",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -483,7 +483,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'ClipGrab.app'"
+                                        "shell_command": "open -a 'Preview.app'"
                                     }
                                 ],
                                 "type": "basic"
