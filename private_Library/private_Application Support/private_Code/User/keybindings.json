@@ -586,7 +586,7 @@
     "command": "cursorLineEnd"
   },
   {
-    "key": "shift+cmd+e",
+    "key": "cmd+k e",
     "command": "workbench.view.extensions"
   },
   {
@@ -1517,7 +1517,7 @@
   },
   {
     "key": "cmd+j",
-    "command": "editor.action.openLink"
+    "command": "editor.action.openLink",
   },
   {
     "key": "cmd+m",
@@ -1601,7 +1601,7 @@
     "command": "-workbench.action.focusEighthEditorGroup"
   },
   {
-    "key": "cmd+y",
+    "key": "cmd+k f",
     "command": "workbench.view.extension.favorites-explorer"
   },
   {
@@ -1723,5 +1723,29 @@
     "key": "enter",
     "command": "acceptSelectedSuggestion",
     "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && suggestionMakesTextEdit && textInputFocus"
+  },
+  {
+    "key": "cmd+k j",
+    "command": "workbench.view.extension.json-views"
+  },
+  {
+    "key": "cmd+1",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "cmd+2",
+    "command": "workbench.action.toggleStatusbarVisibility"
+  },
+  {
+    "key": "cmd+3",
+    "command": "workbench.action.toggleTabsVisibility"
+  },
+  {
+    "key": "cmd+k k",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "shift+cmd+p",
+    "command": "-workbench.action.showCommands"
   }
 ]
