@@ -36,7 +36,7 @@
                                             "left_command",
                                             "right_control",
                                             "right_option"
-                                        ]
+                                          ]
                                     }
                                 ],
                                 "to_if_alone": [
@@ -227,7 +227,7 @@
                             {
                                 "conditions": [
                                     {
-                                          "name": "hyper_sublayer_o",
+                                        "name": "hyper_sublayer_o",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1241,7 +1241,7 @@
                                             "right_command"
                                         ]
                                     }
-                                  ],
+                                ],
                                 "type": "basic"
                             },
                             {
@@ -1950,6 +1950,36 @@
                         ]
                     },
                     {
+                        "description": "!!! Not working — Input 'comma' after Hyper + comma",
+                        "manipulators": [
+                            {
+                              "from": {
+                                "key_code": "comma",
+                                "modifiers": {
+                                  "optional": ["any"]
+                                }
+                              },
+                              "to": [
+                                {
+                                  "key_code": "p",
+                                  "modifiers": [
+                                    "left_command",
+                                    "right_shift",
+                                    "right_control",
+                                    "right_option"
+                                  ]
+                                }
+                              ],
+                              "to_if_alone": [
+                                {
+                                  "key_code": "comma"
+                                }
+                              ],
+                              "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Dual mode 'tab': control if not alone",
                         "manipulators": [
                             {
@@ -1958,19 +1988,19 @@
                                     "modifiers": {
                                         "optional": [
                                             "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_control"
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "tab"
-                                    }
-                                ],
+                                          ]
+                                      }
+                                  },
+                                  "to": [
+                                      {
+                                          "key_code": "left_control"
+                                      }
+                                  ],
+                                  "to_if_alone": [
+                                      {
+                                          "key_code": "tab"
+                                      }
+                                  ],
                                 "type": "basic"
                             }
                         ]
