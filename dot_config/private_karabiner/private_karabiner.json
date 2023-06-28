@@ -755,7 +755,7 @@
                                 ],
                                 "description": "Window: Top Half",
                                 "from": {
-                                    "key_code": "close_bracket",
+                                    "key_code": "m",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -783,7 +783,7 @@
                                 ],
                                 "description": "Window: Bottom Half",
                                 "from": {
-                                    "key_code": "open_bracket",
+                                    "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
