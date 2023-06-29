@@ -1711,7 +1711,7 @@
     "command": "-workbench.action.files.copyPathOfActiveFile"
   },
   {
-    "key": "cmd+k p",
+    "key": "cmd+k a",
     "command": "workbench.action.showRuntimeExtensions"
   },
   {
