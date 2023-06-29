@@ -94,6 +94,10 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+" Distraction-free writing in Vim
+" Doc: https://github.com/junegunn/goyo.vim
+Plug 'junegunn/goyo.vim'
+
 " A tree explorer plugin for Vim. Doc: https://github.com/preservim/nerdtree
 Plug 'preservim/nerdtree'
 
@@ -187,5 +191,8 @@ nmap <silent> <c-k> :wincmd k<CR>
 nmap <silent> <c-j> :wincmd j<CR>
 nmap <silent> <c-h> :wincmd h<CR>
 nmap <silent> <c-l> :wincmd l<CR>
+
+" Toggle plug goyo
+nmap <leader>f :Goyo<CR>
 
 " END SETTINGS MAPPINGS — — — — — — — — — — — — — — — — — — — — — — — — — }}}
