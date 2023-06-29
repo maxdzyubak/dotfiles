@@ -119,7 +119,7 @@ Plug 'tpope/vim-commentary'
 
 " Underlines the word under the cursor
 " Doc: https://github.com/itchyny/vim-cursorword
-Plug 'itchyny/vim-cursorword'
+" Plug 'itchyny/vim-cursorword'
 
 " Provides the branch name of the current git repository
 " Doc:	https://github.com/itchyny/vim-gitbranch
