@@ -1,6 +1,6 @@
 {
   "editor.detectIdentation": false,
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
   "editor.fontLigatures": true,
   "editor.fontFamily": "JetBrainsMono Nerd Font Mono, JetBrains Mono",
@@ -16,8 +16,8 @@
   "editor.wordWrapColumn": 78,
   "editor.wordWrap": "wordWrapColumn",
   "editor.scrollbar.horizontal": "hidden",
-  "editor.autoClosingQuotes": "beforeWhitespace",
-  "editor.autoClosingBrackets": "beforeWhitespace",
+  "editor.autoClosingQuotes": "never",
+  "editor.autoClosingBrackets": "never",
   "editor.autoClosingOvertype": "auto",
   "editor.cursorStyle": "line",
   "editor.links": true,
@@ -58,6 +58,7 @@
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
   "vim.insertModeKeyBindings": [
+    // escape insert mode
     {
       "before": [
         "j",
@@ -77,7 +78,7 @@
       "after": [
         "%",
       ]
-    },
+      },
     // yanking from cursor to end line
     {
       "before": [
@@ -86,6 +87,54 @@
       "after": [
         "y",
         "$"
+      ]
+    },
+    // yanking from inner []
+    {
+      "before": [
+        "<Leader>",
+        "["
+      ],
+      "after": [
+        "y",
+        "i",
+        "["
+      ]
+    },
+    // yanking from inner {}
+    {
+      "before": [
+        "<Leader>",
+        "]"
+      ],
+      "after": [
+        "y",
+        "i",
+        "{"
+      ]
+    },
+    // yanking from inner ''
+    {
+      "before": [
+        "<Leader>",
+        "'"
+      ],
+      "after": [
+        "y",
+        "i",
+        "'"
+      ]
+    },
+    // yanking from inner ""
+    {
+      "before": [
+        "<Leader>",
+        ";"
+      ],
+      "after": [
+        "y",
+        "i",
+        "\""
       ]
     },
     // toogle comment
@@ -390,9 +439,9 @@
     // "bookmarks.overviewRuler": "#157EFB88",
   },
   "editor.quickSuggestions": {
-    "other": true,
-    "comments": true,
-    "strings": true
+    "other": false,
+    "comments": false,
+    "strings": false
   },
   "editor.suggest.showFolders": true,
   "editor.acceptSuggestionOnCommitCharacter": true,
@@ -489,7 +538,8 @@
   },
   "workbench.productIconTheme": "macos-modern",
   "window.zoomLevel": 2,
-  "workbench.editor.showTabs": false,
+  "git.autofetch": true,
   "workbench.activityBar.visible": false,
+  "workbench.editor.showTabs": false,
   "workbench.statusBar.visible": false
 }
