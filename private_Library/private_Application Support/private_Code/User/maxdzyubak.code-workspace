@@ -7,7 +7,22 @@
       "path": "../fork/git-cheatsheet"
     },
     {
-      "path": "../js/test-js"
+      "path": "../dev/maxdzyubak.github.io"
+    },
+    {
+      "path": "../ruby"
+    },
+    {
+      "path": "../ruby/exercises-ruby"
+    },
+    {
+      "path": "../ruby/www.ruby-lang.org"
+    },
+    {
+      "path": "../fork/vscode-great-icons"
+    },
+    {
+      "path": "../fork/KE-complex_modifications"
     }
   ],
   "settings": {
@@ -33,6 +48,13 @@
         "group": "Default"
       }
     ],
-    "liveServer.settings.multiRootWorkspaceName": null
+    "liveServer.settings.multiRootWorkspaceName": "template",
+    "cSpell.language": "en,ru,ru-RU,en-US,en-GB,lorem",
+    "cSpell.enableFiletypes": [
+      "xi"
+    ],
+    "cSpell.words": [
+      "Raycast"
+    ]
   }
 }
