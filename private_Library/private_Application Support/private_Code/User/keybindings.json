@@ -1755,5 +1755,13 @@
   {
     "key": "cmd+k p",
     "command": "workbench.action.openSettingsJson"
+  },
+  {
+    "key": "cmd+shift+enter",
+    "command": "git.stage",
+  },
+  {
+    "key": "cmd+shift+d",
+    "command": "git.unstage",
   }
 ]
