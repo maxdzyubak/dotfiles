@@ -1747,5 +1747,13 @@
   {
     "key": "shift+cmd+p",
     "command": "-workbench.action.showCommands"
+  },
+  {
+    "key": "cmd+k s",
+    "command": "-workbench.action.files.saveWithoutFormatting"
+  },
+  {
+    "key": "cmd+k p",
+    "command": "workbench.action.openSettingsJson"
   }
 ]
