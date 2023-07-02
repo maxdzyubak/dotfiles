@@ -78,7 +78,7 @@
       "after": [
         "%",
       ]
-      },
+    },
     // yanking from cursor to end line
     {
       "before": [
@@ -477,7 +477,7 @@
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.openRepositoryInParentFolders": "never",
-  "editor.accessibilitySupport": "off",
+  "editor.accessibilitySupport": "on",
   "ecsstractor_port.add_comment": false,
   "ecsstractor_port.empty_line_before_nested_selector": false,
   "editor.bracketPairColorization.enabled": true,
@@ -539,7 +539,7 @@
   "workbench.productIconTheme": "macos-modern",
   "window.zoomLevel": 2,
   "git.autofetch": true,
-  "workbench.activityBar.visible": false,
   "workbench.editor.showTabs": false,
-  "workbench.statusBar.visible": false
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.visible": false
 }
