@@ -28,6 +28,7 @@ chezmoi update
 |![](assets/img/homerow.svg)| Homerow.app | [homerow.app](https://www.homerow.app/) | [homerow](https://github.com/dexterleng/homerow) |
 |![](assets/img/rectanglepro.svg)| Rectangleapp/pro | [rectangleapp.com/pro](https://rectangleapp.com/pro) | [RectanglePro](https://github.com/rxhanson/RectanglePro-Community) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_config/RectangleProConfig.json) |
 |![](assets/img/fig.svg)| Fig | [fig.io](https://fig.io/) | [fig.io](https://github.com/withfig) |  |
+|![]()| fd | | [sharkdp/fd](https://github.com/sharkdp/fd) | |
 |![]()| Exa | [the.exa.website](https://the.exa.website/) | [ogham/exa](https://github.com/ogham/exa) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_zshrc) |
 |![]()| Powerlevel10k | []() | [powerlevel10k](https://github.com/romkatv/powerlevel10k) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_p10k.zsh) |
 |![]()| The Silver Searcher | [geoff.greer.fm/ag/](https://geoff.greer.fm/ag/) | [the_silver_searcher](https://github.com/ggreer/the_silver_searcher) | |
