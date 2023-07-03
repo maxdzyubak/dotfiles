@@ -631,6 +631,28 @@
                                     }
                                 ],
                                 "type": "basic"
+                            },
+                            {
+                              "conditions": [
+                                {
+                                  "name": "hyper_sublayer_o",
+                                  "type": "variable_if",
+                                  "value": 1
+                                }
+                              ],
+                              "description": "Open Slack",
+                              "from": {
+                                "key_code": "l",
+                                "modifiers": {
+                                  "mandatory": ["any"]
+                                }
+                              },
+                              "to": [
+                                {
+                                  "shell_command": "open -a 'Slack.app'"
+                                }
+                              ],
+                              "type": "basic"
                             }
                         ]
                     },
