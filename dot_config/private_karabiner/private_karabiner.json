@@ -450,7 +450,7 @@
                                 ],
                                 "description": "Open Calculator",
                                 "from": {
-                                    "key_code": "c",
+                                    "key_code": "",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -592,7 +592,7 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open AmneziaVPN",
+                                "description": "Open PlanetVPN",
                                 "from": {
                                     "key_code": "v",
                                     "modifiers": {
@@ -603,7 +603,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'AmneziaVPN.app'"
+                                        "shell_command": "open -a 'Planet VPN.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -642,7 +642,7 @@
                               ],
                               "description": "Open Slack",
                               "from": {
-                                "key_code": "l",
+                                "key_code": "c",
                                 "modifiers": {
                                   "mandatory": ["any"]
                                 }
