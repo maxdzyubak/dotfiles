@@ -634,7 +634,7 @@
     "when": "isDevelopment"
   },
   {
-    "key": "ctrl+cmd+r",
+    "key": "cmd+r",
     "command": "workbench.action.terminal.clear",
     "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
   },
@@ -642,16 +642,6 @@
     "key": "cmd+k",
     "command": "-workbench.action.terminal.clear",
     "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
-  },
-  {
-    "key": "shift+cmd+k",
-    "command": "workbench.action.terminal.scrollUp",
-    "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
-  },
-  {
-    "key": "alt+cmd+pageup",
-    "command": "-workbench.action.terminal.scrollUp",
-    "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
   },
   {
     "key": "shift+cmd+u",
@@ -674,7 +664,7 @@
     "when": "inSearchEditor || searchViewletFocus"
   },
   {
-    "key": "shift+cmd+j",
+    "key": "ctrl+cmd+j",
     "command": "workbench.action.terminal.scrollDown",
     "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
   },
@@ -1326,7 +1316,7 @@
     "command": "-workbench.action.replaceInFiles"
   },
   {
-    "key": "ctrl+cmd+h",
+    "key": "cmd+y",
     "command": "workbench.actions.view.problems",
     "when": "workbench.panel.markers.view.active"
   },
@@ -1356,8 +1346,9 @@
     "when": "remoteFileDialogVisible"
   },
   {
-    "key": "ctrl+cmd+m",
-    "command": "workbench.action.toggleMaximizedPanel"
+    "key": "ctrl+cmd+f",
+    "command": "workbench.action.toggleMaximizedPanel",
+    "when": "terminalFocus"
   },
   {
     "key": "ctrl+`",
@@ -1590,7 +1581,8 @@
   },
   {
     "key": "ctrl+cmd+f",
-    "command": "workbench.action.toggleCenteredLayout"
+    "command": "workbench.action.toggleCenteredLayout",
+    "when": "editorFocus"
   },
   {
     "key": "cmd+k r",
@@ -1668,10 +1660,6 @@
     "when": "editorTextFocus && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
   },
   {
-    "key": "alt+c",
-    "command": "extension.gist.create"
-  },
-  {
     "key": "alt+t",
     "command": "workbench.action.terminal.new",
     "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
@@ -1725,10 +1713,6 @@
     "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && suggestionMakesTextEdit && textInputFocus"
   },
   {
-    "key": "cmd+k j",
-    "command": "workbench.view.extension.json-views"
-  },
-  {
     "key": "cmd+1",
     "command": "workbench.action.toggleActivityBarVisibility"
   },
@@ -1763,5 +1747,147 @@
   {
     "key": "cmd+shift+d",
     "command": "git.unstage",
+  },
+  {
+    "key": "cmd+k cmd+x",
+    "command": "fileutils.removeFile"
+  },
+  {
+    "key": "cmd+k d",
+    "command": "-workbench.files.action.compareWithSaved"
+  },
+  {
+    "key": "cmd+k cmd+d",
+    "command": "-editor.action.moveSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+k cmd+r",
+    "command": "-git.revertSelectedRanges",
+    "when": "isInDiffEditor && !operationInProgress"
+  },
+  {
+    "key": "cmd+k cmd+r",
+    "command": "-workbench.action.keybindingsReference"
+  },
+  {
+    "key": "cmd+k cmd+r",
+    "command": "fileutils.renameFile"
+  },
+  {
+    "key": "cmd+k cmd+x",
+    "command": "-editor.action.trimTrailingWhitespace",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+k cmd+d",
+    "command": "fileutils.duplicateFile"
+  },
+  {
+    "key": "cmd+k cmd+c",
+    "command": "-notebook.cell.expandCellInput",
+    "when": "notebookCellInputIsCollapsed && notebookCellListFocused"
+  },
+  {
+    "key": "cmd+k cmd+c",
+    "command": "-notebook.cell.collapseCellInput",
+    "when": "notebookCellListFocused && !inputFocus && !notebookCellInputIsCollapsed"
+  },
+  {
+    "key": "cmd+k cmd+c",
+    "command": "fileutils.copyFileName"
+  },
+  {
+    "key": "cmd+k cmd+m",
+    "command": "fileutils.moveFile"
+  },
+  {
+    "key": "cmd+k cmd+p",
+    "command": "fileutils.newFileAtRoot"
+  },
+  {
+    "key": "cmd+k cmd+n",
+    "command": "fileutils.newFile"
+  },
+  {
+    "key": "cmd+k cmd+n",
+    "command": "-git.unstageSelectedRanges",
+    "when": "isInDiffEditor && !operationInProgress"
+  },
+  {
+    "key": "cmd+k cmd+f",
+    "command": "-editor.action.formatSelection",
+    "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+k cmd+f",
+    "command": "fileutils.newFolder"
+  },
+  {
+    "key": "cmd+k cmd+v",
+    "command": "fileutils.newFolderAtRoot"
+  },
+  {
+    "key": "alt+cmd+c",
+    "command": "-copyFilePath",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "cmd+k cmd+j",
+    "command": "-editor.unfoldAll",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "cmd+k cmd+j",
+    "command": "copyFilePath"
+  },
+  {
+    "key": "cmd+k alt+cmd+c",
+    "command": "-copyFilePath",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+k alt+c",
+    "command": "copyRelativeFilePath",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+k shift+alt+cmd+c",
+    "command": "-copyRelativeFilePath",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+k f12",
+    "command": "-editor.action.revealDefinitionAside",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "cmd+k j",
+    "command": "openInIntegratedTerminal"
+  },
+  {
+    "key": "cmd+k",
+    "command": "-workbench.action.terminal.clear",
+    "when": "terminalFocus && terminalHasBeenCreated && !accessibilityModeEnabled || terminalFocus && terminalProcessSupported && !accessibilityModeEnabled"
+  },
+  {
+    "key": "ctrl+cmd+k",
+    "command": "workbench.action.terminal.scrollUp",
+    "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+  },
+  {
+    "key": "alt+cmd+pageup",
+    "command": "-workbench.action.terminal.scrollUp",
+    "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+  },
+  {
+    "key": "ctrl+cmd+n",
+    "command": "workbench.action.terminal.focusTabs",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported || terminalHasBeenCreated && terminalTabsFocus || terminalProcessSupported && terminalTabsFocus"
+  },
+  {
+    "key": "shift+cmd+\\",
+    "command": "-workbench.action.terminal.focusTabs",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported || terminalHasBeenCreated && terminalTabsFocus || terminalProcessSupported && terminalTabsFocus"
   }
 ]
