@@ -48,7 +48,6 @@
   "editor.lineDecorationsWidth": 0,
   "editor.codeLens": false,
   "editor.unicodeHighlight.ambiguousCharacters": false,
-  "editor.multiCursorModifier": "ctrlCmd",
   "vim.neovimPath": "/usr/local/bin/nvim",
   "vim.enableNeovim": true,
   "vim.easymotion": true,
@@ -540,7 +539,6 @@
   "window.zoomLevel": 2,
   "git.autofetch": true,
   "terminal.integrated.tabs.enabled": false,
-  "workbench.activityBar.visible": false,
   "sorbet.enabled": true,
   "sorbet.highlightUntyped": true,
   "sorbet.lspConfigs": [
@@ -554,7 +552,11 @@
         "exec",
         "srb",
         "typecheck",
-        "--lsp"
+        "--lsp",
+        "watchman",
+        "-j",
+        "-p",
+        "--no-pretty"
       ]
     },
     {
@@ -586,4 +588,6 @@
       ]
     }
   ],
+  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.activityBar.visible": false,
 }
