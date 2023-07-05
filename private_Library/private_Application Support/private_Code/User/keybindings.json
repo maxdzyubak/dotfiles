@@ -1749,7 +1749,7 @@
     "command": "git.unstage",
   },
   {
-    "key": "cmd+k cmd+x",
+    "key": "cmd+k cmd+d",
     "command": "fileutils.removeFile"
   },
   {
@@ -1780,7 +1780,7 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "cmd+k cmd+d",
+    "key": "cmd+k cmd+t",
     "command": "fileutils.duplicateFile"
   },
   {
@@ -1913,5 +1913,14 @@
     "key": "cmd+k o",
     "command": "-workbench.action.files.showOpenedFileInNewWindow",
     "when": "emptyWorkspaceSupport"
-  }
+  },
+  {
+    "key": "escape",
+    "command": "removeSecondaryCursors",
+    "when": "editorHasMultipleSelections && textInputFocus"
+  },
+  {
+    "key": "cmd+k cmd+t",
+    "command": "-workbench.action.selectTheme"
+  },
 ]
