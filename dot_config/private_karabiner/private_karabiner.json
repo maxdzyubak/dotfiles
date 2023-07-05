@@ -633,26 +633,28 @@
                                 "type": "basic"
                             },
                             {
-                              "conditions": [
-                                {
-                                  "name": "hyper_sublayer_o",
-                                  "type": "variable_if",
-                                  "value": 1
-                                }
-                              ],
-                              "description": "Open Slack",
-                              "from": {
-                                "key_code": "c",
-                                "modifiers": {
-                                  "mandatory": ["any"]
-                                }
-                              },
-                              "to": [
-                                {
-                                  "shell_command": "open -a 'Slack.app'"
-                                }
-                              ],
-                              "type": "basic"
+                                "conditions": [
+                                    {
+                                        "name": "hyper_sublayer_o",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "description": "Open Slack",
+                                "from": {
+                                    "key_code": "c",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Slack.app'"
+                                    }
+                                ],
+                                "type": "basic"
                             }
                         ]
                     },
@@ -1716,26 +1718,30 @@
                                 "type": "basic"
                             },
                             {
-                              "conditions": [
-                                {
-                                  "name": "hyper_sublayer_s",
-                                  "type": "variable_if",
-                                  "value": 1
-                                }
-                              ],
-                              "from": {
-                                "key_code": "r",
-                                "modifiers": {
-                                  "mandatory": ["any"]
-                                }
-                              },
-                              "to": [
-                                {
-                                  "key_code": "f5",
-                                  "modifiers": ["command"]
-                                }
-                              ],
-                              "type": "basic"
+                                "conditions": [
+                                    {
+                                        "name": "hyper_sublayer_s",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "r",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f5",
+                                        "modifiers": [
+                                            "command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
                             }
                         ]
                     },
