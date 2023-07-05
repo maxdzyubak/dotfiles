@@ -1,5 +1,5 @@
 set showmatch  " show matching braces when text indicator is over them
-
+set hidden " the best switch in buffers
 " set number  line number
 " set relativenumber relative number
 set novisualbell " no blink
@@ -11,8 +11,8 @@ set mousehide " mousehide when insert text
 set encoding=utf-8
 scriptencoding utf-8
 
-" Set minimum window size to 79x5.
-set winwidth=79 winheight=5 winminheight=5
+" Set paddings top and bottom
+set  winheight=5 winminheight=5
 
 " Set the commands to save in history default number is 20
 set history=6000
@@ -22,7 +22,7 @@ set history=6000
 " Highlight cursor line underneath the cursor vertically
 " set cursorcolumn
 
-set nowrap " wrap or nowrap
+set wrap " wrap or nowrap
 set colorcolumn=78 " set highlight column
 hi ColorColumn ctermbg=DarkGray
 set scrolloff=2
@@ -51,44 +51,16 @@ set backspace=indent,eol,start whichwrap+=<,>,[,] " cool using backspace
 set showtabline=1 " no show hr tab
 set clipboard=unnamed
 
-set laststatus=2
+set laststatus=0
 set noshowmode
+set noshowcmd
 
 syntax on " highlight syntax on
 filetype plugin indent on
 
+" START SETTINGS PLUGINS— — — — — — — — — — — — — — — — — — — — — — — — — — —
+
 call plug#begin('~/.vim/plugged')
-
-" Colors schemas
-" Plug 'dracula/vim', { 'as': 'dracula' }
-
-" A Vim colorscheme with almost no highlighting, except where it matters!
-" Docs: https://github.com/igemnace/highlight.vim
-" Plug 'igemnace/highlight.vim'
-
-" An arctic, north-bluish clean and elegant Vim theme
-" Doc: https://github.com/arcticicestudio/nord-vim
-" Plug 'arcticicestudio/nord-vim'
-
-" A dark Vim/Neovim color scheme inspired by Atom's One Dark syntax theme
-" Doc: https://github.com/joshdick/onedark.vim
-" Plug 'joshdick/onedark.vim'
-
-" Retro groove color scheme for Vim. Doc: https://github.com/morhetz/gruvbox
-" Plug 'morhetz/gruvbox'
-
-" One colorscheme pach to rule them all.
-" Doc: https://github.com/flazz/vim-colorschemes
-" Plug 'flazz/vim-colorschemes'
-
-" Makes it easy to quickly switch between color schemes in Vim.
-" Doc: https://github.com/xolox/vim-colorscheme-switcher
-" Hotkey next colorscheme: F8
-" Hotkey previous colorscheme: Shift + F8
-" Plug 'xolox/vim-colorscheme-switcher'
-
-" Miscellaneous auto-load Vim scripts. Doc: https://github.com/xolox/vim-misc
-" Plug 'xolox/vim-misc'
 
 " A command-line fuzzy finder. Doc: https://github.com/junegunn/fzf
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -97,6 +69,12 @@ Plug 'junegunn/fzf.vim'
 " Distraction-free writing in Vim
 " Doc: https://github.com/junegunn/goyo.vim
 Plug 'junegunn/goyo.vim'
+
+" Seamless navigation between tmux panes and vim splits
+" Doc: https://github.com/christoomey/vim-tmux-navigator
+Plug 'christoomey/vim-tmux-navigator'
+
+Plug 'christoomey/vim-tmux-runner'
 
 " A tree explorer plugin for Vim. Doc: https://github.com/preservim/nerdtree
 Plug 'preservim/nerdtree'
@@ -117,32 +95,19 @@ Plug 'tpope/vim-fugitive'
 " Commentary in Vim. Doc: https://github.com/tpope/vim-surround
 Plug 'tpope/vim-commentary'
 
-" A light and configurable statusline/tabline plugin for Vim
-" Doc: https://github.com/itchyny/lightline.vim
-" Plug 'itchyny/lightline.vim'
-
-" Underlines the word under the cursor
-" Doc: https://github.com/itchyny/vim-cursorword
-" Plug 'itchyny/vim-cursorword'
-
 " Provides the branch name of the current git repository
 " Doc:	https://github.com/itchyny/vim-gitbranch
 Plug 'itchyny/vim-gitbranch'
 
-" Check syntax in Vim asynchronously and fix files,
-" with language server protocol (lsp) support
-" Doc: https://github.com/dense-analysis/ale
-" Plug 'w0rp/ale'
-
-" Perform all vim insert mode completions with Tab.
-" Doc: https://github.com/ervandew/supertab
-" Plug 'ervandew/supertab'
+" A Vim plugin which saves files to disk automatically.
+" Doc: https://github.com/907th/vim-auto-save
+Plug '907th/vim-auto-save'
 
 " Initialize plugin systemо
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
 call plug#end()
-" colorscheme dracula
-Plug 'dracula/vim', { 'as': 'dracula' }
+
+" END SETTINGS PLUGINS— — — — — — — — — — — — — — — — — — — — — — — — — — — —
 
 " Show all hidden files in NERDTree
 let NERDTreeShowHidden=1
@@ -154,9 +119,13 @@ let NERDTreeShowHidden=1
 
 " colorscheme dracula 
 
+" enable emmet
 let g:user_emmet_mode='a'  "enable all function in all mode.
 
-" START SETTINGS MAPPINGS — — — — — — — — — — — — — — — — — — — — — — — — {{{
+let g:auto_save = 1  " enable AutoSave on Vim startup
+let g:auto_save_silent = 1  " do not display the auto-save notification
+
+" START SETTINGS MAPPINGS — — — — — — — — — — — — — — — — — — — — — — — — — —
 
 " set mapleader is space
 let mapleader = " "
@@ -165,13 +134,16 @@ let mapleader = " "
 inoremap jj <esc>
 
 " Save file
-nmap <leader>s :w!<CR>
+nmap <leader>s :w!<cr>
 
 " Quit vim with dont save
-nmap <leader>q :q!<CR> 
+nmap <leader>q :q!<cr> 
+
+" set :noh
+nmap <leader>/ :noh<cr>
 
 " Quit vim with save
-nmap <leader>sq :wq<CR> 
+nmap <leader>sq :wq<cr> 
 
 " Yank from cursor to the end of line.
 nnoremap Y y$
@@ -183,16 +155,28 @@ imap <C-"> <c-s-t>"
 imap <C-'> <d-s>"
 
 " open and close NERDTree
-map <Leader><space> :NERDTreeToggle<CR>
-map <C-n> :NERDTreeFind<CR>
+map <Leader><space> :NERDTreeToggle<cr>
+map <C-n> :NERDTreeFind<cr>
 
 " Use ctrl-[hjkl] to select the active split!
-nmap <silent> <c-k> :wincmd k<CR>
-nmap <silent> <c-j> :wincmd j<CR>
-nmap <silent> <c-h> :wincmd h<CR>
-nmap <silent> <c-l> :wincmd l<CR>
+" nmap <silent> <c-k> :wincmd k<CR>
+" nmap <silent> <c-j> :wincmd j<CR>
+" nmap <silent> <c-h> :wincmd h<CR>
+" nmap <silent> <c-l> :wincmd l<CR>
 
 " Toggle plug goyo
-nmap <leader>f :Goyo<CR>
+nmap <leader>p :Goyo<cr>
 
-" END SETTINGS MAPPINGS — — — — — — — — — — — — — — — — — — — — — — — — — }}}
+let g:tmux_navigator_no_mappings = 1
+
+noremap <silent> {Left-Mapping} :<C-U>TmuxNavigateLeft<cr>
+noremap <silent> {Down-Mapping} :<C-U>TmuxNavigateDown<cr>
+noremap <silent> {Up-Mapping} :<C-U>TmuxNavigateUp<cr>
+noremap <silent> {Right-Mapping} :<C-U>TmuxNavigateRight<cr>
+noremap <silent> {Previous-Mapping} :<C-U>TmuxNavigatePrevious<cr>
+
+nmap <leader>or :VtrOpenRunner {'orientation': 'h', 'percentage': 44, 'cmd': 'irb'}<cr>
+nmap <leader>r :VtrSendCommandToRunner !ruby %<cr>
+nmap <leader>kr :VtrKillRunner<cr>
+nmap <leader>fr :VtrFocusRunner<cr>
+" END SETTINGS MAPPINGS — — — — — — — — — — — — — — — — — — — — — — — — — — —
