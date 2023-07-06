@@ -590,7 +590,7 @@
     "command": "workbench.view.extensions"
   },
   {
-    "key": "cmd+r",
+    "key": "cmd+h",
     "command": "editor.action.startFindReplaceAction",
     "when": "editorFocus || editorIsOpen"
   },
@@ -1141,7 +1141,7 @@
     "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
   },
   {
-    "key": "cmd+h",
+    "key": "cmd+r",
     "command": "code-runner.run"
   },
   {
@@ -1922,5 +1922,9 @@
   {
     "key": "cmd+k cmd+t",
     "command": "-workbench.action.selectTheme"
+  },
+  {
+    "key": "cmd+k cmd+o",
+    "command": "workbench.action.selectTheme"
   },
 ]
