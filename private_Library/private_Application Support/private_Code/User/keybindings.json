@@ -1224,7 +1224,7 @@
     "when": "inKeybindings && inKeybindingsSearch"
   },
   {
-    "key": "ctrl+k ctrl+k",
+    "key": "cmd+u",
     "command": "extension.xi.lookup"
   },
   {
@@ -1609,10 +1609,6 @@
     "key": "ctrl+-",
     "command": "-workbench.action.quickInputBack",
     "when": "inQuickOpen"
-  },
-  {
-    "key": "cmd+u",
-    "command": "editor.action.commentLine"
   },
   {
     "key": "tab",
