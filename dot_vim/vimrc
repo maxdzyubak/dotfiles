@@ -43,7 +43,7 @@ let &t_SI = "\<Esc>[6 q" " Insert mode
 set wrap " wrap or nowrap
 set colorcolumn=78 " set highlight column
 hi ColorColumn ctermbg=DarkGray
-set scrolloff=2
+set scrolloff=3
 set iminsert=0 " ignoring registr in search
 set hlsearch " highling search
 set incsearch " highling search
@@ -190,6 +190,10 @@ nmap <leader>sq :wq<cr>
 
 " Yank from cursor to the end of line.
 nnoremap Y y$
+
+" Set big J and big K to 5 line top and bottom
+nnoremap J 5j
+nnoremap K 5k
 
 " set emmet-vim plugin key trigger
 imap kk <C-y>,
