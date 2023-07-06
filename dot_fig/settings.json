@@ -1,6 +1,6 @@
 {
   "app.hideMenubarIcon": true,
-  "app.preferredTerminal": "Alacritty",
+  "app.preferredTerminal": "iTerm",
   "autocomplete.ai.enabled": true,
   "autocomplete.disable": false,
   "autocomplete.firstTokenCompletion": false,
@@ -21,6 +21,6 @@
   "autocomplete.personalShortcutsToken": "",
   "autocomplete.preferVerboseSuggestions": true,
   "autocomplete.scrollWrapAround": true,
-  "autocomplete.theme": "dracula",
+  "autocomplete.theme": "gruvbox",
   "autocomplete.width": 600
 }
