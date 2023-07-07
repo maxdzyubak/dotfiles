@@ -1,4 +1,4 @@
-# Fig pre block. Keep at the top of this file.
+#Fig pre block. Keep at the top of this file.
 [[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 
 # Path to your oh-my-zsh installation.
@@ -7,6 +7,7 @@ export EDITOR="code"
 export VISUAL="code"
 export MYVIMRC="~/.local/share/chezmoi/dot_vim/"
 export PATH="$PATH:./node_modules/.bin/"
+export HOMEBREW_BREWFILE=~/.config/.brewfile
 
 curl -fLo ~/.local/share/chezmoi/dot_vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -48,6 +49,7 @@ alias oc="code"
 alias t="touch"
 alias tx="tmux"
 alias md="mkdir"
+alias rd="rmdir"
 alias rf="rm -rf"
 alias e="exa --tree --level=1 --group-directories-first --all --icons --long"
 alias ee="exa --group-directories-first --all --icons"
@@ -61,10 +63,20 @@ alias er="exa --tree --level=1 --reverse --all --icons"
 alias ff="fig run gc"
 alias fc="fig run commit-m"
 alias fcc="fig run commit"
+alias fac="fig run add-all-and-commit-message"
 alias fs="fig run lsd"
-alias f="fig run lsd-la"
 alias fa="fig run lsd-a"
 alias ft="fig run lsd-tree"
+alias ovc="vim /Users/maxdzyubak/.vim/vimrc"
+alias ozc="vim /Users/maxdzyubak/.zshrc"
+alias otc="vim /Users/maxdzyubak/.config/tmux/tmux.conf"
+alias cdvscc="cd /Users/maxdzyubak/Library/Application\ Support/Code/User
+"
+alias cavc="chezmoi add /Users/maxdzyubak/.vim/vimrc ; chezmoi cd"
+alias cazc="chezmoi add /Users/maxdzyubak/.zshrc ; chezmoi cd ; gaa . ; git commit -m 'Update zshrc' ; git push origin -u main ; cd"
+alias cavscs="chezmoi add /Users/maxdzyubak/Library/Application\ Support/Code/User/settings.json ; chezmoi cd"
+alias cavsck="chezmoi add /Users/maxdzyubak/Library/Application\ Support/Code/User/keybindings.json ; chezmoi cd"
+alias ca="chezmoi add"
 alias v="vim"
 alias f="fd -gHl"
 alias ip="dig -4 TXT +short o-o.myaddr.l.google.com @ns1.google.com"
@@ -77,8 +89,6 @@ export PROMPT="$PROMPT\$(git-radar --zsh --fetch) "
 export GIT_RADAR_FORMAT="%{stash}%{remote}%{local}%{changes}"
 export GIT_RADAR_FETCH_TIME=20
 export GIT_RADAR_COLOR_CHANGES_UNTRACKED="$fg[red]"
-
-
 
 # Key bindings fzf
 # ---------------------------------------------------------------------------
