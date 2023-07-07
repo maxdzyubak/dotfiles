@@ -73,7 +73,7 @@ alias otc="vim /Users/maxdzyubak/.config/tmux/tmux.conf"
 alias cdvscc="cd /Users/maxdzyubak/Library/Application\ Support/Code/User
 "
 alias cavc="chezmoi add /Users/maxdzyubak/.vim/vimrc ; chezmoi cd"
-alias cazc="chezmoi add /Users/maxdzyubak/.zshrc ; chezmoi cd ; git add . ; git commit -m 'Update zshrc' ; git push origin -u main ; cd"
+alias cazc="chezmoi add /Users/maxdzyubak/.zshrc ; chezmoi cd ; sleep .7 ; git add ."
 alias cavscs="chezmoi add /Users/maxdzyubak/Library/Application\ Support/Code/User/settings.json ; chezmoi cd"
 alias cavsck="chezmoi add /Users/maxdzyubak/Library/Application\ Support/Code/User/keybindings.json ; chezmoi cd"
 alias ca="chezmoi add"
