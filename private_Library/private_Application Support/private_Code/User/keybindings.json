@@ -1938,5 +1938,15 @@
   {
     "key": "cmd+b",
     "command": "workbench.files.action.focusOpenEditorsView"
+  },
+  {
+    "key": "cmd+8",
+    "command": "chat.action.acceptInput",
+    "when": "inChatInput && textInputFocus"
+  },
+  {
+    "key": "enter",
+    "command": "-chat.action.acceptInput",
+    "when": "inChatInput && textInputFocus"
   }
 ]
