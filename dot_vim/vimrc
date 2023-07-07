@@ -1,5 +1,3 @@
-autocmd FileType ruby compiler ruby
-
 set showmatch  " show matching braces when text indicator is over them
 set hidden " the best switch in buffers
 " set number line number
@@ -58,7 +56,6 @@ set splitright
 
 set linebreak " wrap on word
 set smartindent " for tabulation
-set nocompatible	" not vi compatible
 set ruler
 set incsearch
 set showcmd " show enter command
@@ -83,8 +80,9 @@ filetype plugin on    " Enable filetype-specific plugins
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'dracula/vim', { 'as': 'dracula' }
+" Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'morhetz/gruvbox'
+
 Plug 'vim-ruby/vim-ruby'
 
 " A command-line fuzzy finder.
@@ -141,16 +139,21 @@ Plug 'ervandew/supertab'
 
 " Multiple cursors plugin for vim/neovim
 " Doc: https://github.com/mg979/vim-visual-multi
-" Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 Plug 'w0rp/ale'
 
-
 Plug 'jiangmiao/auto-pairs'
+
+Plug 'easymotion/vim-easymotion'
 
 call plug#end()
 
 " END SETTINGS PLUGINS— — — — — — — — — — — — — — — — — — — — — — — — — — — —
+
+" Settings Plug 'w0rp/ale'
+let g:ale_sign_error = '>>'
+let g:ale_sign_warning = '--'
 
 " Show all hidden files in NERDTree
 let NERDTreeShowHidden=1
@@ -171,7 +174,7 @@ let g:auto_save_silent = 1  " do not display the auto-save notification
 " START SETTINGS MAPPINGS — — — — — — — — — — — — — — — — — — — — — — — — — —
 
 " set mapleader is space
-let mapleader = " "
+let mapleader = ' '
 
  " j  + j  = esc
 inoremap jj <esc>
@@ -228,6 +231,7 @@ nmap <leader>r :VtrSendCommandToRunner !ruby %<cr>
 nmap <leader>kr :VtrKillRunner<cr>
 nmap <leader>fr :VtrFocusRunner<cr>
 
+" Move line to up or down with Shift + j and Shift + k
 nnoremap J :m .+1<CR>==
 nnoremap K :m .-2<CR>==
 inoremap J <Esc>:m .+1<CR>==gi
@@ -235,7 +239,17 @@ inoremap K <Esc>:m .-2<CR>==gi
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
 
-" Fzf keybindings
+" Fzf keybindigs
 nnoremap <silent> <Leader>f :BLines<CR>
 
+" Vim visual multi line vertical and more
+let g:VM_maps = {}
+let g:VM_maps['Add Cursor Down'] = '<M-C-j>' " start selection down
+let g:VM_maps['Add Cursor Up'] = '<M-C-k>' " start selection up
+
+" vim-easymotion plugin maps
+let g:EasyMotion_do_mapping = 0 " Disable default mappings
+" JK motions: Line motions
+map <Leader>w <Plug>(easymotion-w)
+map <Leader>e <Plug>(easymotion-b)
 " END SETTINGS MAPPINGS — — — — — — — — — — — — — — — — — — — — — — — — — — —
