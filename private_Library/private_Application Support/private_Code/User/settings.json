@@ -216,12 +216,26 @@
       ]
     },
     {
-      "before": ["<Leader>", "e"],
-      "after": ["<Leader>", "<Leader>","b"]
+      "before": [
+        "<Leader>",
+        "e"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "b"
+      ]
     },
     {
-      "before": ["<Leader>", "f"],
-      "after": ["<Leader>", "<Leader>", "s"]
+      "before": [
+        "<Leader>",
+        "f"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "s"
+      ]
     },
     {
       "before": [
@@ -592,7 +606,7 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "workbench.colorTheme": "grigoryvp memory theme",
   "vim.cursorStylePerMode.replace": "underline",
-  "workbench.activityBar.visible": false,
   "editor.cursorBlinking": "solid",
-  "workbench.editor.showTabs": false
+  "workbench.editor.showTabs": false,
+  "workbench.activityBar.visible": false
 }
