@@ -1597,7 +1597,7 @@
     "command": "workbench.view.extension.favorites-explorer"
   },
   {
-    "key": "cmd+b",
+    "key": "cmd+k b",
     "command": "bookmarks.toggle"
   },
   {
@@ -1935,4 +1935,8 @@
     "key": "cmd+k cmd+q",
     "command": "-workbench.action.navigateToLastEditLocation"
   },
+  {
+    "key": "cmd+b",
+    "command": "workbench.files.action.focusOpenEditorsView"
+  }
 ]
