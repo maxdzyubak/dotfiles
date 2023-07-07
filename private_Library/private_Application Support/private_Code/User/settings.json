@@ -608,5 +608,5 @@
   "vim.cursorStylePerMode.replace": "underline",
   "editor.cursorBlinking": "solid",
   "workbench.editor.showTabs": false,
-  "workbench.activityBar.visible": false
+  "workbench.statusBar.visible": false
 }
