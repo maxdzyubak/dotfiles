@@ -196,7 +196,7 @@
     {
       "before": [
         "<Leader>",
-        "j"
+        "w"
       ],
       "after": [
         "<Leader>",
@@ -207,7 +207,7 @@
     {
       "before": [
         "<Leader>",
-        "k"
+        "e"
       ],
       "after": [
         "<Leader>",
@@ -216,15 +216,12 @@
       ]
     },
     {
-      "before": [
-        "<Leader>",
-        "d"
-      ],
-      "after": [
-        "<Leader>",
-        "<Leader>",
-        "j"
-      ]
+      "before": ["<Leader>", "e"],
+      "after": ["<Leader>", "<Leader>","b"]
+    },
+    {
+      "before": ["<Leader>", "f"],
+      "after": ["<Leader>", "<Leader>", "s"]
     },
     {
       "before": [
@@ -237,14 +234,10 @@
         "k"
       ]
     },
-    // {
-    //   "before": ["<leader>", "s"],
-    //   "after": ["<Leader>", "<Leader>", "f"]
-    // },
     {
       "before": [
         "<Leader>",
-        "e"
+        ""
       ],
       "after": [
         "<Leader>",
@@ -600,5 +593,6 @@
   "workbench.colorTheme": "grigoryvp memory theme",
   "vim.cursorStylePerMode.replace": "underline",
   "workbench.activityBar.visible": false,
-  "editor.cursorBlinking": "solid"
+  "editor.cursorBlinking": "solid",
+  "workbench.editor.showTabs": false
 }
