@@ -168,6 +168,15 @@
     },
     {
       "before": [
+        "<Leader>",
+        "s"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ]
+    },
+    {
+      "before": [
         "J"
       ],
       "after": [
@@ -287,17 +296,6 @@
         "<Leader>",
         "<Leader>",
         "t"
-      ]
-    },
-    {
-      "before": [
-        "<Leader>",
-        "s"
-      ],
-      "after": [
-        "<Leader>",
-        "<Leader>",
-        "s"
       ]
     },
     {
@@ -524,7 +522,7 @@
   "redhat.telemetry.enabled": true,
   "rubyLsp.rubyVersionManager": "rbenv",
   "rubyLsp.formatter": "rubocop",
-  "rubyLsp.bundleGemfile": "/test-ruby/Gemfile",
+  "rubyLsp.bundleGemfile": "Gemfile",
   "[ruby]": {
     "editor.defaultFormatter": "Shopify.ruby-lsp",
     "editor.formatOnSave": true,
@@ -601,7 +599,6 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "workbench.colorTheme": "grigoryvp memory theme",
   "vim.cursorStylePerMode.replace": "underline",
-  "vim.cursorStylePerMode.visual": "underline",
   "workbench.activityBar.visible": false,
   "editor.cursorBlinking": "solid"
 }
