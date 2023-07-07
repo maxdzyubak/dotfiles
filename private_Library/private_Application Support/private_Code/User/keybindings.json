@@ -586,7 +586,7 @@
     "command": "cursorLineEnd"
   },
   {
-    "key": "cmd+k e",
+    "key": "cmd+k cmd+e",
     "command": "workbench.view.extensions"
   },
   {
@@ -1922,5 +1922,17 @@
   {
     "key": "cmd+k cmd+o",
     "command": "workbench.action.selectTheme"
+  },
+  {
+    "key": "cmd+k e",
+    "command": "workbench.files.action.showActiveFileInExplorer"
+  },
+  {
+    "key": "cmd+k cmd+q",
+    "command": "workbench.action.reloadWindow"
+  },
+  {
+    "key": "cmd+k cmd+q",
+    "command": "-workbench.action.navigateToLastEditLocation"
   },
 ]
