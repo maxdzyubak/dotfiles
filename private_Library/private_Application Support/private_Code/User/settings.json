@@ -607,6 +607,7 @@
   "workbench.colorTheme": "grigoryvp memory theme",
   "vim.cursorStylePerMode.replace": "underline",
   "editor.cursorBlinking": "solid",
-  "workbench.editor.showTabs": false,
-  "workbench.statusBar.visible": false
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.visible": false,
+  "workbench.editor.showTabs": false
 }
