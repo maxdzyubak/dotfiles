@@ -373,7 +373,7 @@
     "<C-f>": false
   },
   "editor.codeActionsOnSave": {},
-  "workbench.iconTheme": null,
+  "workbench.iconTheme": "vscode-great-icons",
   "editor.suggest.showKeywords": false,
   "editor.inlayHints.enabled": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -608,6 +608,6 @@
   "vim.cursorStylePerMode.replace": "underline",
   "editor.cursorBlinking": "solid",
   "workbench.statusBar.visible": false,
-  "workbench.activityBar.visible": false,
-  "workbench.editor.showTabs": false
+  "workbench.editor.showTabs": false,
+  "workbench.activityBar.visible": false
 }
