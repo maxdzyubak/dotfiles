@@ -34,7 +34,7 @@ chezmoi update
 |![]()| ripgrep | | [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) | |
 |![]()| zoxide | | [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) | |
 |![]()| entr | | [eradman/entr](https://github.com/eradman/entr) | |
-|![]()| git-radar | | [michaeldfallen/git-radar](https://github.com/michaeldfallen/git-radar) | |
+|![]()| git-radar | | [michaeldfallen/git-radar](https://github.com/michaeldfallen/git-radar) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_zshrc#L89) |
 |![]()| Powerlevel10k | []() | [powerlevel10k](https://github.com/romkatv/powerlevel10k) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_p10k.zsh) |
 |![]()| The Silver Searcher | [geoff.greer.fm/ag/](https://geoff.greer.fm/ag/) | [the_silver_searcher](https://github.com/ggreer/the_silver_searcher) | |
 |![]()| Lsd | []() | [sd-rs/lsd](https://github.com/lsd-rs/lsd) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_zshrc) |
