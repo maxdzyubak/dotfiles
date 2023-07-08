@@ -1220,7 +1220,7 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Window: First Two Thirds",
+                                "description": "Window: Reload",
                                 "from": {
                                     "key_code": "r",
                                     "modifiers": {
@@ -1231,10 +1231,9 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "e",
+                                        "key_code": "r",
                                         "modifiers": [
-                                            "right_option",
-                                            "right_control"
+                                          "left_command"
                                         ]
                                     }
                                 ],
