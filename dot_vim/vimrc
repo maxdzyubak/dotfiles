@@ -22,7 +22,6 @@ set history=6000
 " Highlight cursor line underneath the cursor vertically
 " set cursorcolumn
 
-
 set ttimeout
 set ttimeoutlen=1
 set ttyfast
