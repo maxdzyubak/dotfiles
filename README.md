@@ -33,7 +33,7 @@ chezmoi update
 |![]()| Exa | [the.exa.website](https://the.exa.website/) | [ogham/exa](https://github.com/ogham/exa) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_zshrc) |
 |![]()| ripgrep | | [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) | |
 |![]()| zoxide | | [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) | |
-|![]()| zoxide | | [eradman/entr](https://github.com/eradman/entr) | |
+|![]()| entr | | [eradman/entr](https://github.com/eradman/entr) | |
 |![]()| Powerlevel10k | []() | [powerlevel10k](https://github.com/romkatv/powerlevel10k) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_p10k.zsh) |
 |![]()| The Silver Searcher | [geoff.greer.fm/ag/](https://geoff.greer.fm/ag/) | [the_silver_searcher](https://github.com/ggreer/the_silver_searcher) | |
 |![]()| Lsd | []() | [sd-rs/lsd](https://github.com/lsd-rs/lsd) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_zshrc) |
