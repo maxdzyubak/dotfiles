@@ -1,6 +1,10 @@
 # About
 
-My dotfiles managed with chezmoi. I'am using `macos`, `iterm2`, `zsh`, `tmux`, `vim`, `vscode`, `karabiner` and etc. Keyboard is my love. I'm using keyboard in `95%` time.  I recommend this approach to everyone, because it really increases productivity many times over. I'm liked retro groove color scheme for vim [gruvbox](https://github.com/morhetz/gruvbox) and using her in `iterm2`, `zsh`, `tmux`, `vim`. In `vscode` using theme [Memory Color Theme](https://marketplace.visualstudio.com/items?itemName=grigoryvp.memory-theme) by [@grigoryvp](https://github.com/grigoryvp) . More information on my tools in the [table](https://github.com/maxdzyubak/dotfiles#table-tools).
+My dotfiles managed with chezmoi. I'am using `macos`, `iterm2`, `zsh`, `tmux`, `vim`, `vscode`, `karabiner`, `xi` and etc. Keyboard is my love. I'm using keyboard in `95%` time.  I recommend this approach to everyone, because it really increases productivity many times over.
+
+I'm used [xi](https://github.com/grigoryvp/vscode-language-xi) for my personal wiki database: notes, code snippets, api documentation and another information save and faster finds. Relly recommendation. More information in [description](https://github.com/maxdzyubak/dotfiles#xi)
+
+I'm liked retro groove color scheme for vim [gruvbox](https://github.com/morhetz/gruvbox) and using her in `iterm2`, `zsh`, `tmux`, `vim`. In `vscode` using theme [Memory Color Theme](https://marketplace.visualstudio.com/items?itemName=grigoryvp.memory-theme) by [@grigoryvp](https://github.com/grigoryvp) . More information on my tools in the [table](https://github.com/maxdzyubak/dotfiles#table-tools).
 
 ## Docs
 
@@ -24,7 +28,8 @@ chezmoi update
 ### Table tools
 
 | | Name | Site | Repository | Config | Description |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | ---   |
+|![xi logo](assets/img/xi.svg) | Xi | [marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=grigoryvp.language-xi) | [grigoryvp/vscode-language-xi](https://github.com/grigoryvp/vscode-language-xi)  | private repo | [description](https://github.com/maxdzyubak/dotfiles#xi) |
 |![vim logo](assets/img/vim.svg)| Vim |[vim.org](https://www.vim.org/)| [vim/vim](https://github.com/vim/vim) | [config](https://github.com/maxdzyubak/dotfiles/tree/main/dot_vim) | |
 |![brew logo](assets/img/brew.svg)| Homebrew | [brew.sh](https://brew.sh/]) | [brew](https://github.com/Homebrew/brew) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/Brewfile) | |
 |![oh my zsh logo](assets/img/ohmyzsh.svg)| Ohmyzsh | [ohmyz.sh](https://ohmyz.sh/) | [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_zshrc) | |
@@ -50,6 +55,13 @@ chezmoi update
 || Diff-so-fancy |  | [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) | | |
 
 ### Description
+
+#### Xi
+
+`Xi` — markup language support for syntax highlighting and link jumps
+Autor [@grigoryvp](https://github.com/grigoryvp)
+Documentation is [here](https://github.com/grigoryvp/vscode-language-xi)
+Video guide in YouTube on Russian language is [here](https://youtu.be/q4Ftg63diDs)
 
 #### Tmux
 
