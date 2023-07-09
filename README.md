@@ -14,20 +14,14 @@ I'm liked retro groove color scheme for vim [gruvbox](https://github.com/morhetz
 
 You first step need go to [chezmoi.io/install](https://www.chezmoi.io/install/)
 
-##### Bash command
+#### Bash command
 ```bash
 sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply maxdzyubak
 ```
 
-##### Mannually
+#### Mannually
 ```
 git clone git@github.com:maxdzyubak/dotfiles.git
-```
-
-### Updating your dotfiles on any machine is a single command
-
-```bash
-chezmoi update
 ```
 
 ### Table tools
