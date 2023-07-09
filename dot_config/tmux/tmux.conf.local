@@ -396,8 +396,8 @@ set -g status-position top
 # search highlight text in google.com with plugin 'tmux-open'
 set -g @open-s 'https://www.google.com/search?q='
 
-# open default editor in highlight text
-set -g @open-editor 'e'
+# open in editor default with plugin 'tmux-open'
+set -g @open-editor 'C-x'
 
 # customization treemux
 set -g @treemux-tree-nvim-init-file '~/.tmux/plugins/treemux/configs/treemux_init.lua'
@@ -445,7 +445,7 @@ set -g @plugin 'tmux-plugins/tmux-resurrect'
 set -g @plugin 'jaclu/tmux-menus'
 set -g @plugin 'tmux-plugins/tmux-open'
 set -g @plugin 'kiyoon/treemux'
-set -g @plugin 'gcla/tmux-wormhole'
+#set -g @plugin 'gcla/tmux-wormhole'
 set -g @plugin 'Freed-Wu/tmux-digit'
 #set -g @plugin 'tmux-plugins/tmux-copycat'
 #set -g @plugin 'tmux-plugins/tmux-cpu'
