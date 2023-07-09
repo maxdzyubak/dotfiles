@@ -14,7 +14,7 @@ curl -fLo ~/.local/share/chezmoi/dot_vim/autoload/plug.vim --create-dirs \
 source /Users/maxdzyubak/.ghcup/env
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="dracula"
+ZSH_THEME=""
 
 if [ -d "/opt/homebrew/opt/ruby/bin" ]; then
   export PATH=/opt/homebrew/opt/ruby/bin:$PATH
@@ -71,8 +71,7 @@ alias ft="fig run lsd-tree"
 alias ovc="vim /Users/maxdzyubak/.vim/vimrc"
 alias ozc="vim /Users/maxdzyubak/.zshrc"
 alias otc="vim /Users/maxdzyubak/.config/tmux/tmux.conf"
-alias cdvscc="cd /Users/maxdzyubak/Library/Application\ Support/Code/User
-"
+alias cdvscc="cd /Users/maxdzyubak/Library/Application\ Support/Code/User"
 alias cavc="chezmoi add /Users/maxdzyubak/.vim/vimrc ; cd /Users/maxdzyubak/.local/share/chezmoi"
 alias cazc="chezmoi add /Users/maxdzyubak/.zshrc ; cd /Users/maxdzyubak/.local/share/chezmoi"
 # chezmoi add vimrc, .zshrc, tmux.conf.local, karabiner.json, Code/User/settings.json, Code/User/keybindings.json & chezmoi cd & git add every tools in index & git commit every tools with message 'Update nametools' & git push origin -u main & cd
@@ -102,7 +101,6 @@ TYPEWRITTEN_CURSOR="terminal"
 # Set typewritten ZSH as a prompt
 autoload -U promptinit; promptinit
 prompt typewritten
-
 
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
