@@ -1268,7 +1268,7 @@
     "when": "editorTextFocus && !suggestWidgetVisible && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
   },
   {
-    "key": "cmd+l l",
+    "key": "cmd+k l",
     "command": "workbench.action.editor.changeLanguageMode",
     "when": "!notebookEditorFocused"
   },
@@ -1458,7 +1458,7 @@
     "command": "workbench.action.focusActiveEditorGroup"
   },
   {
-    "key": "ctrl+9",
+    "key": "cmd+l f",
     "command": "workbench.action.toggleMaximizedPanel"
   },
   {
@@ -1994,5 +1994,17 @@
   {
     "key": "shift+cmd+[",
     "command": "-workbench.action.previousEditor"
+  },
+  {
+    "key": "cmd+l j",
+    "command": "workbench.action.positionPanelBottom"
+  },
+  {
+    "key": "cmd+l h",
+    "command": "workbench.action.positionPanelLeft"
+  },
+  {
+    "key": "cmd+l l",
+    "command": "workbench.action.positionPanelRight"
   }
 ]
