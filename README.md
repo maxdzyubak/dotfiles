@@ -29,7 +29,7 @@ chezmoi update
 
 | | Name | Site | Repository | Config | Description |
 | --- | --- | --- | --- | --- | ---   |
-|![xi logo](assets/img/xi.svg) | Xi | [marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=grigoryvp.language-xi) | [grigoryvp/vscode-language-xi](https://github.com/grigoryvp/vscode-language-xi)  | private repo | [description](https://github.com/maxdzyubak/dotfiles#xi) |
+|![xi logo](assets/img/xi.svg) | Xi | [site](https://marketplace.visualstudio.com/items?itemName=grigoryvp.language-xi) | [grigoryvp/vscode-language-xi](https://github.com/grigoryvp/vscode-language-xi)  | private | [description](https://github.com/maxdzyubak/dotfiles#xi) |
 |![vim logo](assets/img/vim.svg)| Vim |[vim.org](https://www.vim.org/)| [vim/vim](https://github.com/vim/vim) | [config](https://github.com/maxdzyubak/dotfiles/tree/main/dot_vim) | |
 |![brew logo](assets/img/brew.svg)| Homebrew | [brew.sh](https://brew.sh/]) | [brew](https://github.com/Homebrew/brew) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/Brewfile) | |
 |![oh my zsh logo](assets/img/ohmyzsh.svg)| Ohmyzsh | [ohmyz.sh](https://ohmyz.sh/) | [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_zshrc) | |
