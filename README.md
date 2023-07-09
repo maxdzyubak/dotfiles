@@ -51,7 +51,7 @@ chezmoi update
 
 ### Description
 
-## Tmux
+#### Tmux
 
 I'am using [oh-my-tmux](https://github.com/gpakosz/.tmux) configuration.
 
