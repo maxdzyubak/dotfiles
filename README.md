@@ -1,15 +1,14 @@
-### About
+# About
 
-Manage your dotfiles across multiple diverse machines, securely.
+My dotfiles managed with chezmoi. I'am using `macos`, `iterm2`, `zsh`, `tmux`, `vim`, `vscode`, `karabiner` and etc. I'm liked retro groove color scheme for vim [gruvbox](https://github.com/morhetz/gruvbox) and using her in `iterm2`, `zsh`, `tmux`, `vim`. In `vscode` using theme [Memory Color Theme](https://marketplace.visualstudio.com/items?itemName=grigoryvp.memory-theme) by [@grigoryvp](https://github.com/grigoryvp) . More information on my tools in the [table](https://github.com/maxdzyubak/dotfiles#table-tools).
 
-### Docs
+## Docs
 
 [chezmoi.io](https://chezmoi.io/)
 
 ### Install
 
 ```bash
-#!/bin/bash
 sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply maxdzyubak
 ```
 
@@ -19,7 +18,6 @@ or go to
 ### Updating your dotfiles on any machine is a single command
 
 ```bash
-#!/bin/bash
 chezmoi update
 ```
 
@@ -38,13 +36,13 @@ chezmoi update
 |![homerow logo](assets/img/homerow.svg)| Homerow.app | [homerow.app](https://www.homerow.app/) | [homerow](https://github.com/dexterleng/homerow) | |
 |![rectanglepro logo](assets/img/rectanglepro.svg)| Rectangleapp/pro | [rectangleapp.com/pro](https://rectangleapp.com/pro) | [RectanglePro](https://github.com/rxhanson/RectanglePro-Community) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_config/RectangleProConfig.json) | |
 |![fig logo](assets/img/fig.svg)| Fig | [fig.io](https://fig.io/) | [fig.io](https://github.com/withfig) |  | |
-|| fd | | [sharkdp/fd](https://github.com/sharkdp/fd) | | |
-|| tmux | | [tmux](https://github.com/tmux/tmux) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_config/tmux/tmux.conf.local) | |
+|| Tmux | | [tmux](https://github.com/tmux/tmux) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_config/tmux/tmux.conf.local) | [description](https://github.com/maxdzyubak/dotfiles#tmux) |
+|| Fd | | [sharkdp/fd](https://github.com/sharkdp/fd) | | |
 || Exa | [the.exa.website](https://the.exa.website/) | [ogham/exa](https://github.com/ogham/exa) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_zshrc) | |
-|| ripgrep | | [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) | | |
-|| zoxide | | [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) | | |
-|| entr | | [eradman/entr](https://github.com/eradman/entr) | | |
-|| git-radar | | [michaeldfallen/git-radar](https://github.com/michaeldfallen/git-radar) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_zshrc#L89) | |
+|| Ripgrep | | [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) | | |
+|| Zoxide | | [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) | | |
+|| Entr | | [eradman/entr](https://github.com/eradman/entr) | | |
+|| Git-radar | | [michaeldfallen/git-radar](https://github.com/michaeldfallen/git-radar) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_zshrc#L89) | |
 || Powerlevel10k |  | [powerlevel10k](https://github.com/romkatv/powerlevel10k) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_p10k.zsh) | |
 || The Silver Searcher | [geoff.greer.fm/ag/](https://geoff.greer.fm/ag/) | [the_silver_searcher](https://github.com/ggreer/the_silver_searcher) | | |
 || Lsd |  | [sd-rs/lsd](https://github.com/lsd-rs/lsd) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_zshrc) | |
@@ -53,7 +51,10 @@ chezmoi update
 
 ### Description
 
-To do...
+## Tmux
+
+I'am using [oh-my-tmux](https://github.com/gpakosz/.tmux) configuration.
+To do: keybindings...
 
 ### License
 
