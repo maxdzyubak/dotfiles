@@ -1,6 +1,6 @@
 # About
 
-My dotfiles managed with chezmoi. I'am using `macos`, `iterm2`, `zsh`, `tmux`, `vim`, `vscode`, `karabiner` and etc. I'm liked retro groove color scheme for vim [gruvbox](https://github.com/morhetz/gruvbox) and using her in `iterm2`, `zsh`, `tmux`, `vim`. In `vscode` using theme [Memory Color Theme](https://marketplace.visualstudio.com/items?itemName=grigoryvp.memory-theme) by [@grigoryvp](https://github.com/grigoryvp) . More information on my tools in the [table](https://github.com/maxdzyubak/dotfiles#table-tools).
+My dotfiles managed with chezmoi. I'am using `macos`, `iterm2`, `zsh`, `tmux`, `vim`, `vscode`, `karabiner` and etc. Keyboard is my love. I'm using keyboard in 95% time.  I recommend this approach to everyone, because it really increases productivity many times over. I'm liked retro groove color scheme for vim [gruvbox](https://github.com/morhetz/gruvbox) and using her in `iterm2`, `zsh`, `tmux`, `vim`. In `vscode` using theme [Memory Color Theme](https://marketplace.visualstudio.com/items?itemName=grigoryvp.memory-theme) by [@grigoryvp](https://github.com/grigoryvp) . More information on my tools in the [table](https://github.com/maxdzyubak/dotfiles#table-tools).
 
 ## Docs
 
