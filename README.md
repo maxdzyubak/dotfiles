@@ -17,7 +17,7 @@ or go to
 [chezmoi.io/install](https://www.chezmoi.io/install/)
 
 ### Updating your dotfiles on any machine is a single command
-  
+
 ```bash
 #!/bin/bash
 chezmoi update
@@ -25,7 +25,7 @@ chezmoi update
 
 ### Table tools
 
-| | Name | Site | GitHub Repo | My config | Description |
+| | Name | Site | Repository | Config | Description |
 | --- | --- | --- | --- | --- | --- |
 |![vim logo](assets/img/vim.svg)| Vim |[vim.org](https://www.vim.org/)| [vim/vim](https://github.com/vim/vim) | [config](https://github.com/maxdzyubak/dotfiles/tree/main/dot_vim) | |
 |![brew logo](assets/img/brew.svg)| Homebrew | [brew.sh](https://brew.sh/]) | [brew](https://github.com/Homebrew/brew) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/Brewfile) | |
