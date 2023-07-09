@@ -208,7 +208,7 @@
     {
       "before": [
         "<Leader>",
-        "w"
+        "j"
       ],
       "after": [
         "<Leader>",
@@ -219,7 +219,7 @@
     {
       "before": [
         "<Leader>",
-        "e"
+        "k"
       ],
       "after": [
         "<Leader>",
