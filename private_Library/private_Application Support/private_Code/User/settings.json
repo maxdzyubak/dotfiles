@@ -374,7 +374,7 @@
   },
   "editor.codeActionsOnSave": {},
   "workbench.iconTheme": "vscode-great-icons",
-  "editor.suggest.showKeywords": false,
+  "editor.suggest.showKeywords": true,
   "editor.inlayHints.enabled": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.editor.languageDetectionHints": {
@@ -472,7 +472,7 @@
   "editor.parameterHints.enabled": true,
   "editor.parameterHints.cycle": true,
   "editor.suggest.snippetsPreventQuickSuggestions": true,
-  "editor.snippetSuggestions": "none",
+  "editor.snippetSuggestions": "inline",
   "html.suggest.html5": false,
   "javascript.suggest.enabled": true,
   "javascript.inlayHints.enumMemberValues.enabled": true,
@@ -607,7 +607,6 @@
   "workbench.colorTheme": "grigoryvp memory theme",
   "vim.cursorStylePerMode.replace": "underline",
   "editor.cursorBlinking": "solid",
-  "workbench.statusBar.visible": false,
-  "workbench.editor.showTabs": false,
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "workbench.editor.showTabs": false
 }
