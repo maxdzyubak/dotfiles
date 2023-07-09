@@ -10,21 +10,21 @@ I'm liked retro groove color scheme for vim [gruvbox](https://github.com/morhetz
 
 [chezmoi.io](https://chezmoi.io/)
 
-### Install
+## Install
 
 You first step need go to [chezmoi.io/install](https://www.chezmoi.io/install/)
 
-#### Bash command
+### Bash command
 ```bash
 sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply maxdzyubak
 ```
 
-#### Mannually
+### Mannually
 ```
 git clone git@github.com:maxdzyubak/dotfiles.git
 ```
 
-### Table tools
+## Table tools
 
 | | Name | Site | Repository | Config | Description |
 | --- | --- | --- | --- | --- | ---   |
@@ -53,13 +53,13 @@ git clone git@github.com:maxdzyubak/dotfiles.git
 || Bat |  | [sharkdp/bat](https://github.com/sharkdp/bat) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_zshrc) | |
 || Diff-so-fancy |  | [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) | | |
 
-### Description
+## Description
 
-#### Xi
+### Xi
 
 `Xi` — markup language support for syntax highlighting and link jumps. Autor [@grigoryvp](https://github.com/grigoryvp). Documentation is [here](https://github.com/grigoryvp/vscode-language-xi). Video guide in YouTube on Russian language is [here](https://youtu.be/q4Ftg63diDs)
 
-#### Tmux
+### Tmux
 
 I'am using [oh-my-tmux](https://github.com/gpakosz/.tmux) configuration.
 
