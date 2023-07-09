@@ -16,8 +16,8 @@
   "editor.wordWrapColumn": 78,
   "editor.wordWrap": "wordWrapColumn",
   "editor.scrollbar.horizontal": "hidden",
-  "editor.autoClosingQuotes": "beforeWhitespace",
-  "editor.autoClosingBrackets": "beforeWhitespace",
+  "editor.autoClosingQuotes": "never",
+  "editor.autoClosingBrackets": "never",
   "editor.autoClosingOvertype": "auto",
   "editor.links": true,
   "editor.hover.enabled": true,
@@ -328,7 +328,9 @@
     },
     {
       "before": [
-        "L"
+        "<Leader>",
+        "<Leader>",
+        "j",
       ],
       "commands": [
         "lineBreakInsert"
