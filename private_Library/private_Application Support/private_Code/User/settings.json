@@ -416,7 +416,7 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.autoReveal": false,
-  "explorer.openEditors.visible": 9,
+  "explorer.openEditors.visible": 15,
   "explorer.excludeGitIgnore": true,
   "extensions.ignoreRecommendations": false,
   "html.autoClosingTags": true,
