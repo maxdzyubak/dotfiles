@@ -1,6 +1,6 @@
 set showmatch  " show matching braces when text indicator is over them
 set hidden " the best switch in buffers
-" set number line number
+" set number " line number
 " set relativenumber relative number
 set novisualbell " no blink
 set noerrorbells " sound bells
