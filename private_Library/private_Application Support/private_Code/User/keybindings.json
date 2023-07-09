@@ -1593,7 +1593,7 @@
     "command": "-workbench.action.focusEighthEditorGroup"
   },
   {
-    "key": "cmd+k f",
+    "key": "cmd+k cmd+f",
     "command": "workbench.view.extension.favorites-explorer"
   },
   {
@@ -1816,7 +1816,7 @@
     "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
   },
   {
-    "key": "cmd+k cmd+f",
+    "key": "cmd+k cmd+h",
     "command": "fileutils.newFolder"
   },
   {
@@ -1938,5 +1938,61 @@
   {
     "key": "cmd+b",
     "command": "workbench.files.action.focusOpenEditorsView"
+  },
+  {
+    "key": "cmd+k m",
+    "command": "markdown-preview-enhanced.openPreview",
+    "when": "editorLangId == 'markdown'"
+  },
+  {
+    "key": "shift+cmd+v",
+    "command": "-markdown-preview-enhanced.openPreview",
+    "when": "editorLangId == 'markdown'"
+  },
+  {
+    "key": "cmd+k enter",
+    "command": "workbench.action.pinEditor",
+    "when": "!activeEditorIsPinned"
+  },
+  {
+    "key": "cmd+k enter",
+    "command": "-workbench.action.pinEditor",
+    "when": "!activeEditorIsPinned"
+  },
+  {
+    "key": "cmd+k enter",
+    "command": "workbench.action.unpinEditor",
+    "when": "activeEditorIsPinned"
+  },
+  {
+    "key": "cmd+k enter",
+    "command": "-workbench.action.unpinEditor",
+    "when": "activeEditorIsPinned"
+  },
+  {
+    "key": "cmd+k f",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "cmd+p",
+    "command": "-workbench.action.quickOpen"
+  },
+  {
+    "key": "cmd+k f",
+    "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "cmd+p",
+    "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "cmd+p",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "-workbench.action.previousEditor"
   }
 ]
