@@ -57,10 +57,7 @@ git clone git@github.com:maxdzyubak/dotfiles.git
 
 #### Xi
 
-`Xi` — markup language support for syntax highlighting and link jumps
-Autor [@grigoryvp](https://github.com/grigoryvp)
-Documentation is [here](https://github.com/grigoryvp/vscode-language-xi)
-Video guide in YouTube on Russian language is [here](https://youtu.be/q4Ftg63diDs)
+`Xi` — markup language support for syntax highlighting and link jumps. Autor [@grigoryvp](https://github.com/grigoryvp). Documentation is [here](https://github.com/grigoryvp/vscode-language-xi). Video guide in YouTube on Russian language is [here](https://youtu.be/q4Ftg63diDs)
 
 #### Tmux
 
