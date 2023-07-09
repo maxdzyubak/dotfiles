@@ -87,6 +87,18 @@
         "$"
       ]
     },
+    // yanking from inner ()
+    {
+      "before": [
+        "<Leader>",
+        "("
+      ],
+      "after": [
+        "y",
+        "i",
+        "("
+      ]
+    },
     // yanking from inner []
     {
       "before": [
@@ -607,6 +619,5 @@
   "workbench.colorTheme": "grigoryvp memory theme",
   "vim.cursorStylePerMode.replace": "underline",
   "editor.cursorBlinking": "solid",
-  "workbench.activityBar.visible": false,
-  "workbench.editor.showTabs": false
+  "workbench.activityBar.visible": false
 }
