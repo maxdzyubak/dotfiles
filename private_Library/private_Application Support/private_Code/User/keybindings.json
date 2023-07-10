@@ -2010,10 +2010,6 @@
     "command": "workbench.action.showRuntimeExtensions"
   },
   {
-    "key": "cmd+8",
-    "command": "git.commit.view.show"
-  },
-  {
     "key": "cmd+9 cmd+9",
     "command": "extension.dash.customSyntax",
     "when": "editorTextFocus"
