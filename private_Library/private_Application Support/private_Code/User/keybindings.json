@@ -392,7 +392,7 @@
     "when": "editorFocus"
   },
   {
-    "key": "cmd+f",
+    "key": "cmd+f f",
     "command": "actions.find",
     "when": "editorFocus || editorIsOpen"
   },
@@ -410,7 +410,7 @@
     "command": "-workbench.action.nextEditor"
   },
   {
-    "key": "cmd+s",
+    "key": "cmd+f k",
     "command": "workbench.action.findInFiles"
   },
   {
@@ -582,7 +582,7 @@
     "command": "workbench.view.extensions"
   },
   {
-    "key": "cmd+h",
+    "key": "cmd+f r",
     "command": "editor.action.startFindReplaceAction",
     "when": "editorFocus || editorIsOpen"
   },
@@ -1362,7 +1362,7 @@
     "command": "workbench.action.focusActiveEditorGroup"
   },
   {
-    "key": "cmd+m",
+    "key": "cmd+s",
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
@@ -1381,7 +1381,7 @@
     "command": "workbench.action.terminal.focus"
   },
   {
-    "key": "cmd+b",
+    "key": "cmd+m",
     "command": "workbench.action.toggleAuxiliaryBar"
   },
   {
@@ -1559,7 +1559,7 @@
     "when": "editorTextFocus && !editorReadonly && editorLangId == 'powershell'"
   },
   {
-    "key": "ctrl+cmd+f",
+    "key": "cmd+j space",
     "command": "workbench.action.toggleCenteredLayout",
     "when": "editorFocus"
   },
@@ -1941,15 +1941,11 @@
     "when": "activeEditorIsPinned"
   },
   {
-    "key": "cmd+k f",
-    "command": "workbench.action.quickOpen"
-  },
-  {
     "key": "cmd+p",
     "command": "-workbench.action.quickOpen"
   },
   {
-    "key": "cmd+k f",
+    "key": "cmd+f j",
     "command": "workbench.action.quickOpenNavigateNextInFilePicker",
     "when": "inFilesPicker && inQuickOpen"
   },
@@ -2059,5 +2055,9 @@
     "key": "cmd+l cmd+c",
     "command": "-extension.liveServer.goOffline",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+f j",
+    "command": "workbench.action.quickOpen"
   }
 ]
