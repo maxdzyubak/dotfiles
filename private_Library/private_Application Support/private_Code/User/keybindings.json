@@ -1088,11 +1088,6 @@
     "command": "-extension.advancedNewFile"
   },
   {
-    "key": "cmd+j",
-    "command": "editor.action.inlineSuggest.showNext",
-    "when": "inlineSuggestionVisible && !editorReadonly"
-  },
-  {
     "key": "alt+]",
     "command": "-editor.action.inlineSuggest.showNext",
     "when": "inlineSuggestionVisible && !editorReadonly"
@@ -1434,7 +1429,7 @@
     "command": "extension.xi.lookup"
   },
   {
-    "key": "cmd-j",
+    "key": "cmd+l",
     "command": "extension.goto-link-provider.open"
   },
   {
@@ -1442,7 +1437,7 @@
     "command": "workbench.action.focusActiveEditorGroup"
   },
   {
-    "key": "cmd+l f",
+    "key": "cmd+j k",
     "command": "workbench.action.toggleMaximizedPanel"
   },
   {
@@ -1491,7 +1486,7 @@
     "command": "workbench.action.closePanel"
   },
   {
-    "key": "cmd+j",
+    "key": "cmd+l",
     "command": "editor.action.openLink",
   },
   {
@@ -1972,15 +1967,15 @@
     "command": "-workbench.action.previousEditor"
   },
   {
-    "key": "cmd+l j",
+    "key": "cmd+j j",
     "command": "workbench.action.positionPanelBottom"
   },
   {
-    "key": "cmd+l h",
+    "key": "cmd+j h",
     "command": "workbench.action.positionPanelLeft"
   },
   {
-    "key": "cmd+l l",
+    "key": "cmd+j l",
     "command": "workbench.action.positionPanelRight"
   },
   {
@@ -1988,7 +1983,7 @@
     "command": "outline.focus"
   },
   {
-    "key": "cmd+k z",
+    "key": "cmd+j f",
     "command": "workbench.action.maximizeEditor"
   },
   {
@@ -2039,5 +2034,30 @@
   {
     "key": "cmd+1",
     "command": "-workbench.action.focusFirstEditorGroup"
+  },
+  {
+    "key": "cmd+l",
+    "command": "-expandLineSelection",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+j cmd+l",
+    "command": "extension.liveServer.goOnline",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+l cmd+o",
+    "command": "-extension.liveServer.goOnline",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+j cmd+s",
+    "command": "extension.liveServer.goOffline",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+l cmd+c",
+    "command": "-extension.liveServer.goOffline",
+    "when": "editorTextFocus"
   }
 ]
