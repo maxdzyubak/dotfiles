@@ -31,14 +31,6 @@
     "when": "textInputFocus && !editorReadonly"
   },
   {
-    "key": "cmd+1",
-    "command": "workbench.action.focusFirstEditorGroup"
-  },
-  {
-    "key": "cmd+1",
-    "command": "-workbench.action.focusFirstEditorGroup"
-  },
-  {
     "key": "ctrl+shift+c",
     "command": "autoprefixer.execute"
   },
@@ -1394,7 +1386,7 @@
     "command": "workbench.action.terminal.focus"
   },
   {
-    "key": "f4",
+    "key": "cmd+b",
     "command": "workbench.action.toggleAuxiliaryBar"
   },
   {
@@ -1479,7 +1471,7 @@
     "when": "!issues.creatingFromFile && resourceScheme == 'newIssue' && config.files.autoSave != 'off'"
   },
   {
-    "key": "alt+s",
+    "key": "cmd+k s",
     "command": "workbench.action.files.save"
   },
   {
@@ -1908,7 +1900,7 @@
     "command": "workbench.action.selectTheme"
   },
   {
-    "key": "cmd+k e",
+    "key": "cmd+k r",
     "command": "workbench.files.action.showActiveFileInExplorer"
   },
   {
@@ -1920,7 +1912,7 @@
     "command": "-workbench.action.navigateToLastEditLocation"
   },
   {
-    "key": "cmd+b",
+    "key": "cmd+k e",
     "command": "workbench.files.action.focusOpenEditorsView"
   },
   {
@@ -2039,5 +2031,13 @@
     "key": "alt+h",
     "command": "-extension.dash.customSyntax",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+2",
+    "command": "-workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "cmd+1",
+    "command": "-workbench.action.focusFirstEditorGroup"
   }
 ]
