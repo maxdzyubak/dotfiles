@@ -548,7 +548,7 @@
     "when": "textInputFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+cmd+;",
+    "key": "cmd+k z",
     "command": "workbench.action.toggleZenMode"
   },
   {
@@ -1211,7 +1211,7 @@
     "when": "inKeybindings && inKeybindingsSearch"
   },
   {
-    "key": "cmd+u",
+    "key": "cmd+m",
     "command": "extension.xi.lookup"
   },
   {
@@ -1303,7 +1303,7 @@
     "command": "-workbench.action.replaceInFiles"
   },
   {
-    "key": "cmd+y",
+    "key": "cmd+u",
     "command": "workbench.actions.view.problems",
     "when": "workbench.panel.markers.view.active"
   },
@@ -1381,7 +1381,7 @@
     "command": "workbench.action.terminal.focus"
   },
   {
-    "key": "cmd+m",
+    "key": "cmd+h",
     "command": "workbench.action.toggleAuxiliaryBar"
   },
   {
@@ -1559,7 +1559,7 @@
     "when": "editorTextFocus && !editorReadonly && editorLangId == 'powershell'"
   },
   {
-    "key": "cmd+j space",
+    "key": "cmd+k space",
     "command": "workbench.action.toggleCenteredLayout",
     "when": "editorFocus"
   },
@@ -1979,7 +1979,7 @@
     "command": "outline.focus"
   },
   {
-    "key": "cmd+j f",
+    "key": "cmd+k f",
     "command": "workbench.action.maximizeEditor"
   },
   {
