@@ -140,10 +140,10 @@ Plug 'ervandew/supertab'
 " Doc: https://github.com/mg979/vim-visual-multi
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
+" Lsp server
 Plug 'w0rp/ale'
 
-Plug 'jiangmiao/auto-pairs'
-
+" Multicursors
 Plug 'easymotion/vim-easymotion'
 
 call plug#end()
