@@ -621,5 +621,7 @@
   "workbench.colorTheme": "grigoryvp memory theme",
   "vim.cursorStylePerMode.replace": "underline",
   "editor.cursorBlinking": "solid",
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "workbench.editor.titleScrollbarSizing": "large",
+  "files.readonlyFromPermissions": true
 }
