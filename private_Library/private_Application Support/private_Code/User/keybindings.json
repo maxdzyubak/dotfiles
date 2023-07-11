@@ -1895,7 +1895,7 @@
     "command": "workbench.action.selectTheme"
   },
   {
-    "key": "cmd+k r",
+    "key": "cmd+k e",
     "command": "workbench.files.action.showActiveFileInExplorer"
   },
   {
@@ -1907,7 +1907,7 @@
     "command": "-workbench.action.navigateToLastEditLocation"
   },
   {
-    "key": "cmd+k e",
+    "key": "cmd+k w",
     "command": "workbench.files.action.focusOpenEditorsView"
   },
   {
@@ -2070,5 +2070,31 @@
     "key": "tab",
     "command": "-insertBestCompletion",
     "when": "atEndOfWord && textInputFocus && !hasOtherSuggestions && !inSnippetMode && !suggestWidgetVisible && config.editor.tabCompletion == 'on'"
+  },
+  {
+    "key": "cmd+k t",
+    "command": "-notebook.cell.expandCellOutput",
+    "when": "notebookCellListFocused && notebookCellOutputIsCollapsed"
+  },
+  {
+    "key": "cmd+k t",
+    "command": "-notebook.cell.collapseCellOutput",
+    "when": "notebookCellHasOutputs && notebookCellListFocused && !inputFocus && !notebookCellOutputIsCollapsed"
+  },
+  {
+    "key": "cmd+k t",
+    "command": "workbench.view.testing.focus"
+  },
+  {
+    "key": "cmd+k r",
+    "command": "workbench.action.remote.showMenu"
+  },
+  {
+    "key": "alt+cmd+o",
+    "command": "-workbench.action.remote.showMenu"
+  },
+  {
+    "key": "cmd+k w",
+    "command": "-workbench.action.closeEditorsInGroup"
   }
 ]
