@@ -1559,7 +1559,7 @@
     "when": "editorTextFocus && !editorReadonly && editorLangId == 'powershell'"
   },
   {
-    "key": "cmd+k space",
+    "key": "cmd+k j",
     "command": "workbench.action.toggleCenteredLayout",
     "when": "editorFocus"
   },
@@ -1829,10 +1829,6 @@
     "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
   },
   {
-    "key": "cmd+k j",
-    "command": "openInIntegratedTerminal"
-  },
-  {
     "key": "cmd+k",
     "command": "-workbench.action.terminal.clear",
     "when": "terminalFocus && terminalHasBeenCreated && !accessibilityModeEnabled || terminalFocus && terminalProcessSupported && !accessibilityModeEnabled"
@@ -1993,8 +1989,9 @@
     "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
   },
   {
-    "key": "cmd+k a",
-    "command": "workbench.action.files.toggleActiveEditorReadonlyInSession"
+    "key": "cmd+k space",
+    "command": "workbench.action.files.toggleActiveEditorReadonlyInSession",
+    "when": "editorFocus"
   },
   {
     "key": "cmd+k r",
