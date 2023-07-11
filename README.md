@@ -40,7 +40,7 @@ git clone git@github.com:maxdzyubak/dotfiles.git
 |![homerow logo](assets/img/homerow.svg)| Homerow.app | [homerow.app](https://www.homerow.app/) | [homerow](https://github.com/dexterleng/homerow) | |
 |![rectanglepro logo](assets/img/rectanglepro.svg)| Rectangleapp/pro | [rectangleapp.com/pro](https://rectangleapp.com/pro) | [RectanglePro](https://github.com/rxhanson/RectanglePro-Community) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_config/RectangleProConfig.json) | |
 |![fig logo](assets/img/fig.svg)| Fig | [fig.io](https://fig.io/) | [fig.io](https://github.com/withfig) |  | |
-|![tmux logo](assets/img/tmux.svg)| Tmux | | [tmux](https://github.com/tmux/tmux) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_config/tmux/tmux.conf.local) | [description](https://github.com/maxdzyubak/dotfiles#tmux) |
+|![tmux logo](assets/img/tmux.svg)| Tmux | | [tmux/tmux](https://github.com/tmux/tmux) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_config/tmux/tmux.conf.local) | [description](https://github.com/maxdzyubak/dotfiles#tmux) |
 || Fd | | [sharkdp/fd](https://github.com/sharkdp/fd) | | |
 || Exa | [the.exa.website](https://the.exa.website/) | [ogham/exa](https://github.com/ogham/exa) | [config](https://github.com/maxdzyubak/dotfiles/blob/main/dot_zshrc) | |
 || Ripgrep | | [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) | | |
