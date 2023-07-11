@@ -1903,7 +1903,7 @@
     "command": "-workbench.action.navigateToLastEditLocation"
   },
   {
-    "key": "cmd+k w",
+    "key": "cmd+b",
     "command": "workbench.files.action.focusOpenEditorsView"
   },
   {
