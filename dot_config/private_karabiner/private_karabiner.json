@@ -969,7 +969,7 @@
                                 ],
                                 "description": "Window: Pin/Unpin Tab",
                                 "from": {
-                                    "key_code": "j",
+                                    "key_code": "v",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
