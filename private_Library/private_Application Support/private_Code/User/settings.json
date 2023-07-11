@@ -621,7 +621,6 @@
   "workbench.colorTheme": "grigoryvp memory theme",
   "vim.cursorStylePerMode.replace": "underline",
   "editor.cursorBlinking": "solid",
-  "workbench.editor.titleScrollbarSizing": "large",
   "files.readonlyFromPermissions": true,
   "dash.exactDocset": true,
   "dash.fileNameToDocsetMap": {
@@ -950,5 +949,6 @@
   },
   "gitHistory.hideCommitViewExplorer": true,
   "gitHistory.sideBySide": true,
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "workbench.list.horizontalScrolling": false
 }
