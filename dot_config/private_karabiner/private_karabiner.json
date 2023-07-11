@@ -1790,6 +1790,27 @@
                                     }
                                 ],
                                 "type": "basic"
+                            },
+                            {
+                              "conditions": [
+                                {
+                                  "name": "hyper_sublayer_s",
+                                  "type": "variable_if",
+                                  "value": 1
+                                }
+                              ],
+                              "from": {
+                                "key_code": "c",
+                                "modifiers": {
+                                  "mandatory": ["any"]
+                                }
+                              },
+                              "to": [
+                                {
+                                  "key_code": "f7"
+                                }
+                              ],
+                              "type": "basic"
                             }
                         ]
                     },
