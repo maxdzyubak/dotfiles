@@ -1483,10 +1483,6 @@
     "command": "workbench.action.closePanel"
   },
   {
-    "key": "cmd+l",
-    "command": "editor.action.openLink",
-  },
-  {
     "key": "cmd+m",
     "command": "-markdown.extension.editing.toggleMath",
     "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
@@ -2090,5 +2086,13 @@
   {
     "key": "cmd+k w",
     "command": "-workbench.action.closeEditorsInGroup"
+  },
+  {
+    "key": "cmd+l",
+    "command": "editor.action.openLink"
+  },
+  {
+    "key": "cmd+j n",
+    "command": "npm.openScript"
   }
 ]
