@@ -953,10 +953,10 @@
   "workbench.editor.pinnedTabSizing": "compact",
   "workbench.editor.tabCloseButton": "off",
   "workbench.editor.tabSizing": "shrink",
-  "terminal.integrated.tabFocusMode": true,
   "statsBar.modules": [
     "cpuLoad",
     "memoUsage"
   ],
   "statsBar.memoUsage.format": "$(flame) ${used} ${unit}",
+  "terminal.integrated.tabFocusMode": false,
 }
