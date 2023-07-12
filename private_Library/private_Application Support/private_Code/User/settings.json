@@ -950,5 +950,6 @@
   "gitHistory.hideCommitViewExplorer": true,
   "gitHistory.sideBySide": true,
   "workbench.activityBar.visible": false,
-  "workbench.list.horizontalScrolling": false
+  "workbench.list.horizontalScrolling": false,
+  "workbench.editor.showTabs": false
 }
