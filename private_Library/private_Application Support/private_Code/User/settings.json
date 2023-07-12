@@ -418,7 +418,7 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.autoReveal": false,
-  "explorer.openEditors.visible": 15,
+  "explorer.openEditors.visible": 0,
   "explorer.excludeGitIgnore": true,
   "extensions.ignoreRecommendations": false,
   "html.autoClosingTags": true,
@@ -561,7 +561,6 @@
   "rubyLsp.yjit": true,
   "tabnine.experimentalAutoImports": true,
   "workbench.layoutControl.enabled": false,
-  "workbench.editor.enablePreview": false,
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -951,5 +950,9 @@
   "gitHistory.sideBySide": true,
   "workbench.activityBar.visible": false,
   "workbench.list.horizontalScrolling": false,
-  "workbench.editor.showTabs": false
+  "workbench.editor.pinnedTabSizing": "compact",
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.editor.tabSizing": "shrink",
+  "terminal.integrated.tabFocusMode": true,
+  "workbench.editor.enablePreview": true,
 }
