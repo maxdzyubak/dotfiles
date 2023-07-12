@@ -4,10 +4,6 @@
     "command": "workbench.action.focusAuxiliaryBar"
   },
   {
-    "key": "ctrl+w",
-    "command": "workbench.action.closeActiveEditor"
-  },
-  {
     "key": "ctrl+'",
     "command": "workbench.action.debug.stepInto",
     "when": "inDebugMode"
@@ -636,7 +632,7 @@
     "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
   },
   {
-    "key": "shift+cmd+u",
+    "key": "ctrl+u",
     "command": "workbench.action.terminal.scrollUpPage",
     "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
   },
@@ -656,7 +652,7 @@
     "when": "inSearchEditor || searchViewletFocus"
   },
   {
-    "key": "ctrl+cmd+j",
+    "key": "ctrl+j",
     "command": "workbench.action.terminal.scrollDown",
     "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
   },
@@ -666,7 +662,7 @@
     "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
   },
   {
-    "key": "shift+cmd+d",
+    "key": "ctrl+d",
     "command": "workbench.action.terminal.scrollDownPage",
     "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
   },
@@ -1397,8 +1393,9 @@
     "command": "workbench.view.debug"
   },
   {
-    "key": "ctrl+w",
-    "command": "workbench.action.closeActiveEditor"
+    "key": "d",
+    "command": "workbench.action.closeActiveEditor",
+    "when": "openEditorsFocus"
   },
   {
     "key": "ctrl+;",
@@ -1834,7 +1831,7 @@
     "when": "terminalFocus && terminalHasBeenCreated && !accessibilityModeEnabled || terminalFocus && terminalProcessSupported && !accessibilityModeEnabled"
   },
   {
-    "key": "ctrl+cmd+k",
+    "key": "ctrl+k",
     "command": "workbench.action.terminal.scrollUp",
     "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
   },
