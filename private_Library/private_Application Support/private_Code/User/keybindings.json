@@ -1299,7 +1299,7 @@
     "command": "-workbench.action.replaceInFiles"
   },
   {
-    "key": "cmd+u",
+    "key": "cmd+f p",
     "command": "workbench.actions.view.problems",
     "when": "workbench.panel.markers.view.active"
   },
@@ -2095,5 +2095,9 @@
     "when": "terminalViewShowing",
     "command": "workbench.action.tasks.runTask",
     "args": "task-close-terminal"
+  },
+  {
+    "key": "cmd+u",
+    "command": "workbench.action.focusNextGroup"
   },
 ]
