@@ -2149,4 +2149,8 @@
     "key": "cmd+j s",
     "command": "workbench.action.toggleEditorWidths"
   },
+  {
+    "key": "cmd+8",
+    "command": "workbench.action.problems.focus"
+  }
 ]
