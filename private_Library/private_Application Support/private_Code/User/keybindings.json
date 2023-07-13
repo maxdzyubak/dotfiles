@@ -1453,10 +1453,6 @@
     "when": "!issues.creatingFromFile && resourceScheme == 'newIssue' && config.files.autoSave != 'off'"
   },
   {
-    "key": "cmd+k s",
-    "command": "workbench.action.files.save"
-  },
-  {
     "key": "cmd+s",
     "command": "-workbench.action.files.save"
   },
