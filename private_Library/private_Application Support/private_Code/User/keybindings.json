@@ -1334,11 +1334,6 @@
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+`",
-    "command": "-workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
-  },
-  {
     "key": "cmd+f3",
     "command": "-editor.action.nextSelectionMatchFindAction",
     "when": "editorFocus"
@@ -1363,11 +1358,6 @@
   },
   {
     "key": "ctrl+shift+alt+cmd+3",
-    "when": "!terminalViewShowing",
-    "command": "workbench.action.terminal.toggleTerminal"
-  },
-  {
-    "key": "ctrl+shift+alt+cmd+3",
     "when": "terminalViewShowing",
     "command": "workbench.action.tasks.runTask",
     "args": "task-close-terminal"
@@ -1377,7 +1367,7 @@
     "command": "workbench.action.terminal.focus"
   },
   {
-    "key": "cmd+h",
+    "key": "cmd+t",
     "command": "workbench.action.toggleAuxiliaryBar"
   },
   {
@@ -2094,5 +2084,16 @@
   {
     "key": "cmd+j n",
     "command": "npm.openScript"
-  }
+  },
+  {
+    "key": "cmd+h",
+    "when": "!terminalViewShowing",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "cmd+h",
+    "when": "terminalViewShowing",
+    "command": "workbench.action.tasks.runTask",
+    "args": "task-close-terminal"
+  },
 ]
