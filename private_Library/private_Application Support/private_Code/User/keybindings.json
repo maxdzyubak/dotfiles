@@ -1363,7 +1363,7 @@
     "args": "task-close-terminal"
   },
   {
-    "key": "cmd+t",
+    "key": "cmd+h",
     "command": "workbench.action.terminal.focus"
   },
   {
@@ -2084,17 +2084,6 @@
   {
     "key": "cmd+j n",
     "command": "npm.openScript"
-  },
-  {
-    "key": "cmd+h",
-    "when": "!terminalViewShowing",
-    "command": "workbench.action.terminal.toggleTerminal"
-  },
-  {
-    "key": "cmd+h",
-    "when": "terminalViewShowing",
-    "command": "workbench.action.tasks.runTask",
-    "args": "task-close-terminal"
   },
   {
     "key": "cmd+u",
