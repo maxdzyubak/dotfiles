@@ -74,7 +74,7 @@
         "-"
       ],
       "after": [
-        "%",
+        "%"
       ]
     },
     // yanking from cursor to end line
@@ -330,21 +330,12 @@
       "before": [
         "<Leader>",
         "<Leader>",
-        "j",
+        "j"
       ],
       "commands": [
         "lineBreakInsert"
       ],
       "silent": true
-    },
-    {
-      "before": [
-        "cmd",
-        "b"
-      ],
-      "commands": [
-        "bookmarks.toggle"
-      ]
     },
     {
       "before": [
@@ -390,9 +381,9 @@
   "workbench.iconTheme": "vscode-great-icons",
   "editor.suggest.showKeywords": true,
   "editor.inlayHints.enabled": "on",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.editor.languageDetectionHints": {
     "untitledEditors": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "notebookEditors": false
   },
   "[javascript]": {
@@ -463,7 +454,7 @@
     "editorBracketHighlight.foreground4": "#00FF6D",
     "editorBracketHighlight.foreground5": "#366AFF",
     "editorBracketHighlight.foreground6": "#D32D72",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#b5b5b5",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#b5b5b5"
     // "bookmarks.lineBackground": "#157EFB22",
     // "bookmarks.lineBorder": "#FF0000",
     // "bookmarks.overviewRuler": "#157EFB88",
@@ -507,7 +498,7 @@
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.openRepositoryInParentFolders": "never",
-  "editor.accessibilitySupport": "on",
+  "editor.accessibilitySupport": "off",
   "ecsstractor_port.add_comment": false,
   "ecsstractor_port.empty_line_before_nested_selector": false,
   "editor.bracketPairColorization.enabled": true,
@@ -958,6 +949,6 @@
   ],
   "statsBar.memoUsage.format": "$(flame) ${percent}%",
   "terminal.integrated.tabFocusMode": false,
-  "workbench.statusBar.visible": false,
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": false
 }
+
