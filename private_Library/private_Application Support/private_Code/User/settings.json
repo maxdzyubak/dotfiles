@@ -948,7 +948,6 @@
   },
   "gitHistory.hideCommitViewExplorer": true,
   "gitHistory.sideBySide": true,
-  "workbench.activityBar.visible": false,
   "workbench.list.horizontalScrolling": false,
   "workbench.editor.pinnedTabSizing": "compact",
   "workbench.editor.tabCloseButton": "off",
@@ -960,4 +959,5 @@
   "statsBar.memoUsage.format": "$(flame) ${percent}%",
   "terminal.integrated.tabFocusMode": false,
   "workbench.statusBar.visible": false,
+  "workbench.activityBar.visible": false,
 }
