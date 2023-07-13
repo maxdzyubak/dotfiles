@@ -1539,8 +1539,7 @@
   },
   {
     "key": "cmd+k j",
-    "command": "workbench.action.toggleCenteredLayout",
-    "when": "editorFocus"
+    "command": "workbench.action.toggleCenteredLayout"
   },
   {
     "key": "cmd+8",
