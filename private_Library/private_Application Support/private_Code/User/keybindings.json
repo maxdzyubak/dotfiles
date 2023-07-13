@@ -2150,7 +2150,8 @@
     "command": "workbench.action.toggleEditorWidths"
   },
   {
-    "key": "cmd+8",
-    "command": "workbench.action.problems.focus"
+    "key": "cmd+m",
+    "command": "problems.action.copyMessage",
+    "when": "problemsVisibility && !relatedInformationFocus && focusedView == 'workbench.panel.markers.view'"
   }
 ]
