@@ -193,7 +193,6 @@
         "h"
       ],
       "commands": [
-        "workbench.action.toggleActivityBarVisibility",
         "workbench.action.toggleStatusbarVisibility",
         "workbench.action.toggleTabsVisibility"
       ]
