@@ -189,6 +189,17 @@
     },
     {
       "before": [
+        "<Leader>",
+        "h"
+      ],
+      "commands": [
+        "workbench.action.toggleActivityBarVisibility",
+        "workbench.action.toggleStatusbarVisibility",
+        "workbench.action.toggleTabsVisibility"
+      ]
+    },
+    {
+      "before": [
         "J"
       ],
       "after": [
@@ -949,5 +960,7 @@
   ],
   "statsBar.memoUsage.format": "$(flame) ${percent}%",
   "terminal.integrated.tabFocusMode": false,
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": false,
+  "workbench.editor.showTabs": false
 }
