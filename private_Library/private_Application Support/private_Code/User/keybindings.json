@@ -2144,5 +2144,13 @@
     "key": "cmd+m",
     "command": "problems.action.copyMessage",
     "when": "problemsVisibility && !relatedInformationFocus && focusedView == 'workbench.panel.markers.view'"
+  },
+  {
+    "key": "shift+cmd+m",
+    "command": "editor.action.addCommentLine"
+  },
+  {
+    "key": "cmd+f cmd+s",
+    "command": "workbench.action.toggleScreencastMode"
   }
 ]
