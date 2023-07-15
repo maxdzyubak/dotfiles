@@ -411,7 +411,6 @@
   "window.openFilesInNewWindow": "off",
   "window.openFoldersInNewWindow": "off",
   "window.newWindowDimensions": "maximized",
-  "window.commandCenter": false,
   "explorer.enableDragAndDrop": true,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
@@ -959,7 +958,5 @@
   ],
   "statsBar.memoUsage.format": "$(flame) ${percent}%",
   "terminal.integrated.tabFocusMode": false,
-  "workbench.activityBar.visible": false,
-  "workbench.statusBar.visible": false,
-  "workbench.editor.showTabs": false
+  "workbench.activityBar.visible": false
 }
