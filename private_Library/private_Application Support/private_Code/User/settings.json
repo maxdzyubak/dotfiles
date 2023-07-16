@@ -958,5 +958,6 @@
   ],
   "statsBar.memoUsage.format": "$(flame) ${percent}%",
   "terminal.integrated.tabFocusMode": false,
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": false
 }
