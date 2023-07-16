@@ -1430,7 +1430,7 @@
                                 ],
                                 "description": "Toggle Hyper sublayer s",
                                 "from": {
-                                    "key_code": "e",
+                                    "key_code": "s",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_command",
@@ -1751,7 +1751,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "s",
+                                    "key_code": "d",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
