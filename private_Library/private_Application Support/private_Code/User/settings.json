@@ -608,5 +608,6 @@
     "file:///Users/maxdzyubak/vscode/custom.css"
   ],
   "workbench.statusBar.visible": false,
+  "workbench.sideBar.location": "right",
   "workbench.activityBar.visible": false
 }
