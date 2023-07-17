@@ -2122,7 +2122,7 @@
     "command": "workbench.action.toggleSplitEditorInGroupLayout"
   },
   {
-    "key": "cmd+j r",
+    "key": "cmd+j cmd+r",
     "command": "workbench.action.evenEditorWidths"
   },
   {
@@ -2151,5 +2151,9 @@
     "key": "cmd+k cmd+u",
     "command": "-editor.action.removeCommentLine",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+j r",
+    "command": "workbench.output.action.clearOutput"
   }
 ]
