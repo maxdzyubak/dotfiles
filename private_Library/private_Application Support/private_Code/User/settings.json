@@ -604,6 +604,9 @@
       "italic": false
     }
   ],
+  "vscode_custom_css.imports": [
+    "file:///Users/maxdzyubak/vscode/custom.css"
+  ],
   "workbench.statusBar.visible": false,
   "workbench.activityBar.visible": false
 }
