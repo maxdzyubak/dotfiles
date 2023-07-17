@@ -1,6 +1,6 @@
 {
-  "app.hideMenubarIcon": true,
-  "app.preferredTerminal": "iTerm",
+  "app.hideMenubarIcon": false,
+  "app.preferredTerminal": "iTerm2",
   "autocomplete.ai.enabled": true,
   "autocomplete.disable": false,
   "autocomplete.firstTokenCompletion": false,
