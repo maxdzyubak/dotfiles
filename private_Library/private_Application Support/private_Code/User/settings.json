@@ -4,7 +4,9 @@
   "editor.lineHeight": 1.8,
   "editor.fontLigatures": true,
   "editor.fontFamily": "JetBrainsMono Nerd Font Mono, JetBrains Mono",
-  "editor.rulers": [ 78 ],
+  "editor.rulers": [
+    78
+  ],
   "editor.lineNumbers": "off",
   "editor.guides.bracketPairs": "active",
   "editor.guides.bracketPairsHorizontal": true,
@@ -216,57 +218,140 @@
       ]
     },
     {
-      "before": [ "K" ],
-      "after": [ "5", "k" ]
+      "before": [
+        "K"
+      ],
+      "after": [
+        "5",
+        "k"
+      ]
     },
     {
-      "before": [ "<Leader>", "j" ],
-      "after": [ "<Leader>", "<Leader>", "w" ]
+      "before": [
+        "<Leader>",
+        "j"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "w"
+      ]
     },
     {
-      "before": [ "<Leader>", "k" ],
-      "after": [ "<Leader>", "<Leader>", "b" ]
+      "before": [
+        "<Leader>",
+        "k"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "b"
+      ]
     },
     {
-      "before": [ "<Leader>", "f" ],
-      "after": [ "<Leader>", "<Leader>", "s" ]
+      "before": [
+        "<Leader>",
+        "f"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "s"
+      ]
     },
     {
-      "before": [ "<Leader>", "u" ],
-      "after": [ "<Leader>", "<Leader>", "k" ]
+      "before": [
+        "<Leader>",
+        "u"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "k"
+      ]
     },
     {
-      "before": [ "<Leader>", "" ],
-      "after": [ "<Leader>", "<Leader>", "e" ]
+      "before": [
+        "<Leader>",
+        ""
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "e"
+      ]
     },
     {
-      "before": [ "<Leader>", "g", "e" ],
-      "after": [ "<Leader>", "<Leader>", "g", "e" ]
+      "before": [
+        "<Leader>",
+        "g",
+        "e"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "g",
+        "e"
+      ]
     },
     {
-      "before": [ "<Leader>", "bdw" ],
-      "after": [ "<Leader>", "<Leader>", "bdw" ]
+      "before": [
+        "<Leader>",
+        "bdw"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "bdw"
+      ]
     },
     {
-      "before": [ "<Leader>", "t" ],
-      "after": [ "<Leader>", "<Leader>", "t" ]
+      "before": [
+        "<Leader>",
+        "t"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "t"
+      ]
     },
     {
-      "before": [ "<Leader>", "p" ],
-      "commands": [ "workbench.action.showCommands" ]
+      "before": [
+        "<Leader>",
+        "p"
+      ],
+      "commands": [
+        "workbench.action.showCommands"
+      ]
     },
     {
-      "before": [ "<Leader>", "<Leader>", "j" ],
-      "commands": [ "lineBreakInsert" ],
+      "before": [
+        "<Leader>",
+        "<Leader>",
+        "j"
+      ],
+      "commands": [
+        "lineBreakInsert"
+      ],
       "silent": true
     },
     {
-      "before": [ "n" ],
-      "commands": [ "bookmarks.jumpToNext" ]
+      "before": [
+        "n"
+      ],
+      "commands": [
+        "bookmarks.jumpToNext"
+      ]
     },
     {
-      "before": [ "<leader>", "n" ],
-      "commands": [ "bookmarks.jumpToPrevious" ]
+      "before": [
+        "<leader>",
+        "n"
+      ],
+      "commands": [
+        "bookmarks.jumpToPrevious"
+      ]
     }
   ],
   "vim.handleKeys": {
@@ -472,7 +557,53 @@
   ],
   "statsBar.memoUsage.format": "$(flame) ${percent}%",
   "terminal.integrated.tabFocusMode": false,
-  "workbench.sideBar.location": "right",
-  "workbench.activityBar.visible": false,
-  "workbench.statusBar.visible": false
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "#",
+      "color": "#708197",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.visible": false
 }
