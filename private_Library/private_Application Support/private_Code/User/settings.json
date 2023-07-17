@@ -87,6 +87,17 @@
         "$"
       ]
     },
+    // yanking from cursor to end line
+    {
+      "before": [
+        "<leader>",
+        "c",
+      ],
+      "after": [
+        "y",
+        "$"
+      ]
+    },
     // yanking from inner ()
     {
       "before": [
@@ -958,6 +969,6 @@
   ],
   "statsBar.memoUsage.format": "$(flame) ${percent}%",
   "terminal.integrated.tabFocusMode": false,
-  "workbench.activityBar.visible": false,
-  "workbench.statusBar.visible": false
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.visible": false
 }
