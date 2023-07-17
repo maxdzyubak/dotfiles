@@ -1120,7 +1120,7 @@
     "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
   },
   {
-    "key": "cmd+a",
+    "key": "cmd+r",
     "command": "code-runner.run",
     "when": "editorFocus"
   },
@@ -2135,19 +2135,21 @@
     "when": "problemsVisibility && !relatedInformationFocus && focusedView == 'workbench.panel.markers.view'"
   },
   {
-    "key": "shift+cmd+m",
-    "command": "editor.action.addCommentLine"
-  },
-  {
     "key": "cmd+f cmd+s",
     "command": "workbench.action.toggleScreencastMode"
   },
   {
-    "key": "cmd+a",
-    "command": "-editor.action.selectAll"
-  },
-  {
     "key": "cmd+d",
     "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "shift+cmd+m",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+k cmd+u",
+    "command": "-editor.action.removeCommentLine",
+    "when": "editorTextFocus && !editorReadonly"
   }
 ]
