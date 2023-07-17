@@ -403,7 +403,7 @@ set -g @open-editor 'C-x'
 set -g @treemux-tree-nvim-init-file '~/.tmux/plugins/treemux/configs/treemux_init.lua'
 
 # refresh ip adress for plugin 'tmux-ip-address'
-set -g @ip_address_refresh_key 'a'
+#set -g @ip_address_refresh_key 'a'
 
 # -- tpm --------------------------------------------------------------------
 
@@ -450,7 +450,7 @@ set -g @plugin 'tmux-plugins/tmux-open'
 set -g @plugin 'kiyoon/treemux'
 #set -g @plugin 'gcla/tmux-wormhole'
 set -g @plugin 'Freed-Wu/tmux-digit'
-set -g @plugin 'anghootys/tmux-ip-address'
+#set -g @plugin 'anghootys/tmux-ip-address'
 #set -g @plugin 'tmux-plugins/tmux-copycat'
 #set -g @plugin 'tmux-plugins/tmux-cpu'
 #set -g @plugin 'tmux-plugins/tmux-continuum'
