@@ -2155,5 +2155,30 @@
   {
     "key": "cmd+j r",
     "command": "workbench.output.action.clearOutput"
+  },
+  {
+    "key": "shift+cmd+.",
+    "command": "editor.action.autoFix",
+    "when": "textInputFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)quickfix\\b/"
+  },
+  {
+    "key": "alt+cmd+.",
+    "command": "-editor.action.autoFix",
+    "when": "textInputFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)quickfix\\b/"
+  },
+  {
+    "key": "shift+cmd+.",
+    "command": "-breadcrumbs.toggleToOn",
+    "when": "!config.breadcrumbs.enabled"
+  },
+  {
+    "key": "shift+cmd+.",
+    "command": "-editor.action.inPlaceReplace.down",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+.",
+    "command": "-breadcrumbs.focusAndSelect",
+    "when": "breadcrumbsPossible && breadcrumbsVisible"
   }
 ]
