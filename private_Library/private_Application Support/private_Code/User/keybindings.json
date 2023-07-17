@@ -14,10 +14,6 @@
     "when": "inDebugMode"
   },
   {
-    "key": "cmd+d",
-    "command": "workbench.action.focusActiveEditorGroup"
-  },
-  {
     "key": "ctrl+shift+d",
     "command": "editor.action.duplicateSelection"
   },
@@ -1124,8 +1120,9 @@
     "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
   },
   {
-    "key": "cmd+r",
-    "command": "code-runner.run"
+    "key": "cmd+a",
+    "command": "code-runner.run",
+    "when": "editorFocus"
   },
   {
     "key": "cmd+o",
@@ -1309,7 +1306,7 @@
     "when": "workbench.panel.markers.view.active"
   },
   {
-    "key": "ctrl+j ctrl+j",
+    "key": "ctrl+8",
     "command": "editor.action.joinLines",
     "when": "editorTextFocus && !editorReadonly"
   },
@@ -1348,10 +1345,6 @@
     "when": "!inDebugMode && activeViewlet == 'workbench.view.debug' && debugConfigurationType == 'node' || !inDebugMode && activeViewlet == 'workbench.view.debug' && debugConfigurationType == 'pwa-extensionHost' || !inDebugMode && activeViewlet == 'workbench.view.debug' && debugConfigurationType == 'pwa-node'"
   },
   // by grigoryvp
-  {
-    "key": "shift+f1",
-    "command": "workbench.action.focusActiveEditorGroup"
-  },
   {
     "key": "cmd+s",
     "command": "workbench.action.toggleSidebarVisibility"
@@ -1418,10 +1411,6 @@
   {
     "key": "cmd+l",
     "command": "extension.goto-link-provider.open"
-  },
-  {
-    "key": "ctrl+8",
-    "command": "workbench.action.focusActiveEditorGroup"
   },
   {
     "key": "cmd+j k",
@@ -2152,5 +2141,13 @@
   {
     "key": "cmd+f cmd+s",
     "command": "workbench.action.toggleScreencastMode"
+  },
+  {
+    "key": "cmd+a",
+    "command": "-editor.action.selectAll"
+  },
+  {
+    "key": "cmd+d",
+    "command": "workbench.action.focusActiveEditorGroup"
   }
 ]
