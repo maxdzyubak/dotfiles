@@ -1272,11 +1272,6 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "alt+cmd+j",
-    "command": "-bookmarks.jumpToPrevious",
-    "when": "editorTextFocus"
-  },
-  {
     "key": "shift+alt+k",
     "command": "-bookmarks.shrinkSelection",
     "when": "editorTextFocus"
@@ -1539,7 +1534,7 @@
     "command": "workbench.view.extension.favorites-explorer"
   },
   {
-    "key": "cmd+k b",
+    "key": "cmd+b",
     "command": "bookmarks.toggle"
   },
   {
@@ -1868,10 +1863,6 @@
   {
     "key": "cmd+k cmd+q",
     "command": "-workbench.action.navigateToLastEditLocation"
-  },
-  {
-    "key": "cmd+b",
-    "command": "workbench.files.action.focusOpenEditorsView"
   },
   {
     "key": "cmd+k m",
