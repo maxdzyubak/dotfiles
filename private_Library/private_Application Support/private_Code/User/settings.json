@@ -72,12 +72,26 @@
     {
       "before": [
         "<leader>",
+        "<leader>",
         "<leader>"
       ],
       "after": [
         "c",
         "i",
         "w"
+      ]
+    },
+    // change yyp: copy and paste this line on next bottom line
+    {
+      "before": [
+        "<leader>",
+        "<leader>",
+        "n"
+      ],
+      "after": [
+        "y",
+        "y",
+        "p"
       ]
     },
     // delete inner word
@@ -119,7 +133,7 @@
       "before": [
         "<leader>",
         "s"
-        ],
+      ],
       "after": [
         "_"
       ]
@@ -389,7 +403,8 @@
     {
       "before": [
         "<Leader>",
-        "b"
+        "<Leader>",
+        "l",
       ],
       "commands": [
         "lineBreakInsert"
@@ -668,6 +683,5 @@
     "file:///Users/maxdzyubak/vscode/custom.css"
   ],
   "workbench.activityBar.visible": false,
-  "workbench.sideBar.location": "right",
-  "workbench.statusBar.visible": false
+  "workbench.sideBar.location": "right"
 }
