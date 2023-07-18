@@ -325,28 +325,6 @@
     {
       "before": [
         "<Leader>",
-        "u"
-      ],
-      "after": [
-        "<Leader>",
-        "<Leader>",
-        "k"
-      ]
-    },
-    {
-      "before": [
-        "<Leader>",
-        ""
-      ],
-      "after": [
-        "<Leader>",
-        "<Leader>",
-        "e"
-      ]
-    },
-    {
-      "before": [
-        "<Leader>",
         "g",
         "e"
       ],
@@ -368,15 +346,26 @@
         "bdw"
       ]
     },
+    // scroll to header
     {
       "before": [
         "<Leader>",
         "t"
       ],
       "after": [
-        "<Leader>",
-        "<Leader>",
+        "z",
         "t"
+      ]
+    },
+    // scroll to bottom
+    {
+      "before": [
+        "<Leader>",
+        "b"
+      ],
+      "after": [
+        "z",
+        "b"
       ]
     },
     // insert line break on cursor bottom
@@ -391,6 +380,7 @@
       ],
       "silent": true
     },
+    // jump to next bookmarks
     {
       "before": [
         "n"
@@ -399,10 +389,10 @@
         "bookmarks.jumpToNext"
       ]
     },
+    // jump to previous bookmarks
     {
       "before": [
-        "<leader>",
-        "n"
+        "p"
       ],
       "commands": [
         "bookmarks.jumpToPrevious"
