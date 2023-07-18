@@ -80,6 +80,70 @@
         "w"
       ]
     },
+    // delete inner word
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "i",
+        "w"
+      ]
+    },
+    // visual insert paragraph
+    {
+      "before": [
+        "<leader>",
+        "v"
+      ],
+      "after": [
+        "v",
+        "i",
+        "p"
+      ]
+    },
+    // Move cursor to end line
+    {
+      "before": [
+        "<leader>",
+        "e"
+      ],
+      "after": [
+        "$"
+      ]
+    },
+    // Move cursor to start line
+    {
+      "before": [
+        "<leader>",
+        "s"
+        ],
+      "after": [
+        "_"
+      ]
+    },
+    // Move cursor to end line and mode input on
+    {
+      "before": [
+        "<leader>",
+        "a"
+      ],
+      "after": [
+        "A"
+      ]
+    },
+    // Move cursor to start line and mode input on
+    {
+      "before": [
+        "<leader>",
+        "i"
+      ],
+      "after": [
+        "I"
+      ]
+    },
     // move to the paired bracket
     {
       "before": [
@@ -202,16 +266,6 @@
         ":noh"
       ]
     },
-    // save file
-    {
-      "before": [
-        "<Leader>",
-        "s"
-      ],
-      "commands": [
-        "workbench.action.files.save"
-      ]
-    },
     // toogle workbench status bar and tab bar
     {
       "before": [
@@ -331,20 +385,11 @@
         "t"
       ]
     },
-    {
-      "before": [
-        "<Leader>",
-        "p"
-      ],
-      "commands": [
-        "workbench.action.showCommands"
-      ]
-    },
     // insert line break on cursor bottom
     {
       "before": [
         "<Leader>",
-        "i"
+        "b"
       ],
       "commands": [
         "lineBreakInsert"
