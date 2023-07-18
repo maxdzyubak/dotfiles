@@ -1728,7 +1728,7 @@
     "when": "notebookCellListFocused && !inputFocus && !notebookCellInputIsCollapsed"
   },
   {
-    "key": "cmd+k cmd+c",
+    "key": "cmd+k cmd+k",
     "command": "fileutils.copyFileName"
   },
   {
@@ -1951,9 +1951,8 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+h",
-    "command": "workbench.files.action.collapseExplorerFolders",
-    "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    "key": "cmd+j cmd+h",
+    "command": "workbench.files.action.collapseExplorerFolders"
   },
   {
     "key": "cmd+k space",
@@ -2180,5 +2179,15 @@
     "key": "shift+cmd+.",
     "command": "-breadcrumbs.focusAndSelect",
     "when": "breadcrumbsPossible && breadcrumbsVisible"
+  },
+  {
+    "key": "cmd+k cmd+k",
+    "command": "-editor.action.defineKeybinding",
+    "when": "resource == 'vscode-userdata:/Users/maxdzyubak/Library/Application%20Support/Code/User/keybindings.json'"
+  },
+  {
+    "key": "cmd+k cmd+k",
+    "command": "-editor.action.selectFromAnchorToCursor",
+    "when": "editorTextFocus && selectionAnchorSet"
   }
 ]
