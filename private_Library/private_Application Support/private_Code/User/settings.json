@@ -110,7 +110,7 @@
     {
       "before": [
         "<leader>",
-        "v"
+        "a"
       ],
       "after": [
         "v",
@@ -136,26 +136,6 @@
       ],
       "after": [
         "_"
-      ]
-    },
-    // Move cursor to end line and mode input on
-    {
-      "before": [
-        "<leader>",
-        "a"
-      ],
-      "after": [
-        "A"
-      ]
-    },
-    // Move cursor to start line and mode input on
-    {
-      "before": [
-        "<leader>",
-        "i"
-      ],
-      "after": [
-        "I"
       ]
     },
     // move to the paired bracket
@@ -683,5 +663,6 @@
     "file:///Users/maxdzyubak/vscode/custom.css"
   ],
   "workbench.activityBar.visible": false,
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": false
 }
