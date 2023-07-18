@@ -1998,7 +1998,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+j cmd+s",
+    "key": "cmd+j cmd+q",
     "command": "extension.liveServer.goOffline",
     "when": "editorTextFocus"
   },
@@ -2189,5 +2189,9 @@
     "key": "cmd+k cmd+k",
     "command": "-editor.action.selectFromAnchorToCursor",
     "when": "editorTextFocus && selectionAnchorSet"
+  },
+  {
+    "key": "cmd+j cmd+s",
+    "command": "workbench.action.files.save"
   }
 ]
