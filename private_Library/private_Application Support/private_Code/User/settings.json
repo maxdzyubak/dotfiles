@@ -68,6 +68,18 @@
     }
   ],
   "vim.normalModeKeyBindings": [
+    // change inner word remap
+    {
+      "before": [
+        "<leader>",
+        "<leader>"
+      ],
+      "after": [
+        "c",
+        "i",
+        "w"
+      ]
+    },
     // move to the paired bracket
     {
       "before": [
@@ -91,7 +103,7 @@
     {
       "before": [
         "<leader>",
-        "c",
+        "l",
       ],
       "after": [
         "y",
@@ -181,6 +193,7 @@
         "editor.action.commentLine"
       ]
     },
+    // :noh
     {
       "before": [
         "<Esc>"
@@ -189,6 +202,7 @@
         ":noh"
       ]
     },
+    // save file
     {
       "before": [
         "<Leader>",
@@ -198,6 +212,7 @@
         "workbench.action.files.save"
       ]
     },
+    // toogle workbench status bar and tab bar
     {
       "before": [
         "<Leader>",
@@ -325,11 +340,11 @@
         "workbench.action.showCommands"
       ]
     },
+    // insert line break on cursor bottom
     {
       "before": [
         "<Leader>",
-        "<Leader>",
-        "j"
+        "i"
       ],
       "commands": [
         "lineBreakInsert"
@@ -607,7 +622,7 @@
   "vscode_custom_css.imports": [
     "file:///Users/maxdzyubak/vscode/custom.css"
   ],
-  "workbench.statusBar.visible": false,
+  "workbench.activityBar.visible": false,
   "workbench.sideBar.location": "right",
-  "workbench.activityBar.visible": false
+  "workbench.statusBar.visible": false
 }
