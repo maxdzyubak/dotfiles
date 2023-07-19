@@ -657,26 +657,28 @@
                                 "type": "basic"
                             },
                             {
-                              "conditions": [
-                                {
-                                  "name": "hyper_sublayer_o",
-                                  "type": "variable_if",
-                                  "value": 1
-                                }
-                              ],
-                              "description": "Open Slack",
-                              "from": {
-                                "key_code": "c",
-                                "modifiers": {
-                                  "mandatory": ["any"]
-                                }
-                              },
-                              "to": [
-                                {
-                                  "shell_command": "open -a 'Slack.app'"
-                                }
-                              ],
-                              "type": "basic"
+                                "conditions": [
+                                    {
+                                        "name": "hyper_sublayer_o",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "description": "Open Slack",
+                                "from": {
+                                    "key_code": "c",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Slack.app'"
+                                    }
+                                ],
+                                "type": "basic"
                             }
                         ]
                     },
@@ -1282,7 +1284,7 @@
                                     {
                                         "key_code": "r",
                                         "modifiers": [
-                                          "left_command"
+                                            "left_command"
                                         ]
                                     }
                                 ],
@@ -1792,25 +1794,27 @@
                                 "type": "basic"
                             },
                             {
-                              "conditions": [
-                                {
-                                  "name": "hyper_sublayer_s",
-                                  "type": "variable_if",
-                                  "value": 1
-                                }
-                              ],
-                              "from": {
-                                "key_code": "c",
-                                "modifiers": {
-                                  "mandatory": ["any"]
-                                }
-                              },
-                              "to": [
-                                {
-                                  "key_code": "f7"
-                                }
-                              ],
-                              "type": "basic"
+                                "conditions": [
+                                    {
+                                        "name": "hyper_sublayer_s",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "c",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f7"
+                                    }
+                                ],
+                                "type": "basic"
                             }
                         ]
                     },
