@@ -243,14 +243,14 @@
       ]
     },
     // toogle comment
-    {
-      "before": [
-        "m"
-      ],
-      "commands": [
-        "editor.action.commentLine"
-      ]
-    },
+    // {
+    //   "before": [
+    //     "m"
+    //   ],
+    //   "commands": [
+    //     "editor.action.commentLine"
+    //   ]
+    // },
     // :noh
     {
       "before": [
@@ -346,26 +346,25 @@
         "bdw"
       ]
     },
-    // scroll to header
-    {
-      "before": [
-        "<Leader>",
-        "t"
-      ],
-      "after": [
-        "z",
-        "t"
-      ]
-    },
+    // // scroll to header
+    // {
+    //   "before": [
+    //     "<Leader>",
+    //     "t"
+    //   ],
+    //   "after": [
+    //     "z",
+    //     "t"
+    //   ]
+    // },
     // scroll to bottom
     {
       "before": [
         "<Leader>",
         "b"
       ],
-      "after": [
-        "z",
-        "b"
+      "commands": [
+        "bookmarks.toggle"
       ]
     },
     // insert line break on cursor bottom
@@ -389,15 +388,17 @@
         "bookmarks.jumpToNext"
       ]
     },
+
     // jump to previous bookmarks
     {
       "before": [
-        "p"
+        "m"
       ],
       "commands": [
         "bookmarks.jumpToPrevious"
       ]
     }
+
   ],
   "vim.handleKeys": {
     "<C-a>": false,
@@ -653,6 +654,5 @@
     "file:///Users/maxdzyubak/vscode/custom.css"
   ],
   "workbench.activityBar.visible": false,
-  "workbench.sideBar.location": "right",
   "workbench.statusBar.visible": false
 }
