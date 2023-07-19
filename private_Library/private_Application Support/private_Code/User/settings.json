@@ -241,14 +241,14 @@
       ]
     },
     // toogle comment
-    // {
-    //   "before": [
-    //     "m"
-    //   ],
-    //   "commands": [
-    //     "editor.action.commentLine"
-    //   ]
-    // },
+    {
+      "before": [
+        "m"
+      ],
+      "commands": [
+        "editor.action.commentLine"
+      ]
+    },
     // :noh
     {
       "before": [
@@ -387,14 +387,14 @@
       ]
     },
     // jump to previous bookmarks
-    {
-      "before": [
-        "m"
-      ],
-      "commands": [
-        "bookmarks.jumpToPrevious"
-      ]
-    }
+    // {
+    //   "before": [
+    //     "m"
+    //   ],
+    //   "commands": [
+    //     "bookmarks.jumpToPrevious"
+    //   ]
+    // }
   ],
   "vim.handleKeys": {
     "<C-a>": false,
