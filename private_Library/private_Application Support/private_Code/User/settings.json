@@ -72,8 +72,7 @@
     {
       "before": [
         "<leader>",
-        "<leader>",
-        "<leader>"
+        "w"
       ],
       "after": [
         "c",
@@ -84,7 +83,6 @@
     // change yyp: copy and paste this line on next bottom line
     {
       "before": [
-        "<leader>",
         "<leader>",
         "n"
       ],
@@ -388,7 +386,6 @@
         "bookmarks.jumpToNext"
       ]
     },
-
     // jump to previous bookmarks
     {
       "before": [
@@ -398,7 +395,6 @@
         "bookmarks.jumpToPrevious"
       ]
     }
-
   ],
   "vim.handleKeys": {
     "<C-a>": false,
