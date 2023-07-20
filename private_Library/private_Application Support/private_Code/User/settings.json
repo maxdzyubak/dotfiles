@@ -649,6 +649,7 @@
   "vscode_custom_css.imports": [
     "file:///Users/maxdzyubak/vscode/custom.css"
   ],
-  "workbench.activityBar.visible": false,
-  "workbench.statusBar.visible": false
+  "workbench.statusBar.visible": false,
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.visible": false
 }
