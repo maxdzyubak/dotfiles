@@ -22,5 +22,5 @@
   "autocomplete.preferVerboseSuggestions": true,
   "autocomplete.scrollWrapAround": true,
   "autocomplete.theme": "gruvbox",
-  "autocomplete.width": 600
+  "autocomplete.width": 800
 }
