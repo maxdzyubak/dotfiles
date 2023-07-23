@@ -1355,7 +1355,7 @@
     "command": "workbench.action.terminal.focus"
   },
   {
-    "key": "cmd+t",
+    "key": "cmd+j cmd+t",
     "command": "workbench.action.toggleAuxiliaryBar"
   },
   {
@@ -1410,10 +1410,6 @@
   {
     "key": "cmd+j k",
     "command": "workbench.action.toggleMaximizedPanel"
-  },
-  {
-    "key": "ctrl+k ctrl+o",
-    "command": "workbench.action.files.openFile"
   },
   {
     "key": "n",
@@ -1530,7 +1526,7 @@
     "command": "-workbench.action.focusEighthEditorGroup"
   },
   {
-    "key": "cmd+k cmd+f",
+    "key": "cmd+t",
     "command": "workbench.view.extension.favorites-explorer"
   },
   {
@@ -1849,10 +1845,6 @@
     "command": "-workbench.action.selectTheme"
   },
   {
-    "key": "cmd+k cmd+o",
-    "command": "workbench.action.selectTheme"
-  },
-  {
     "key": "cmd+k e",
     "command": "workbench.files.action.showActiveFileInExplorer"
   },
@@ -1929,7 +1921,7 @@
     "command": "outline.focus"
   },
   {
-    "key": "cmd+k f",
+    "key": "cmd+k cmd+f",
     "command": "workbench.action.maximizeEditor"
   },
   {
@@ -2202,5 +2194,9 @@
     "key": "shift+cmd+p",
     "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
     "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "cmd+k cmd+o",
+    "command": "workbench.action.addRootFolder"
   }
 ]
