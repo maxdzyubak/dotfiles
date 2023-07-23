@@ -7,7 +7,7 @@
   "autocomplete.fontFamily": "JetBrains Mono",
   "autocomplete.fontSize": 30,
   "autocomplete.fuzzySearch": true,
-  "autocomplete.height": 400,
+  "autocomplete.height": 450,
   "autocomplete.hidePreviewWindow": true,
   "autocomplete.immediatelyExecuteAfterSpace": true,
   "autocomplete.immediatelyRunDangerousCommands": true,
@@ -22,5 +22,5 @@
   "autocomplete.preferVerboseSuggestions": true,
   "autocomplete.scrollWrapAround": true,
   "autocomplete.theme": "gruvbox",
-  "autocomplete.width": 800
+  "autocomplete.width": 1300
 }
