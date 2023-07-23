@@ -270,6 +270,7 @@
         "workbench.action.toggleTabsVisibility"
       ]
     },
+    // move to 5 line on bottom
     {
       "before": [
         "J"
@@ -279,6 +280,7 @@
         "j"
       ]
     },
+    // move 5 line on top
     {
       "before": [
         "K"
@@ -288,6 +290,7 @@
         "k"
       ]
     },
+    // move to start words on bottom
     {
       "before": [
         "<Leader>",
@@ -299,6 +302,7 @@
         "w"
       ]
     },
+    // move to start words on top
     {
       "before": [
         "<Leader>",
@@ -310,10 +314,11 @@
         "b"
       ]
     },
+    // move to symbols
     {
       "before": [
         "<Leader>",
-        "f"
+        "g"
       ],
       "after": [
         "<Leader>",
@@ -345,22 +350,11 @@
         "bdw"
       ]
     },
-    // // scroll to header
-    // {
-    //   "before": [
-    //     "<Leader>",
-    //     "t"
-    //   ],
-    //   "after": [
-    //     "z",
-    //     "t"
-    //   ]
-    // },
-    // scroll to bottom
+    // bookmarks toggle
     {
       "before": [
         "<Leader>",
-        "b"
+        "f"
       ],
       "commands": [
         "bookmarks.toggle"
@@ -650,7 +644,7 @@
   "vscode_custom_css.imports": [
     "file:///Users/maxdzyubak/vscode/custom.css"
   ],
-  "workbench.statusBar.visible": false,
   "workbench.sideBar.location": "right",
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": false
 }
