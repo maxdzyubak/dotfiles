@@ -159,7 +159,7 @@
     {
       "before": [
         "<leader>",
-        "l",
+        "l"
       ],
       "after": [
         "y",
@@ -365,7 +365,7 @@
       "before": [
         "<Leader>",
         "<Leader>",
-        "l",
+        "l"
       ],
       "commands": [
         "lineBreakInsert"
@@ -401,7 +401,6 @@
   "editor.inlayHints.enabled": "on",
   "workbench.editor.languageDetectionHints": {
     "untitledEditors": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "notebookEditors": false
   },
   "[javascript]": {
@@ -646,5 +645,18 @@
   ],
   "workbench.sideBar.location": "right",
   "workbench.activityBar.visible": false,
-  "workbench.statusBar.visible": false
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.printWidth": 80,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "prettier.bracketSpacing": true,
+  "prettier.arrowParens": "avoid",
+  "editor.largeFileOptimizations": false,
+  "workbench.statusBar.visible": false,
+  "workbench.editor.splitInGroupLayout": "vertical"
 }
