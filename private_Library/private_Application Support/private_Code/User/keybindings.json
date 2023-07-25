@@ -2198,5 +2198,9 @@
   {
     "key": "cmd+k cmd+o",
     "command": "workbench.action.addRootFolder"
+  },
+  {
+    "key": "cmd+j cmd+p",
+    "command": "prettier.forceFormatDocument"
   }
 ]
