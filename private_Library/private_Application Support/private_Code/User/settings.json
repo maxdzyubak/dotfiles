@@ -644,7 +644,6 @@
     "file:///Users/maxdzyubak/vscode/custom.css"
   ],
   "workbench.sideBar.location": "right",
-  "workbench.activityBar.visible": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -657,6 +656,6 @@
   "prettier.bracketSpacing": true,
   "prettier.arrowParens": "avoid",
   "editor.largeFileOptimizations": false,
-  "workbench.statusBar.visible": false,
-  "workbench.editor.splitInGroupLayout": "vertical"
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "workbench.activityBar.visible": false
 }
