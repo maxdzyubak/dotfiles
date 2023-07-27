@@ -1156,7 +1156,7 @@
     }
   },
   {
-    "key": "cmd+shift+a",
+    "key": "ctrl+n",
     "command": "editor.action.insertSnippet",
     "when": "editorTextFocus",
     "args": {
