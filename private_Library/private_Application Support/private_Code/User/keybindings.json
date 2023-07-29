@@ -91,7 +91,7 @@
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
   },
   {
-    "key": "t",
+    "key": "x",
     "command": "filesExplorer.cut",
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
   },
@@ -131,7 +131,7 @@
     "when": "explorerViewletCompressedFocus && explorerViewletVisible && filesExplorerFocus && !explorerViewletCompressedFirstFocus && !inputFocus"
   },
   {
-    "key": "x",
+    "key": "space",
     "command": "moveFileToTrash",
     "when": "explorerResourceMoveableToTrash && explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
   },
@@ -2202,5 +2202,10 @@
   {
     "key": "cmd+j cmd+p",
     "command": "prettier.forceFormatDocument"
+  },
+  {
+    "key": "space",
+    "command": "-filesExplorer.openFilePreserveFocus",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
   }
 ]
