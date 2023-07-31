@@ -91,6 +91,8 @@ alias rc="rubocop"
 alias r="ruby"
 alias res="source ~/.zshrc"
 alias i="imgcat"
+alias fzd="find . -type d | fzf"
+alias fzh="history | fzf"
 
 # git-radar settings
 export PROMPT="$PROMPT\$(git-radar --zsh --fetch) "
