@@ -132,8 +132,8 @@
         "<leader>",
         "s"
       ],
-      "after": [
-        "_"
+      "commands": [
+        "workbench.action.files.save"
       ]
     },
     // move to the paired bracket
