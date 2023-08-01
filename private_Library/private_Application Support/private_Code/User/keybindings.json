@@ -1140,7 +1140,7 @@
     "when": "isMacNative && openFolderWorkspaceSupport"
   },
   {
-    "key": "alt+f",
+    "key": "cmd+j cmd+f",
     "command": "code-runner.stop"
   },
   {
