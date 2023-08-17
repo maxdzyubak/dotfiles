@@ -1530,10 +1530,6 @@
     "command": "workbench.view.extension.favorites-explorer"
   },
   {
-    "key": "cmd+b",
-    "command": "bookmarks.toggle"
-  },
-  {
     "key": "cmd+[",
     "command": "workbench.action.quickInputBack",
     "when": "inQuickOpen"
