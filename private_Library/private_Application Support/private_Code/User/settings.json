@@ -659,5 +659,6 @@
   "prettier.arrowParens": "avoid",
   "editor.largeFileOptimizations": false,
   "workbench.editor.splitInGroupLayout": "vertical",
+  "git.ignoreRebaseWarning": true,
   "workbench.activityBar.visible": false
 }
