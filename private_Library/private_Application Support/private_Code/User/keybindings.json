@@ -33,8 +33,7 @@
   },
   {
     "key": "cmd+e",
-    "command": "workbench.view.explorer",
-    "when": "viewContainer.workbench.view.explorer.enabled"
+    "command": "workbench.view.explorer"
   },
   {
     "key": "shift+cmd+e",
@@ -2216,5 +2215,10 @@
   {
     "key": "cmd+j cmd+d",
     "command": "notifications.clearAll"
+  },
+  {
+    "key": "cmd+e",
+    "command": "-editor.action.toggleScreenReaderAccessibilityMode",
+    "when": "accessibilityHelpIsShown"
   }
 ]
