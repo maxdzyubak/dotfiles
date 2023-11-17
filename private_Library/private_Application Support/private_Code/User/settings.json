@@ -438,7 +438,6 @@
   "workbench.tips.enabled": false,
   "workbench.editor.labelFormat": "short",
   "workbench.editor.highlightModifiedTabs": true,
-  "workbench.editor.untitled.hint": "text",
   "[python]": {
     "editor.formatOnType": true,
     "editor.tabSize": 4
@@ -565,7 +564,7 @@
   },
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
-  "rubyLsp.yjit": true,
+ "rubyLsp.yjit": true,
   "tabnine.experimentalAutoImports": true,
   "workbench.layoutControl.enabled": false,
   "[jsonc]": {
@@ -660,5 +659,6 @@
   "editor.largeFileOptimizations": false,
   "workbench.editor.splitInGroupLayout": "vertical",
   "git.ignoreRebaseWarning": true,
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.location": "hidden",
+  "workbench.editor.empty.hint": "text"
 }
