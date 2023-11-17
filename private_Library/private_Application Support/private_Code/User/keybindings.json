@@ -1641,10 +1641,6 @@
     "command": "workbench.action.toggleStatusbarVisibility"
   },
   {
-    "key": "cmd+3",
-    "command": "workbench.action.toggleTabsVisibility"
-  },
-  {
     "key": "cmd+k k",
     "command": "workbench.action.showCommands"
   },
@@ -2224,5 +2220,15 @@
   {
     "key": "cmd+b",
     "command": "bookmarks.toggle"
+  },
+  {
+    "key": "cmd+3",
+    "command": "workbench.action.showMultipleEditorTabs",
+    "when": "!editorTabsVisible"
+  },
+  {
+    "key": "cmd+3",
+    "command": "workbench.action.hideEditorTabs",
+    "when": "editorTabsVisible"
   }
 ]
