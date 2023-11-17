@@ -2203,5 +2203,18 @@
     "key": "space",
     "command": "-filesExplorer.openFilePreserveFocus",
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
+  },
+  {
+    "key": "cmd+j cmd+d",
+    "command": "notification.clear"
+  },
+  {
+    "key": "cmd+backspace",
+    "command": "-notification.clear",
+    "when": "notificationFocus"
+  },
+  {
+    "key": "cmd+j cmd+d",
+    "command": "notifications.clearAll"
   }
 ]
