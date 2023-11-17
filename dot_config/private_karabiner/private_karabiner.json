@@ -138,7 +138,7 @@
                                 ],
                                 "description": "Open -a 'DeepL.app'",
                                 "from": {
-                                    "key_code": "w",
+                                    "key_code": "u",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -330,7 +330,7 @@
                                 ],
                                 "description": "Open WhatsApp",
                                 "from": {
-                                    "key_code": "",
+                                    "key_code": "w",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -676,6 +676,30 @@
                                 "to": [
                                     {
                                         "shell_command": "open -a 'Slack.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_sublayer_o",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "description": "Open iA Writer",
+                                "from": {
+                                    "key_code": "spacebar",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Jivo.app'"
                                     }
                                 ],
                                 "type": "basic"
