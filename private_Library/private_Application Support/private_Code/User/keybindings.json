@@ -2220,5 +2220,9 @@
     "key": "cmd+e",
     "command": "-editor.action.toggleScreenReaderAccessibilityMode",
     "when": "accessibilityHelpIsShown"
+  },
+  {
+    "key": "cmd+b",
+    "command": "bookmarks.toggle"
   }
 ]
