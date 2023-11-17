@@ -94,9 +94,6 @@ alias i="imgcat"
 alias fzd="find . -type d | fzf"
 alias fzh="history | fzf"
 
-alias fix=fuck
-eval $(thefuck --alias fuck)
-
 # git-radar settings
 export PROMPT="$PROMPT\$(git-radar --zsh --fetch) "
 export GIT_RADAR_FORMAT="%{stash}%{remote}%{local}%{changes}"
