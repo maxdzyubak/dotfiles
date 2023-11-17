@@ -564,7 +564,7 @@
   },
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
- "rubyLsp.yjit": true,
+  "rubyLsp.yjit": true,
   "tabnine.experimentalAutoImports": true,
   "workbench.layoutControl.enabled": false,
   "[jsonc]": {
@@ -659,6 +659,8 @@
   "editor.largeFileOptimizations": false,
   "workbench.editor.splitInGroupLayout": "vertical",
   "git.ignoreRebaseWarning": true,
+  "workbench.editor.empty.hint": "text",
+  "workbench.statusBar.visible": false,
   "workbench.activityBar.location": "hidden",
-  "workbench.editor.empty.hint": "text"
+  "workbench.editor.showTabs": "none"
 }
