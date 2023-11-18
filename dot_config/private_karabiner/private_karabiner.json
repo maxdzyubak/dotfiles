@@ -664,9 +664,9 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open Slack",
+                                "description": "Open Accessibility Keyboard",
                                 "from": {
-                                    "key_code": "c",
+                                    "key_code": "l",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -674,9 +674,12 @@
                                     }
                                 },
                                 "to": [
-                                    {
-                                        "shell_command": "open -a 'Slack.app'"
-                                    }
+                                   {
+                                     "key_code": "f9",
+                                     "modifiers": ["left_shift",
+                                     "left_command"
+                                    ]
+                                   }
                                 ],
                                 "type": "basic"
                             },
