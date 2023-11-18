@@ -661,6 +661,5 @@
   "git.ignoreRebaseWarning": true,
   "workbench.editor.empty.hint": "text",
   "workbench.statusBar.visible": false,
-  "workbench.activityBar.location": "hidden",
-  "workbench.editor.showTabs": "none"
+  "workbench.activityBar.location": "hidden"
 }
