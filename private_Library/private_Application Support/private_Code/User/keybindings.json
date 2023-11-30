@@ -2230,5 +2230,9 @@
     "key": "cmd+3",
     "command": "workbench.action.hideEditorTabs",
     "when": "editorTabsVisible"
+  },
+  {
+    "key": "cmd+j cmd+m",
+    "command": "mjml.exportHTML"
   }
 ]
