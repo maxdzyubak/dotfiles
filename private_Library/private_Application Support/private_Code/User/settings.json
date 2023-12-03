@@ -130,6 +130,7 @@
     {
       "before": [
         "<leader>",
+        "<leader>",
         "s"
       ],
       "commands": [
@@ -214,6 +215,26 @@
         "y",
         "i",
         "{"
+      ]
+    },
+    // move cursor to start line
+    {
+      "before": [
+        "<Leader>",
+        "s"
+      ],
+      "after": [
+        "0"
+      ]
+    },
+    // move cursor to end line
+    {
+      "before": [
+        "<Leader>",
+        "e"
+      ],
+      "after": [
+        "$"
       ]
     },
     // yanking from inner ''
@@ -662,5 +683,6 @@
   "workbench.editor.empty.hint": "text",
   "workbench.activityBar.location": "hidden",
   "window.commandCenter": false,
-  "workbench.editor.showTabs": "none"
+  "workbench.editor.showTabs": "none",
+  "workbench.statusBar.visible": false
 }
