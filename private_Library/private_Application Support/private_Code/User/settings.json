@@ -681,8 +681,11 @@
   "workbench.editor.splitInGroupLayout": "vertical",
   "git.ignoreRebaseWarning": true,
   "workbench.editor.empty.hint": "text",
-  "workbench.activityBar.location": "hidden",
   "window.commandCenter": false,
-  "workbench.editor.showTabs": "none",
-  "workbench.statusBar.visible": false
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.editor.showTabs": "none"
 }
