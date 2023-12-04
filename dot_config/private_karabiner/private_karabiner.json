@@ -599,7 +599,7 @@
                                 ],
                                 "description": "Open PlanetVPN",
                                 "from": {
-                                    "key_code": "v",
+                                    "key_code": "",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -722,7 +722,7 @@
                               ],
                               "description": "Show Notification Centre",
                               "from": {
-                                "key_code": "3",
+                                "key_code": "v",
                                 "modifiers": {
                                   "mandatory": ["any"]
                                 }
