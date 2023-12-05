@@ -685,7 +685,7 @@
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "workbench.statusBar.visible": false,
   "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
   "workbench.editor.showTabs": "none"
 }
