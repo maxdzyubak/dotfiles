@@ -2544,7 +2544,7 @@
                           }
                         ],
                         "from": {
-                          "key_code": "spacebar",
+                          "key_code": "k",
                           "modifiers": {
                             "mandatory": ["any"]
                           }
