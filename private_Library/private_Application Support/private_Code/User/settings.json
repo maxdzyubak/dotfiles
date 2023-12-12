@@ -24,8 +24,7 @@
   "editor.semanticHighlighting.enabled": true,
   "liveServer.settings.port": 0,
   "editor.smoothScrolling": true,
-  "editor.minimap.enabled": false,
-  "breadcrumbs.enabled": true, // => navigation on top
+  "editor.minimap.enabled": false, // => navigation on top
   "editor.renderControlCharacters": true,
   "files.defaultLanguage": "javascript",
   "git.ignoreMissingGitWarning": true,
@@ -509,7 +508,7 @@
   "editor.suggestSelection": "first",
   "editor.suggest.preview": false,
   "editor.suggest.showVariables": true,
-  "editor.wordBasedSuggestions": true,
+  "editor.wordBasedSuggestions": "matchingDocuments",
   "editor.parameterHints.enabled": true,
   "editor.parameterHints.cycle": true,
   "editor.suggest.snippetsPreventQuickSuggestions": true,
@@ -587,7 +586,6 @@
   "files.insertFinalNewline": true,
   "rubyLsp.yjit": true,
   "tabnine.experimentalAutoImports": true,
-  "workbench.layoutControl.enabled": false,
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -681,11 +679,15 @@
   "workbench.editor.splitInGroupLayout": "vertical",
   "git.ignoreRebaseWarning": true,
   "workbench.editor.empty.hint": "text",
-  "window.commandCenter": false,
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.tabActionCloseVisibility": false,
+  "workbench.editor.editorActionsLocation": "hidden",
   "workbench.activityBar.location": "hidden",
+  "workbench.editor.showTabs": "none",
   "workbench.statusBar.visible": false,
-  "workbench.editor.showTabs": "none"
+  "breadcrumbs.enabled": false
 }
