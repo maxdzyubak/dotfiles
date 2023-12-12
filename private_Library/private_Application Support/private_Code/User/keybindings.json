@@ -2234,5 +2234,9 @@
   {
     "key": "cmd+j cmd+m",
     "command": "mjml.exportHTML"
+  },
+  {
+    "key": "cmd+4",
+    "command": "breadcrumbs.toggle"
   }
 ]
