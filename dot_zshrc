@@ -109,6 +109,8 @@ TYPEWRITTEN_CURSOR="terminal"
 autoload -U promptinit; promptinit
 prompt typewritten
 
+eval "$(zoxide init zsh)"
+
 export PATH="/usr/local/opt/postgresql@15/bin:$PATH"
 
 # Fig post block. Keep at the bottom of this file.
