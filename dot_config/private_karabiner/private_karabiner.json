@@ -955,9 +955,9 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Window: Full Screen",
+                                "description": "Window: Full Screen. Working with Raycast",
                                 "from": {
-                                    "key_code": "f",
+                                    "key_code": "spacebar",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -966,10 +966,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f",
+                                        "key_code": "f8",
                                         "modifiers": [
                                             "left_option",
-                                            "left_control"
+                                            "left_shift"
                                         ]
                                     }
                                 ],
