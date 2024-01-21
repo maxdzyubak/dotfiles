@@ -688,6 +688,5 @@
   "workbench.editor.editorActionsLocation": "hidden",
   "breadcrumbs.enabled": false,
   "workbench.activityBar.location": "hidden",
-  "workbench.statusBar.visible": false,
-  "workbench.editor.showTabs": "none"
+  "workbench.statusBar.visible": false
 }
