@@ -563,7 +563,8 @@
   // "emmet.includeLanguages": { "ruby": "html", "erb": "html" },
   "emmet.showExpandedAbbreviation": "never",
   "terminal.integrated.env.osx": {
-    "FIG_NEW_SESSION": "1"
+    "FIG_NEW_SESSION": "1",
+    "CW_NEW_SESSION": "1"
   },
   "terminal.integrated.tabs.location": "left",
   "redhat.telemetry.enabled": true,
@@ -686,7 +687,7 @@
   "workbench.layoutControl.enabled": false,
   "workbench.editor.tabActionCloseVisibility": false,
   "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.statusBar.visible": false,
   "breadcrumbs.enabled": false,
-  "workbench.activityBar.location": "hidden",
-  "workbench.statusBar.visible": false
+  "workbench.activityBar.location": "hidden"
 }
