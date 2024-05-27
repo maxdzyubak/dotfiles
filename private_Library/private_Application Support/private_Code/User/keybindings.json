@@ -1139,7 +1139,7 @@
     "when": "isMacNative && openFolderWorkspaceSupport"
   },
   {
-    "key": "cmd+j cmd+f",
+    "key": "cmd+l cmd+f",
     "command": "code-runner.stop"
   },
   {
@@ -1354,7 +1354,7 @@
     "command": "workbench.action.terminal.focus"
   },
   {
-    "key": "cmd+j cmd+t",
+    "key": "cmd+l cmd+t",
     "command": "workbench.action.toggleAuxiliaryBar"
   },
   {
@@ -1403,11 +1403,11 @@
     "command": "extension.xi.lookup"
   },
   {
-    "key": "cmd+l",
+    "key": "cmd+j",
     "command": "extension.goto-link-provider.open"
   },
   {
-    "key": "cmd+j k",
+    "key": "cmd+l k",
     "command": "workbench.action.toggleMaximizedPanel"
   },
   {
@@ -1896,15 +1896,15 @@
     "command": "-workbench.action.previousEditor"
   },
   {
-    "key": "cmd+j j",
+    "key": "cmd+l j",
     "command": "workbench.action.positionPanelBottom"
   },
   {
-    "key": "cmd+j h",
+    "key": "cmd+l h",
     "command": "workbench.action.positionPanelLeft"
   },
   {
-    "key": "cmd+j l",
+    "key": "cmd+l l",
     "command": "workbench.action.positionPanelRight"
   },
   {
@@ -1921,7 +1921,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+j cmd+j",
+    "key": "cmd+l cmd+l",
     "command": "workbench.files.action.collapseExplorerFolders"
   },
   {
@@ -1958,7 +1958,7 @@
     "when": "textInputFocus"
   },
   {
-    "key": "cmd+j cmd+l",
+    "key": "cmd+l cmd+l",
     "command": "extension.liveServer.goOnline",
     "when": "editorTextFocus"
   },
@@ -1968,7 +1968,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+j cmd+q",
+    "key": "cmd+l cmd+q",
     "command": "extension.liveServer.goOffline",
     "when": "editorTextFocus"
   },
@@ -2023,11 +2023,11 @@
     "command": "-workbench.action.closeEditorsInGroup"
   },
   {
-    "key": "cmd+l",
+    "key": "cmd+j",
     "command": "editor.action.openLink"
   },
   {
-    "key": "cmd+j n",
+    "key": "cmd+l n",
     "command": "npm.openScript"
   },
   {
@@ -2075,7 +2075,7 @@
     "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
   },
   {
-    "key": "cmd+j u",
+    "key": "cmd+l u",
     "command": "workbench.action.toggleSplitEditorInGroup"
   },
   {
@@ -2087,15 +2087,15 @@
     "command": "-workbench.action.splitEditor"
   },
   {
-    "key": "cmd+j m",
+    "key": "cmd+l m",
     "command": "workbench.action.toggleSplitEditorInGroupLayout"
   },
   {
-    "key": "cmd+j cmd+r",
+    "key": "cmd+l cmd+r",
     "command": "workbench.action.evenEditorWidths"
   },
   {
-    "key": "cmd+j s",
+    "key": "cmd+l s",
     "command": "workbench.action.toggleEditorWidths"
   },
   {
@@ -2122,7 +2122,7 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "cmd+j r",
+    "key": "cmd+l r",
     "command": "workbench.output.action.clearOutput"
   },
   {
@@ -2161,7 +2161,7 @@
     "when": "editorTextFocus && selectionAnchorSet"
   },
   {
-    "key": "cmd+j cmd+s",
+    "key": "cmd+l cmd+s",
     "command": "workbench.action.files.save"
   },
   {
@@ -2191,7 +2191,7 @@
     "command": "workbench.action.addRootFolder"
   },
   {
-    "key": "cmd+j cmd+p",
+    "key": "cmd+l cmd+p",
     "command": "prettier.forceFormatDocument"
   },
   {
@@ -2200,7 +2200,7 @@
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
   },
   {
-    "key": "cmd+j cmd+d",
+    "key": "cmd+l cmd+d",
     "command": "notification.clear"
   },
   {
@@ -2209,7 +2209,7 @@
     "when": "notificationFocus"
   },
   {
-    "key": "cmd+j cmd+d",
+    "key": "cmd+l cmd+d",
     "command": "notifications.clearAll"
   },
   {
@@ -2232,7 +2232,7 @@
     "when": "editorTabsVisible"
   },
   {
-    "key": "cmd+j cmd+m",
+    "key": "cmd+l cmd+m",
     "command": "mjml.exportHTML"
   },
   {
