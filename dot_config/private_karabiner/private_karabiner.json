@@ -673,7 +673,7 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open Things",
+                                "description": "Open OpenChat",
                                 "from": {
                                     "key_code": "spacebar",
                                     "modifiers": {
@@ -684,7 +684,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Things.app'"
+                                        "shell_command": "open -a 'OpenChat.app'"
                                     }
                                 ],
                                 "type": "basic"
