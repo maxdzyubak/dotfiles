@@ -8,6 +8,9 @@ export VISUAL="$EDITOR"
 export MYVIMRC="~/.local/share/chezmoi/dot_vim/"
 export PATH="$PATH:./node_modules/.bin/"
 
+# Hash
+hash -d down=~/Downloads
+
 curl -fLo ~/.local/share/chezmoi/dot_vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
@@ -15,6 +18,7 @@ source /Users/maxdzyubak/.ghcup/env
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME=""
+
 
 if [ -d "/opt/homebrew/opt/ruby/bin" ]; then
   export PATH=/opt/homebrew/opt/ruby/bin:$PATH
@@ -26,7 +30,7 @@ if [ -d "/usr/local/opt/ruby/bin" ]; then
   export PATH=`gem environment gemdir`/bin:$PATH
 fi
 
-plugins=(git frontend-search fzf aliases react-native ruby iterm2 node npm rails redis-cli thefuck zsh-navigation-tools zsh-interactive-cd wd z web-search gulp gitignore gitfast asdf)
+plugins=(vi-mode git frontend-search fzf aliases react-native ruby iterm2 node npm rails redis-cli thefuck zsh-navigation-tools zsh-interactive-cd wd z web-search gulp gitignore gitfast asdf)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -112,7 +116,6 @@ prompt typewritten
 eval "$(zoxide init zsh)"
 
 export PATH="/usr/local/opt/postgresql@15/bin:$PATH"
-
 
 [[ -f "$HOME/fig-export/dotfiles/dotfile.zsh" ]] && builtin source "$HOME/fig-export/dotfiles/dotfile.zsh"
 
