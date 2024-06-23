@@ -405,7 +405,7 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open Apple Mail",
+                                "description": "Open OpenChat",
                                 "from": {
                                     "key_code": "m",
                                     "modifiers": {
@@ -416,7 +416,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Mail.app'"
+                                        "shell_command": "open -a 'OpenChat.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -673,7 +673,7 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open OpenChat",
+                                "description": "Open Things",
                                 "from": {
                                     "key_code": "spacebar",
                                     "modifiers": {
@@ -684,7 +684,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'OpenChat.app'"
+                                        "shell_command": "open -a 'Things.app'"
                                     }
                                 ],
                                 "type": "basic"
