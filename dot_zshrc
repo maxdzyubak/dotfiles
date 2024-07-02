@@ -45,6 +45,7 @@ export BAT_THEME="gruvbox-dark"
 
 # Aliases
 alias cpwd="pwd|pbcopy"
+alias pc="pbcopy"
 alias cc="chezmoi cd"
 alias a="code --add"
 alias o="open"
