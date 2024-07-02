@@ -689,6 +689,5 @@
   "workbench.editor.editorActionsLocation": "hidden",
   "breadcrumbs.enabled": false,
   "editor.renderControlCharacters": false,
-  "workbench.statusBar.visible": false,
   "workbench.activityBar.location": "hidden"
 }
