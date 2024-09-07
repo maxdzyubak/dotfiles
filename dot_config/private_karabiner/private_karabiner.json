@@ -141,7 +141,7 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open -a 'DeepL.app'",
+                                "description": "Open -a 'DeepL 3.app'",
                                 "from": {
                                     "key_code": "u",
                                     "modifiers": {
@@ -407,7 +407,7 @@
                                 ],
                                 "description": "Open OpenChat",
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -736,6 +736,28 @@
                                     }
                                 ],
                                 "type": "basic"
+                            },
+                            {
+                              "conditions": [
+                                {
+                                  "name": "hyper_sublayer_o",
+                                  "type": "variable_if",
+                                  "value": 1
+                                }
+                              ],
+                              "description": "Open Yandex Music",
+                              "from": {
+                                "key_code": "m",
+                                "modifiers": {
+                                  "mandatory": ["any"]
+                                }
+                              },
+                              "to": [
+                                {
+                                  "shell_command": "open -a 'Yandex Music.app'"
+                                }
+                              ],
+                              "type": "basic"
                             }
                         ]
                     },
