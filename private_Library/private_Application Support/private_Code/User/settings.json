@@ -687,8 +687,8 @@
   "workbench.layoutControl.enabled": false,
   "workbench.editor.tabActionCloseVisibility": false,
   "workbench.editor.editorActionsLocation": "hidden",
-  "breadcrumbs.enabled": false,
   "editor.renderControlCharacters": false,
+  "breadcrumbs.enabled": false,
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": false
 }
