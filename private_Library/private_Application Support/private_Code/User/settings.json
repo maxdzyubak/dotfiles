@@ -688,8 +688,9 @@
   "workbench.editor.tabActionCloseVisibility": false,
   "workbench.editor.editorActionsLocation": "hidden",
   "editor.renderControlCharacters": false,
+  "workbench.panel.showLabels": false,
   "breadcrumbs.enabled": false,
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": false,
-  "workbench.panel.showLabels": false
+  "workbench.editor.showTabs": "none"
 }

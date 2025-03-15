@@ -1407,7 +1407,7 @@
     "command": "extension.goto-link-provider.open"
   },
   {
-    "key": "cmd+l k",
+    "key": "cmd+l cmd+k",
     "command": "workbench.action.toggleMaximizedPanel"
   },
   {

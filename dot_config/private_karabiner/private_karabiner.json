@@ -753,8 +753,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f10",
-                                        "modifiers": ["left_option"]
+                                        "key_code": "8",
+                                        "modifiers": ["left_command", "left_option"]
                                     }
                                 ],
                                 "type": "basic"
@@ -837,8 +837,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f7",
-                                        "modifiers": ["left_option", "left_shift"]
+                                        "key_code": "9",
+                                        "modifiers": ["left_command", "left_option"]
                                     }
                                 ],
                                 "type": "basic"
@@ -2557,6 +2557,19 @@
                             "to": [{ "key_code": "left_control" }]
                         }
                     ]
+                },
+                {
+                    "fn_function_keys": [
+                        {
+                            "from": { "key_code": "f1" },
+                            "to": [{ "consumer_key_code": "display_brightness_decrement" }]
+                        }
+                    ],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "product_id": 835,
+                        "vendor_id": 1452
+                    }
                 }
             ],
             "fn_function_keys": [
