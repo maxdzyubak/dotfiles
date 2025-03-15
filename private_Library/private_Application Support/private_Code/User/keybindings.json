@@ -2263,5 +2263,9 @@
     "key": "cmd+r",
     "command": "-inlineChat.regenerate",
     "when": "inlineChatHasProvider && inlineChatVisible"
+  },
+  {
+    "key": "cmd+l k",
+    "command": "workbench.action.positionPanelTop"
   }
 ]
