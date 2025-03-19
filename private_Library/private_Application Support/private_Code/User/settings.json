@@ -34,6 +34,7 @@
   "terminal.integrated.lineHeight": 1.2,
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontWeight": 400,
+  "workbench.editor.enablePreview": false,
   "editor.renderWhitespace": "none",
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
@@ -686,11 +687,10 @@
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "workbench.editor.tabActionCloseVisibility": false,
-  "workbench.editor.editorActionsLocation": "hidden",
   "editor.renderControlCharacters": false,
   "workbench.panel.showLabels": false,
   "breadcrumbs.enabled": false,
-  "workbench.activityBar.location": "hidden",
+  "workbench.editor.editorActionsLocation": "hidden",
   "workbench.statusBar.visible": false,
-  "workbench.editor.showTabs": "none"
+  "workbench.activityBar.location": "hidden"
 }
