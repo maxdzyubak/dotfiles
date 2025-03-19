@@ -617,7 +617,7 @@
     "when": "isDevelopment"
   },
   {
-    "key": "cmd+l cmd+c",
+    "key": "cmd+l cmd+r",
     "command": "workbench.action.terminal.clear",
     "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
   },
@@ -1290,7 +1290,7 @@
     "command": "-workbench.action.replaceInFiles"
   },
   {
-    "key": "cmd+f p",
+    "key": "cmd+f enter",
     "command": "workbench.actions.view.problems",
     "when": "workbench.panel.markers.view.active"
   },
@@ -1348,10 +1348,6 @@
     "when": "terminalViewShowing",
     "command": "workbench.action.tasks.runTask",
     "args": "task-close-terminal"
-  },
-  {
-    "key": "cmd+h",
-    "command": "workbench.action.terminal.focus"
   },
   {
     "key": "cmd+l cmd+t",
@@ -2091,7 +2087,7 @@
     "command": "workbench.action.toggleSplitEditorInGroupLayout"
   },
   {
-    "key": "cmd+l cmd+r",
+    "key": "cmd+l cmd+c",
     "command": "workbench.action.evenEditorWidths"
   },
   {
@@ -2170,7 +2166,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+p",
+    "key": "cmd+h",
     "command": "workbench.action.previousEditor"
   },
   {
@@ -2267,5 +2263,25 @@
   {
     "key": "cmd+l k",
     "command": "workbench.action.positionPanelTop"
+  },
+  {
+    "key": "cmd+y",
+    "command": "editor.action.marker.next",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+f8",
+    "command": "-editor.action.marker.next",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+y",
+    "command": "testing.goToNextMessage",
+    "when": "editorFocus && testing.isPeekVisible"
+  },
+  {
+    "key": "alt+f8",
+    "command": "-testing.goToNextMessage",
+    "when": "editorFocus && testing.isPeekVisible"
   }
 ]
