@@ -617,7 +617,7 @@
     "when": "isDevelopment"
   },
   {
-    "key": "cmd+l cmd+r",
+    "key": "cmd+n cmd+r",
     "command": "workbench.action.terminal.clear",
     "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
   },
@@ -1139,7 +1139,7 @@
     "when": "isMacNative && openFolderWorkspaceSupport"
   },
   {
-    "key": "cmd+l cmd+f",
+    "key": "cmd+n cmd+f",
     "command": "code-runner.stop"
   },
   {
@@ -1350,7 +1350,7 @@
     "args": "task-close-terminal"
   },
   {
-    "key": "cmd+l cmd+t",
+    "key": "cmd+n cmd+t",
     "command": "workbench.action.toggleAuxiliaryBar"
   },
   {
@@ -1403,7 +1403,7 @@
     "command": "extension.goto-link-provider.open"
   },
   {
-    "key": "cmd+l cmd+k",
+    "key": "cmd+n cmd+k",
     "command": "workbench.action.toggleMaximizedPanel"
   },
   {
@@ -1432,7 +1432,7 @@
     "command": "-workbench.action.files.save"
   },
   {
-    "key": "cmd+n",
+    "key": "cmd+l",
     "command": "workbench.action.nextEditor"
   },
   {
@@ -1892,15 +1892,15 @@
     "command": "-workbench.action.previousEditor"
   },
   {
-    "key": "cmd+l j",
+    "key": "cmd+n j",
     "command": "workbench.action.positionPanelBottom"
   },
   {
-    "key": "cmd+l h",
+    "key": "cmd+n h",
     "command": "workbench.action.positionPanelLeft"
   },
   {
-    "key": "cmd+l l",
+    "key": "cmd+n l",
     "command": "workbench.action.positionPanelRight"
   },
   {
@@ -1917,7 +1917,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+l cmd+l",
+    "key": "cmd+n cmd+l",
     "command": "workbench.files.action.collapseExplorerFolders"
   },
   {
@@ -1954,7 +1954,7 @@
     "when": "textInputFocus"
   },
   {
-    "key": "cmd+l cmd+l",
+    "key": "cmd+n cmd+l",
     "command": "extension.liveServer.goOnline",
     "when": "editorTextFocus"
   },
@@ -1964,7 +1964,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+l cmd+q",
+    "key": "cmd+n cmd+q",
     "command": "extension.liveServer.goOffline",
     "when": "editorTextFocus"
   },
@@ -2023,7 +2023,7 @@
     "command": "editor.action.openLink"
   },
   {
-    "key": "cmd+l n",
+    "key": "cmd+n n",
     "command": "npm.openScript"
   },
   {
@@ -2071,7 +2071,7 @@
     "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
   },
   {
-    "key": "cmd+l u",
+    "key": "cmd+n u",
     "command": "workbench.action.toggleSplitEditorInGroup"
   },
   {
@@ -2083,15 +2083,15 @@
     "command": "-workbench.action.splitEditor"
   },
   {
-    "key": "cmd+l m",
+    "key": "cmd+n m",
     "command": "workbench.action.toggleSplitEditorInGroupLayout"
   },
   {
-    "key": "cmd+l cmd+c",
+    "key": "cmd+n cmd+c",
     "command": "workbench.action.evenEditorWidths"
   },
   {
-    "key": "cmd+l s",
+    "key": "cmd+n s",
     "command": "workbench.action.toggleEditorWidths"
   },
   {
@@ -2118,7 +2118,7 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "cmd+l r",
+    "key": "cmd+n r",
     "command": "workbench.output.action.clearOutput"
   },
   {
@@ -2157,7 +2157,7 @@
     "when": "editorTextFocus && selectionAnchorSet"
   },
   {
-    "key": "cmd+l cmd+s",
+    "key": "cmd+n cmd+s",
     "command": "workbench.action.files.save"
   },
   {
@@ -2187,7 +2187,7 @@
     "command": "workbench.action.addRootFolder"
   },
   {
-    "key": "cmd+l cmd+p",
+    "key": "cmd+n cmd+p",
     "command": "prettier.forceFormatDocument"
   },
   {
@@ -2196,7 +2196,7 @@
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
   },
   {
-    "key": "cmd+l cmd+d",
+    "key": "cmd+n cmd+d",
     "command": "notification.clear"
   },
   {
@@ -2205,7 +2205,7 @@
     "when": "notificationFocus"
   },
   {
-    "key": "cmd+l cmd+d",
+    "key": "cmd+n cmd+d",
     "command": "notifications.clearAll"
   },
   {
@@ -2228,7 +2228,7 @@
     "when": "editorTabsVisible"
   },
   {
-    "key": "cmd+l cmd+m",
+    "key": "cmd+n cmd+m",
     "command": "mjml.exportHTML"
   },
   {
@@ -2261,7 +2261,7 @@
     "when": "inlineChatHasProvider && inlineChatVisible"
   },
   {
-    "key": "cmd+l k",
+    "key": "cmd+n k",
     "command": "workbench.action.positionPanelTop"
   },
   {
