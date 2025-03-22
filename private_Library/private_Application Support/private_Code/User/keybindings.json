@@ -2283,5 +2283,9 @@
     "key": "alt+f8",
     "command": "-testing.goToNextMessage",
     "when": "editorFocus && testing.isPeekVisible"
+  },
+  {
+    "key": "cmd+k cmd+g",
+    "command": "git.sync"
   }
 ]
