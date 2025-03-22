@@ -692,5 +692,6 @@
   "breadcrumbs.enabled": false,
   "workbench.editor.editorActionsLocation": "hidden",
   "workbench.statusBar.visible": false,
-  "workbench.activityBar.location": "hidden"
+  "workbench.activityBar.location": "hidden",
+  "chat.commandCenter.enabled": false
 }
