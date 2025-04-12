@@ -1320,7 +1320,7 @@
                                 },
                                 "to": [{
                                   "key_code": "1",
-                                  "modifiers": ["left_control", "left_shift"]
+                                  "modifiers": ["left_control", "left_option"]
                                   }],
                                 "type": "basic"
                             },
