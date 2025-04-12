@@ -688,13 +688,13 @@
   "workbench.layoutControl.enabled": false,
   "workbench.editor.tabActionCloseVisibility": false,
   "editor.renderControlCharacters": false,
-  "workbench.panel.showLabels": false,
   "workbench.editor.editorActionsLocation": "hidden",
   "chat.commandCenter.enabled": false,
   "python.autoComplete.extraPaths": [],
-  "breadcrumbs.enabled": false,
-  "workbench.statusBar.visible": false,
   "editor.guides.indentation": false,
   "editor.guides.highlightActiveIndentation": false,
-  "workbench.activityBar.location": "hidden"
+  "workbench.panel.showLabels": false,
+  "workbench.activityBar.location": "hidden",
+  "breadcrumbs.enabled": false,
+  "workbench.statusBar.visible": false
 }
