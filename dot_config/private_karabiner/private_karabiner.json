@@ -1318,7 +1318,10 @@
                                     "key_code": "d",
                                     "modifiers": { "mandatory": ["any"] }
                                 },
-                                "to": [{ "key_code": "f5" }],
+                                "to": [{
+                                  "key_code": "1",
+                                  "modifiers": ["left_control", "left_shift"]
+                                  }],
                                 "type": "basic"
                             },
                             {
