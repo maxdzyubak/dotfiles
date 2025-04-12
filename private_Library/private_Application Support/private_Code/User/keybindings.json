@@ -1908,7 +1908,7 @@
     "command": "outline.focus"
   },
   {
-    "key": "cmd+k cmd+f",
+    "key": "cmd+k cmd+g",
     "command": "workbench.action.maximizeEditor"
   },
   {
@@ -2285,7 +2285,7 @@
     "when": "editorFocus && testing.isPeekVisible"
   },
   {
-    "key": "cmd+k cmd+g",
+    "key": "cmd+k cmd+f",
     "command": "git.sync"
   }
 ]
