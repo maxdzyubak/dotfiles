@@ -1,7 +1,7 @@
 {
   "editor.detectIdentation": false,
-  "editor.fontSize": 14,
-  "editor.lineHeight": 1.8,
+  "editor.fontSize": 13,
+  "editor.lineHeight": 1.5,
   "editor.fontLigatures": true,
   "editor.fontFamily": "JetBrainsMono Nerd Font Mono, JetBrains Mono",
   "editor.rulers": [
@@ -694,7 +694,7 @@
   "editor.guides.indentation": false,
   "editor.guides.highlightActiveIndentation": false,
   "workbench.panel.showLabels": false,
-  "workbench.activityBar.location": "hidden",
   "breadcrumbs.enabled": false,
+  "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": false
 }
