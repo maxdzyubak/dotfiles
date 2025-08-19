@@ -1,6 +1,6 @@
 {
   "editor.detectIdentation": false,
-  "editor.fontSize": 13,
+  "editor.fontSize": 14,
   "editor.lineHeight": 1.7,
   "editor.fontLigatures": true,
   "editor.fontFamily": "JetBrainsMono Nerd Font Mono, JetBrains Mono",
@@ -591,7 +591,7 @@
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 1,
   "git.autofetch": true,
   "terminal.integrated.tabs.enabled": false,
   "sorbet.enabled": true,
