@@ -19,7 +19,7 @@
   "editor.autoClosingBrackets": "never",
   "editor.autoClosingOvertype": "auto",
   "editor.links": true,
-  "editor.hover.enabled": true,
+  "editor.hover.enabled": "on",
   "editor.semanticHighlighting.enabled": true,
   "liveServer.settings.port": 0,
   "editor.smoothScrolling": true,
